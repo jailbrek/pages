@@ -1,2 +1,2 @@
-# repo
-The website of Jailbrek repo and its official page
+# repo page
+The website of Jailbrek repo and its official page. 
