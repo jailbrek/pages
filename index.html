@@ -24,6 +24,19 @@
         a:hover {
             text-decoration: underline;
         }
+        .retro-header {
+            font-family: "Press Start 2P", cursive, sans-serif;
+            font-size: 1.8em;
+            color: #ff00ff;
+            text-shadow: 2px 2px 0 #00ffff, 4px 4px 0 #ffcc00;
+            margin-top: 1em;
+        }
+        .retro-description {
+            font-size: 1em;
+            color: #ffffff;
+            margin-top: 0.5em;
+            margin-bottom: 2em;
+        }
         .header {
             font-size: 2.5em;
             margin-bottom: 0.5em;
@@ -35,18 +48,22 @@
             color: #aaaaaa;
         }
         .button {
-            background-color: #ff5722;
+            background: rgba(255, 87, 34, 0.8);
             color: #ffffff;
-            padding: 15px 30px;
+            padding: 10px 20px;
             border: none;
-            border-radius: 5px;
-            font-size: 1em;
+            border-radius: 20px;
+            font-size: 0.9em;
             cursor: pointer;
             text-transform: uppercase;
-            margin: 1em 0;
+            backdrop-filter: blur(6px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s ease, background 0.3s ease;
+            margin-top: 1em;
         }
         .button:hover {
-            background-color: #e64a19;
+            background: rgba(255, 87, 34, 1);
+            transform: scale(1.05);
         }
         .news-section {
             margin-top: 2em;
@@ -67,20 +84,23 @@
             margin-bottom: 1em;
         }
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header"> Welcome to Jailbrek Repo !</div>
+    <div class="retro-header">Welcome to the Retro Repo</div>
+    <p class="retro-description">Archive to which where ANYONE can contribute with tons of tweaks</p>
+
+    <div class="header">Jailbreak Repo</div>
     <p>Your go-to source for the latest tweaks and tools.</p>
-    <button class="button" onclick="window.location.href='sileo://source/https://github.com/jailbrek/repo/'">Add Repo to Sileo</button>
+    <button class="button" onclick="window.location.href='sileo://source/https://github.com/jailbrek/repo/'">Add Repo</button>
 
     <div class="news-section">
         <div class="news-title">📰 Latest News</div>
-        <div class="news-item">- New tweaks releases *in our repo* are now available!</div>
+        <div class="news-item">- New tweak release: *SuperFeature* is now available!</div>
         <div class="news-item">- Maintenance update scheduled for Dec 10, 2024.</div>
-        <div class="news-item">- Follow us on Telegram for updates: <a href="https://t.me/jailbrek_ios" target="_blank">@jailbrek</a></div>
+        <div class="news-item">- Follow us on Twitter for updates: <a href="https://twitter.com/jailbrek" target="_blank">@jailbrek</a></div>
     </div>
 
-    <div class="footer">© 2024 Jailbreak Repo. Explore your device with tweaks in one place. </div>
+    <div class="footer">© 2024 Jailbreak Repo. Explore the big tweak archive with everything on one place.</div>
 </body>
 </html>
-
