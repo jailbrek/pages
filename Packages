@@ -13,7 +13,7 @@ SHA1: bf7f1161ee7a1fc5db2b724f5c9ce539f85c9daf
 SHA256: b5a4d81460c634133c1a32eea0bea7238bdf578ef7033f2d4c7e67b90ce8a727
 Section: Tweaks
 Homepage: https://cydia.akemi.ai/
-Description: Enables the ability to install unsigned/fakesigned iOS applications. It does not grant any extra permissions or entitlements for your app. They will stop working after jaibreak is removed.
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
 Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
@@ -33,6 +33,39 @@ Section: Tweaks
 Description: Ultimate iDevice Customization for iOS 14, 15 & 16
 Author: MTAC
 Name: Lynx 2
+
+Package: com.opa334.trollstorehelper
+Version: 2.1
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 4400
+Filename: ./debs/com.opa334.trollstorehelper_2.1_iphoneos-arm64.deb
+Size: 1920334
+MD5sum: 3b73f08f43d6e3809f21c5f2ab798352
+SHA1: c847686ec46801a42c37039132c6f332b25da952
+SHA256: 41464fca0ad7baa60e14a3b57d6cb41e91b87a13689fdfbbc9bc1185fe6b27de
+Section: Applications
+Description: Helper utility to install and manage TrollStore app. Includes everything needed to keep TrollStore working and up to date.
+Author: opa334
+Name: TrollStore Helper
+
+Package: com.sparklechan.swifty
+Version: 1.6
+Architecture: iphoneos-arm64
+Maintainer: FCCT
+Depends: swift, clang, ldid
+Conflicts: com.sparklechan.sparkkit
+Filename: ./debs/FridaCodeManager-rootless.deb
+Size: 3166104
+MD5sum: fa78a115bee9f496cfd7673b73a8fd56
+SHA1: 11798cd98515e75cbbd15635f623a257abb7c4c7
+SHA256: 7de46e43a9e0f91ef7e3e5af3c928b6e9320696c13fa8c2813fe531e68d8c512
+Section: Utilities
+Description: Full fledged Xcode-like IDE for iOS with emphasis on usability and portability. As it was said,"Code on the go". Developer spent lots of time on this. Please consider donating and supporting him.
+Tag: role::hacker
+Author: FCCT
+Icon: https://raw.githubusercontent.com/fridakitten/FridaCodeManager/main/Blueprint/FridaCodeManager.app/AppIcon.png
+Name: FridaCodeManager
 
 Package: com.tigisoftware.filza
 Version: 4.0.1-2
@@ -63,7 +96,7 @@ MD5sum: c6300bce838e6e1f94e848fc8954e02a
 SHA1: 97c69d7e2cb777842e5cb347e846c253e9ead70b
 SHA256: 05c02d4a417b6e20586c1859f0802921dce4668a8a17ea7f92fe8ca5d5974771
 Section: Tweaks
-Description: An awesome MobileSubstrate tweak that can give small yet cool features.
+Description: An awesome MobileSubstrate tweak!
 Author: shad0wdev
 Name: TGSettings
 
@@ -78,10 +111,30 @@ MD5sum: 6125cc1f6809755b072c0d324fac7c9d
 SHA1: 11e563b0af0323be1377db3bbc23fefdfcdc5b36
 SHA256: 95ea35f0720acdfc42d1d3c537ef6d973a915148551419f499198a341855903d
 Section: Tweaks
-Description: Zetsu is a Tweak that allows the app to Multitask.How to start. Select Zetsu from 3D Touch shortcuts for the app you want to multitask.
+Description: Multitasking on iOS15 - iOS16.
 Author: Dcsyhi
 Depiction: https://repo.cypwn.xyz/depiction/2533
 Icon: https://repo.cypwn.xyz/packages/Zetsu-Rootless/icon.png
 Name: Zetsu
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2533
+
+Package: xyz.willy.zebra
+Version: 1.1.36
+Architecture: iphoneos-arm64
+Maintainer: Zebra Team <team@getzbra.com>
+Installed-Size: 6992
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: ./debs/xyz.willy.zebra_1.1.36_iphoneos-arm64.deb
+Size: 3616770
+MD5sum: c1c8b8e34c2c487e3cdc0777e56d75c3
+SHA1: f523952806f971e44420114cef818a6c0554551f
+SHA256: 91900ce44684a2b163b0f887609fff95e3296f58d35b82a83ebb351d46b01052
+Section: Packaging
+Description: A Useful Package Manager that was developed as a modern way of installing and managing tweaks. Can be good alternative to Sileo, Saily.
+Tag: compatible::9.0-16.6
+Author: Zebra Team <team@getzbra.com>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
+Name: Zebra
+Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
 
