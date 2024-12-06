@@ -1,0 +1,17 @@
+Package: com.tigisoftware.filza
+Version: 4.0.1-2
+Architecture: iphoneos-arm
+Maintainer: TIGI Software
+Installed-Size: 34948
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
+Filename: ./debs/com.tigisoftware.filza_4.0.1-2_iphoneos-arm.deb
+Size: 13929994
+MD5sum: c68a629c82d46f5a49ec8c93b750bb92
+SHA1: 677bae75af27ed30af0934048c439565498a1908
+SHA256: 3bed517bf606e7849632b96a727fb1f4e105f6c70d8007dfc4f6789681db98f9
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. Supports various system operatios and allows fetching different data from the jailbroken device.
+Author: TIGI Software
+Name: Filza File Manager
+

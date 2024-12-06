@@ -1,0 +1,8 @@
+Origin: Jailbrek Repo
+Label: Jailbrek ios
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: Pirated repo managed by a community that includes tweaks, tools from across the internet.
