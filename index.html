@@ -5,39 +5,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jailbreak Repo</title>
     <style>
+        /* General Styling */
         body {
-            font-family: "Courier New", Courier, monospace;
-            background-color: darkorange;
-            color: yellow;
-            text-align: center;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1e1e1e; /* Dark grey background */
+            color: #f5f5f5; /* Light grey for body text */
             margin: 0;
             padding: 0;
-            height: 100vh;
             display: flex;
-            flex-direction: column;
             justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
-        a {
-            color: yellow;
-            text-decoration: none;
+
+        /* Card Layout */
+        .container {
+            max-width: 700px;
+            width: 90%;
+            background: #2a2a2a; /* Slightly lighter grey for the card */
+            border: 2px solid #d4af37; /* Golden border */
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
         }
-        a:hover {
-            text-decoration: underline;
+
+        /* Retro Header */
+        .retro-header {
+            font-family: "Press Start 2P", cursive, sans-serif;
+            font-size: 1.5em;
+            color: #d4af37; /* Golden yellow for retro feel */
+            margin-bottom: 10px;
         }
+
+        .retro-description {
+            font-size: 1em;
+            color: #f5f5f5; /* Light grey for description */
+            margin-bottom: 20px;
+        }
+
+        /* Main Header */
         .header {
             font-size: 2em;
-            margin-bottom: 0.5em;
+            margin-bottom: 10px;
+            color: #ffffff; /* Pure white for main header */
         }
+
+        p {
+            margin: 10px 0;
+            color: #f5f5f5; /* Light grey for body text */
+        }
+
+        /* Button Styling */
+        .button {
+            background: #2a2a2a; /* Medium grey for button background */
+            color: #d4af37; /* Golden yellow for text */
+            padding: 12px 25px;
+            border: 2px solid #d4af37;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: background 0.3s ease, transform 0.2s ease;
+            margin-top: 20px;
+        }
+
+        .button:hover {
+            background: #1f1f1f; /* Slightly darker grey for hover effect */
+            transform: scale(1.05);
+        }
+
+        /* News Section */
+        .news-section {
+            background: #1f1f1f; /* Dark grey for separation */
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .news-title {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #d4af37; /* Golden yellow for section title */
+        }
+
+        .news-item {
+            font-size: 0.9em;
+            margin-bottom: 8px;
+            color: #f5f5f5; /* Light grey for news items */
+        }
+
+        .news-item a {
+            color: #d4af37; /* Golden yellow for links */
+            text-decoration: none;
+        }
+
+        .news-item a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
         .footer {
-            margin-top: 2em;
+            margin-top: 20px;
             font-size: 0.8em;
+            color: #aaaaaa; /* Grey for less prominent footer */
         }
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header">⚡ Welcome to Jailbrek Sileo&Cydia Repo ⚡</div>
-    <p>Cool tweaks and tools, just a tap away!</p>
-    <p><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://yourrepo.com">Add Repo</a></p>
-    <div class="footer">© 2024 Jailbrek. Keep your tweaks! ✨</div>
+    <div class="container">
+        <div class="retro-header">Welcome to the Jailbrek Repo</div>
+        <p class="retro-description">Archive to which ANYONE can contribute with tons of tweaks!</p>
+
+        <div class="header">Rich Repo with daily updates</div>
+        <p>Your go-to source for the latest tweaks and tools.</p>
+        <button class="button" onclick="window.location.href='sileo://source/https://jailbrek.github.io/repo/'">Add Repo</button>
+
+        <div class="news-section">
+            <div class="news-title">📰 Latest News</div>
+            <div class="news-item">- New tweak releases are now available! We are live!</div>
+            <div class="news-item">- Maintenance update scheduled for Dec 10, 2024.</div>
+            <div class="news-item">- Follow us on telegram for updates: <a href="https://t.me/jailbrek" target="_blank">@jailbrek_ios</a></div>
+        </div>
+
+        <div class="footer">© 2024 Jailbreak Repo. Explore the big tweak archive with everything in one place.</div>
+    </div>
 </body>
 </html>
