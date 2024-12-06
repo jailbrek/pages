@@ -1,3 +1,23 @@
+Package: ai.akemi.appsyncunified
+Version: 112.0
+Architecture: iphoneos-arm64
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: ./debs/ai.akemi.appsyncunified_112.0_iphoneos-arm64.deb
+Size: 34280
+MD5sum: 2e77efb06a3a59603757d373bab8adab
+SHA1: bf7f1161ee7a1fc5db2b724f5c9ce539f85c9daf
+SHA256: b5a4d81460c634133c1a32eea0bea7238bdf578ef7033f2d4c7e67b90ce8a727
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications. It does not grant any extra permissions or entitlements for your app. They will stop working after jaibreak is removed.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
+
 Package: com.mtac.lynxtwo
 Version: 2.5.2
 Architecture: iphoneos-arm64
@@ -10,7 +30,7 @@ MD5sum: 6f1095d0ea06ade100d0866993e84851
 SHA1: 4ce906bbc153407eed01d4e7f46101959c39e438
 SHA256: 0015fbe4918cd127efdd0c74ecae5ddf99d84711709b6db3935eeb76dc5d1c3a
 Section: Tweaks
-Description: Ultimate iDevice Customization for iOS 14, 15 & 16. Russian localization. 
+Description: Ultimate iDevice Customization for iOS 14, 15 & 16
 Author: MTAC
 Name: Lynx 2
 
@@ -30,4 +50,38 @@ Section: Utilities
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
 Author: TIGI Software
 Name: Filza File Manager
+
+Package: ru.shad0wdev.tgsettings
+Version: 0.0.4
+Architecture: iphoneos-arm64
+Maintainer: shad0wdev
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/ru.shad0wdev.tgsettings_0.0.4_iphoneos-arm64.deb
+Size: 4860
+MD5sum: c6300bce838e6e1f94e848fc8954e02a
+SHA1: 97c69d7e2cb777842e5cb347e846c253e9ead70b
+SHA256: 05c02d4a417b6e20586c1859f0802921dce4668a8a17ea7f92fe8ca5d5974771
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak that can give small yet cool features.
+Author: shad0wdev
+Name: TGSettings
+
+Package: xyz.cypwn.zetsu
+Version: 1.6.2
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, firmware (>=15.0), preferenceloader, com.opa334.ccsupport
+Filename: ./debs/xyz.cypwn.zetsu_1.6.2_iphoneos-arm64.deb
+Size: 10442108
+MD5sum: 6125cc1f6809755b072c0d324fac7c9d
+SHA1: 11e563b0af0323be1377db3bbc23fefdfcdc5b36
+SHA256: 95ea35f0720acdfc42d1d3c537ef6d973a915148551419f499198a341855903d
+Section: Tweaks
+Description: Zetsu is a Tweak that allows the app to Multitask.How to start. Select Zetsu from 3D Touch shortcuts for the app you want to multitask.
+Author: Dcsyhi
+Depiction: https://repo.cypwn.xyz/depiction/2533
+Icon: https://repo.cypwn.xyz/packages/Zetsu-Rootless/icon.png
+Name: Zetsu
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2533
 
