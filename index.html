@@ -5,102 +5,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jailbreak Repo</title>
     <style>
+        /* General Styling */
         body {
-            font-family: Arial, sans-serif;
-            background-color: #282c34;
-            color: #f5f5f5;
-            text-align: center;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1e1e1e; /* Dark grey background */
+            color: #f5f5f5; /* Light grey for body text */
             margin: 0;
             padding: 0;
-            height: 100vh;
             display: flex;
-            flex-direction: column;
             justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
-        a {
-            color: #00bcd4;
-            text-decoration: none;
+
+        /* Card Layout */
+        .container {
+            max-width: 700px;
+            width: 90%;
+            background: #2a2a2a; /* Slightly lighter grey for the card */
+            border: 2px solid #d4af37; /* Golden border */
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
         }
-        a:hover {
-            text-decoration: underline;
-        }
+
+        /* Retro Header */
         .retro-header {
             font-family: "Press Start 2P", cursive, sans-serif;
-            font-size: 1.8em;
-            color: #ff00ff;
-            text-shadow: 2px 2px 0 #00ffff, 4px 4px 0 #ffcc00;
-            margin-top: 1em;
+            font-size: 1.5em;
+            color: #d4af37; /* Golden yellow for retro feel */
+            margin-bottom: 10px;
         }
+
         .retro-description {
             font-size: 1em;
-            color: #ffffff;
-            margin-top: 0.5em;
-            margin-bottom: 2em;
+            color: #f5f5f5; /* Light grey for description */
+            margin-bottom: 20px;
         }
+
+        /* Main Header */
         .header {
-            font-size: 2.5em;
-            margin-bottom: 0.5em;
-            color: #ffcc00;
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #ffffff; /* Pure white for main header */
         }
-        .footer {
-            margin-top: 2em;
-            font-size: 0.8em;
-            color: #aaaaaa;
+
+        p {
+            margin: 10px 0;
+            color: #f5f5f5; /* Light grey for body text */
         }
+
+        /* Button Styling */
         .button {
-            background: rgba(255, 87, 34, 0.8);
-            color: #ffffff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 20px;
-            font-size: 0.9em;
+            background: #2a2a2a; /* Medium grey for button background */
+            color: #d4af37; /* Golden yellow for text */
+            padding: 12px 25px;
+            border: 2px solid #d4af37;
+            border-radius: 8px;
+            font-size: 1em;
             cursor: pointer;
             text-transform: uppercase;
-            backdrop-filter: blur(6px);
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-            transition: transform 0.2s ease, background 0.3s ease;
-            margin-top: 1em;
+            transition: background 0.3s ease, transform 0.2s ease;
+            margin-top: 20px;
         }
+
         .button:hover {
-            background: rgba(255, 87, 34, 1);
+            background: #1f1f1f; /* Slightly darker grey for hover effect */
             transform: scale(1.05);
         }
+
+        /* News Section */
         .news-section {
-            margin-top: 2em;
-            padding: 1em;
-            background-color: #333;
+            background: #1f1f1f; /* Dark grey for separation */
             border-radius: 10px;
+            padding: 15px;
+            margin-top: 30px;
             text-align: left;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
         }
+
         .news-title {
             font-size: 1.2em;
-            margin-bottom: 0.5em;
-            color: #ffcc00;
+            margin-bottom: 10px;
+            color: #d4af37; /* Golden yellow for section title */
         }
+
         .news-item {
-            margin-bottom: 1em;
+            font-size: 0.9em;
+            margin-bottom: 8px;
+            color: #f5f5f5; /* Light grey for news items */
+        }
+
+        .news-item a {
+            color: #d4af37; /* Golden yellow for links */
+            text-decoration: none;
+        }
+
+        .news-item a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #aaaaaa; /* Grey for less prominent footer */
         }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="retro-header">Welcome to the Retro Repo</div>
-    <p class="retro-description">Archive to which where ANYONE can contribute with tons of tweaks</p>
+    <div class="container">
+        <div class="retro-header">Welcome to the Jailbrek Repo</div>
+        <p class="retro-description">Archive to which ANYONE can contribute with tons of tweaks!</p>
 
-    <div class="header">Jailbreak Repo</div>
-    <p>Your go-to source for the latest tweaks and tools.</p>
-    <button class="button" onclick="window.location.href='sileo://source/https://github.com/jailbrek/repo/'">Add Repo</button>
+        <div class="header">Rich Repo with daily updates</div>
+        <p>Your go-to source for the latest tweaks and tools.</p>
+        <button class="button" onclick="window.location.href='sileo://source/https://github.com/jailbrek/repo/'">Add Repo</button>
 
-    <div class="news-section">
-        <div class="news-title">📰 Latest News</div>
-        <div class="news-item">- New tweak release: *SuperFeature* is now available!</div>
-        <div class="news-item">- Maintenance update scheduled for Dec 10, 2024.</div>
-        <div class="news-item">- Follow us on Twitter for updates: <a href="https://twitter.com/jailbrek" target="_blank">@jailbrek</a></div>
+        <div class="news-section">
+            <div class="news-title">📰 Latest News</div>
+            <div class="news-item">- New tweak release: *SuperFeature* is now available!</div>
+            <div class="news-item">- Maintenance update scheduled for Dec 10, 2024.</div>
+            <div class="news-item">- Follow us on telegram for updates: <a href="https://t.me/jailbrek" target="_blank">@jailbrek_ios</a></div>
+        </div>
+
+        <div class="footer">© 2024 Jailbreak Repo. Explore the big tweak archive with everything in one place.</div>
     </div>
-
-    <div class="footer">© 2024 Jailbreak Repo. Explore the big tweak archive with everything on one place.</div>
 </body>
 </html>
