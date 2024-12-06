@@ -1,3 +1,19 @@
+Package: com.mtac.lynxtwo
+Version: 2.5.2
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 2744
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./debs/Lynx2tweaak.deb
+Size: 640176
+MD5sum: 6f1095d0ea06ade100d0866993e84851
+SHA1: 4ce906bbc153407eed01d4e7f46101959c39e438
+SHA256: 0015fbe4918cd127efdd0c74ecae5ddf99d84711709b6db3935eeb76dc5d1c3a
+Section: Tweaks
+Description: Ultimate iDevice Customization for iOS 14, 15 & 16. Russian localization. 
+Author: MTAC
+Name: Lynx 2
+
 Package: com.tigisoftware.filza
 Version: 4.0.1-2
 Architecture: iphoneos-arm64
