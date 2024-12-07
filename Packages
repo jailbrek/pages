@@ -18,6 +18,29 @@ Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
 
+Package: com.afnanahmad.chromahomebarx
+Version: 0.4
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 642
+Depends: firmware(>= 11.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
+Filename: ./debs/chromahomebarx_0.4.deb
+Size: 100680
+MD5sum: e363693b8b90407113a8c9738205985f
+SHA1: 453f96d587b020e304fa558907a245619cdadd63
+SHA256: 95a6e42908b17a61b8d4ee16024b68953fe0c248c5cfccbce2a31e539e016036
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=chromahomebarxDp
+Description: Razer Chroma insprird HomeBar coloring tweak for iPhone X, also works with LittleX.
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Author: Afnan Ahmad <afnanahmaddd@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=chromahomebarxDp
+Dev: afnanahmad
+Icon: file:///Library/PreferenceBundles/ChromaHomeBarX.bundle/chroma@2x.png
+Name: ChromaHomeBarX
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.anthopak.addtofolder-rootless
 Version: 1.4
 Architecture: iphoneos-arm64
@@ -165,6 +188,23 @@ Description: Be the god of your games!
 Author: iGameGod
 Name: iGameGod Rootless
 
+Package: com.ghh.jade
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Ghh
+Installed-Size: 1275
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/com.ghh.jade_v1.0.1_iphoneos-arm64.deb
+Size: 283148
+MD5sum: 73e867cbce879f129827c01dd628443e
+SHA1: dba525ea18ecf6b272fb8e072219c44161d0d5b8
+SHA256: ca7fd9b069786718d6479e5040f167f0390cc5644962f773fd1731280a36dd25
+Section: Tweaks
+Description: Your control center, brought anew.
+Author: Nightwind Timeloop Ghh
+Icon: https://img.chariz.cloud/icon/jade/icon@3x.png
+Name: Jade
+
 Package: com.ginsu.classicalerts
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -272,6 +312,25 @@ Description: VCAM4iOS
 Author: trizau
 Name: VCAM4iOS
 
+Package: com.julioverne.goodwifi
+Version: 0.0~beta6
+Architecture: iphoneos-arm64
+Maintainer: Julio
+Installed-Size: 412
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.julioverne.goodwifi_v0.0~beta6_iphoneos-arm64.deb
+Size: 40822
+MD5sum: a1001e8b942bd4870f4c5e55096ec28a
+SHA1: 79c9c4197f616a2b885ed496af43a437390d21a0
+SHA256: 6c329bfdb459abe3e7cb2f6dc7ccd6d5fb6607838864cf97193d70e96eed130c
+Section: Tweaks
+Homepage: https://twitter.com/ijulioverne
+Description: Better WiFi Preferences
+Author: julioverne
+Depiction: https://julioverne.github.io/description.html?id=com.julioverne.goodwifi
+Icon: file:///var/jb/Library/PreferenceBundles/GoodWiFiSettings.bundle/icon@2x.png
+Name: GoodWiFi
+
 Package: com.kdt.trollpad
 Version: 1.3
 Architecture: iphoneos-arm64
@@ -289,6 +348,22 @@ Author: khanhduytran0
 Depiction: https://khanhduytran0.github.io/repo/depictions/web/?p=com.kdt.trollpad
 Name: TrollPad
 Sileodepiction: https://khanhduytran0.github.io/repo/depictions/native/com.kdt.trollpad/depiction.json
+
+Package: com.llld.runerootless
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.llld.runerootless_v0.0.1_iphoneos-arm64.deb
+Size: 9516
+MD5sum: 0ad57ec30b5a0ae92e9235f39bafcaca
+SHA1: 69638445b9f88f13b25f179955272b56af7e65b5
+SHA256: 7f2728e94854c1da461f7df9e1e09940e3b9d3ab487e3c2fa4a185391a666137
+Section: rootless汉化补丁
+Description: Rune汉化--(rootless)简体中文包
+Author: 来了老弟 h_h_x_t
+Name: Rune汉化包-rootless
 
 Package: com.misakaproject.macaron
 Version: 1.0.1
@@ -405,6 +480,24 @@ Description: Helper utility to install and manage TrollStore!
 Author: opa334
 Name: TrollStore Helper
 
+Package: com.ps.cahighfps
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/com.ps.cahighfps_v1.3.1_iphoneos-arm64.deb
+Size: 5430
+MD5sum: c5eb1db2add17dd43645c876503e1607
+SHA1: 0ee1f009a5459442bc1969522eada3253ea9a052
+SHA256: 11ef66d9807a24e6bd5aae1793cfffb1bb447999e7092f845b136b979831926f
+Section: Tweaks
+Description: Make CoreAnimation apps use the highest available FPS.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/cahighfps.html
+Name: CAHighFPS
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/cahighfps.json
+
 Package: com.randy420.taidependscoolstar
 Version: 0.6
 Architecture: iphoneos-arm64
@@ -467,6 +560,26 @@ Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
 Name: 420 Tools
 
+Package: com.ryannair05.cask3
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: Ryan Nair <ryannairtweaks@gmail.com>
+Installed-Size: 862
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Replaces: com.ryannair05.cask2
+Filename: ./debs/com.ryannair05.cask3_1.0.2_iphoneos-arm64.deb
+Size: 321836
+MD5sum: f2e7ee5c167313607fd441e4bb4731db
+SHA1: 15f0299766616053c6d3af79fbaa3b40391fc9f6
+SHA256: 7498cea8a182aa898cf5e5464e2ff692e1ae4a4a77f8182cd179a391fb0f0884
+Section: Tweaks
+Description: Animated table scrolling
+Tag: compatible_min::ios14.0
+Author: Ryan Nair <ryannairtweaks@gmail.com>
+Depiction: https://chariz.com/get/cask-3
+Icon: https://img.chariz.cloud/icon/cask-3/icon@3x.png
+Name: Cask 3
+
 Package: com.ryannair05.cylinderremade
 Version: 0.0.3-beta
 Architecture: iphoneos-arm
@@ -484,6 +597,24 @@ Description: Make your icons dance
 Author: Ryan Nair
 Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@3x.png
 Name: Cylinder Remade
+
+Package: com.serena.AppIndex
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Serena <hanzikashi@gmail.com>
+Installed-Size: 1677
+Filename: ./debs/com.serena.appindex_v1.0_iphoneos-arm64.deb
+Size: 779088
+MD5sum: e70da66132c076b86a818c80a896877a
+SHA1: d59a98a0c57455ce8ecd93c4d8a43541a3f23a68
+SHA256: 07355213b69d9ed5256a96f38f8491c3be991a38b0bdbd27979a37055ee534b1
+Section: Applications
+Description: An Application to view and manage Applications.
+Tag: compatible_min::ios13.0
+Author: Serena <hanzikashi@gmail.com>
+Depiction: https://chariz.com/get/appindex
+Icon: https://img.chariz.cloud/icon/appindex/icon@3x.png
+Name: AppIndex
 
 Package: com.shepgoba.downloadbar
 Version: 1.2
@@ -516,6 +647,43 @@ Section: Tweaks
 Description: Bring good looking widgets to the front page of settings!
 Author: shepgoba
 Name: SettingsWidgets
+
+Package: com.snail.always120
+Version: 1.1.3k
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, xyz.cypwn.snail
+Filename: ./debs/com.snail.always120_v1.1.3k_iphoneos-arm64.deb
+Size: 215188
+MD5sum: 4b80ffcdcf14b2e9328ce8e8014f7990
+SHA1: cb059646211b1c1dc5b8b4fac5090768fb5bf4af
+SHA256: 6ca6796eacf95a406f0130ce23e6b817125b59fcbec41e506233c6df600077f1
+Section: Tweaks
+Description: Make iOS 15 ProMotion Devices auto-adapt/reach to 120Hz. Cracked by CBZ!
+Author: Snail
+Depiction: https://repo.cypwn.xyz/depiction/1936
+Icon: https://media.havoc.app/64ab7404d8f6312267aee7f5
+Name: Always120
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1936
+
+Package: com.spark.snowboard
+Version: 1.5.26-Beta4-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 3236
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./debs/com.spark.snowboard_v1.5.26-Beta4-rootless_iphoneos-arm64.deb
+Size: 1120268
+MD5sum: 9109ec3d0b2bca55154f15610c8b61ba
+SHA1: 1548df152c15da2d898f19e618fb6af4bdee5d85
+SHA256: 2857efc003bf3c2def3119ea1b45f25b86eb57c8bf6f3b8d12c822e976608a51
+Section: Tweaks
+Description: Snowboard theming engine
+Author: Spark & Dennis D. Bednarz
+Name: SnowBoard
 
 Package: com.sparklechan.swifty
 Version: 1.6
@@ -589,6 +757,23 @@ Dev: tomaszpoliszuk
 Name: MagSafe Enabler
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.zx02.frame.rootless
+Version: 3.0.1
+Architecture: iphoneos-arm64
+Maintainer: Zerui Chen
+Installed-Size: 4284
+Depends: mobilesubstrate,firmware (>= 13.9.9)
+Conflicts: com.zx02.frame.ios13,com.zx02.frame.ios14
+Filename: ./debs/com.zx02.frame.rootless_v3.0.1_iphoneos-arm64.deb
+Size: 2338512
+MD5sum: 194929cc7b9f517e02243bc08c982c2f
+SHA1: 61d53417742a6d7c62868cf207f10a0771254265
+SHA256: ac667f23e41af57d2d69a2cc2efec592deaf4773aa0c6fb3c146fcebdbc795b2
+Section: Tweaks
+Description: Bring your iDevice to life with true video wallpapers.
+Author: Zerui Chen
+Name: Frame (Rootless iOS 14+)
+
 Package: dev.traurige.batterybuddy
 Version: 1.3.5
 Architecture: iphoneos-arm64
@@ -661,6 +846,23 @@ Description: YouTube Customizer
 Author: Lillie
 Name: YouTube Reborn
 
+Package: jp.r-plus.anykeytrackpad
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: r_plus
+Installed-Size: 176
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: ./debs/jp.r-plus.anykeytrackpad_v1.1.1_iphoneos-arm64.deb
+Size: 6716
+MD5sum: c59d74aa28e2252b44cde4afdcb0ae06
+SHA1: 7633f94d8484e6c4bdebdc91f18d83103f2a2f24
+SHA256: 502c82167649a7ddc24fca86c5f679667da17efbddbabb36ef69535d71285510
+Section: Tweaks
+Description: Enter trackpad mode by long press anykey
+Author: r_plus
+Icon: file:///Library/PreferenceLoader/Preferences/AnyKeyTrackpad@2x.png
+Name: AnyKeyTrackpad
+
 Package: kr.xsf1re.vnodebypass
 Version: 0.4.2
 Architecture: iphoneos-arm64
@@ -679,6 +881,65 @@ Author: XsF1re, ichitaso, level3tjg
 Depiction: https://cydia.ichitaso.com/depiction/vnodebypass.html
 Icon: https://raw.githubusercontent.com/ichitaso/vnodebypass_theme/main/layout/Library/Themes/vnodebypass.theme/Icon.png
 Name: vnodebypass
+
+Package: me.lau.atria
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: ren7995 <lau7995ren@gmail.com>
+Installed-Size: 886
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
+Filename: ./debs/me.lau.atria_1.4.1_iphoneos-arm64.deb
+Size: 236990
+MD5sum: 0ddd2bd09fe99cdbfbc14ef11c03f463
+SHA1: 6ac4631697e08a7bd4a24475dc80027f5cd5966c
+SHA256: 43b8515cda84b44d6cabea98704c1dda155d38a3235c9048795fb19b5381571f
+Section: Tweaks
+Description: A proper homescreen layout editor for iOS 13-16
+Tag: compatible_min::ios13.0
+Author: ren7995 <lau7995ren@gmail.com>
+Depiction: https://chariz.com/get/atria
+Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
+Name: Atria
+
+Package: net.limneos.dynamicpeninsula-rootless
+Version: 0.6-25
+Architecture: iphoneos-arm64
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 1684
+Depends: mobilesubstrate, preferenceloader, firmware(>=12.0)
+Filename: ./debs/net.limneos.dynamicpeninsula-rootless_v0.6-25_iphoneos-arm64.deb
+Size: 296808
+MD5sum: f7cacd3984e90976f0e1998fa26353dd
+SHA1: 95ff9084ad376dc7b4ec4b805fe9b785d2188ff4
+SHA256: 186c721d78ab902ca26747db825c0abf26a896a24af3a469764c24ea8ed1287f
+Section: Tweaks
+Description: Dynamic Island on your notch
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: http://www.limneos.net/cydia/depiction.php?package=net.limneos.dynamicpeninsula
+Mainlibmd5: 12fb8ae6a7b6448240b69c068e6b49d0
+Name: DynamicPeninsula (rootless)
+Sileodepiction: https://limneos.net/cydia/sileo-depiction.php?package=net.limneos.dynamicpeninsula
+
+Package: net.limneos.voicechangerx-rootless
+Version: 2.4-3
+Architecture: iphoneos-arm64
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 1420
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.hackyouriphone.limneosos, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: ./debs/net.limneos.voicechangerx-rootless_v2.4-3_iphoneos-arm64.deb
+Size: 244546
+MD5sum: 479497ffafdf974b2b7fb3d6789bb490
+SHA1: e984b5ec1b7341bf0167af79b084e4e436382a9a
+SHA256: 495b3bf2cc174250e6b3a86df65764f16b2c3586cb9207cb1b1aeb55d48bb58e
+Section: Tweaks
+Description: Change your voice during a call!
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: http://limneos.net/cydia/depiction.php?package=net.limneos.voicechangerx
+Icon: file:///Library/PreferenceBundles/voicechanger.bundle/icon@2x.png
+Mainlibmd5: 8131809d9825837c841f8f54015f50b4
+Name: VoiceChanger XS (rootless) (iOS 11 to 16)
 
 Package: net.p0358.silentscreenshots
 Version: 0.0.1
@@ -798,6 +1059,28 @@ Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: shad0wdev
 Name: TGSettings
+
+Package: ws.hbang.newterm3
+Version: 3.0~beta1
+Architecture: iphoneos-arm64
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 14899
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Filename: ./debs/ws.hbang.newterm3_3.0~beta1_iphoneos-arm64.deb
+Size: 3836904
+MD5sum: fed66db963cb17131b239dc6deb7058c
+SHA1: 4c9327fb9cd3ccdade8247bab90bcf12338b6be2
+SHA256: cbd965fbdc25634e4e447ba4609598a67a0f354a63fce2dbf9e0dce99042b055
+Section: Terminal Support
+Description: Powerful terminal app for iOS
+Tag: compatible_min::ios14.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/newterm-beta
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Name: NewTerm 3 Beta
+Support: https://hashbang.productions/support/
 
 Package: xyz.cypwn.appdata
 Version: 1.4.4
