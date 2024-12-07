@@ -18,6 +18,42 @@ Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
 
+Package: com.anthopak.pancake-rootless
+Version: 2.2
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), com.opa334.altlist, firmware (>= 11.0)
+Filename: ./debs/com.anthopak.pancake-rootless.deb
+Size: 117704
+MD5sum: 6a105fbcec401cb11d5775027e473d53
+SHA1: c7d23ede8c839f1a23f78471259c03f8f0868012
+SHA256: 47dbd0bc69f36e383563048af7e35fbd5d40183b9d83019de3514c088ebbed9c
+Section: Tweaks
+Homepage: https://repo.anthopak.dev
+Description: Interactive dismiss gesture on the whole screen in all apps and ability to restore previous page
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.pancake-rootless.php
+Icon: https://repo.anthopak.dev/assets/com.anthopak.pancake-rootless/icon.png
+Moderndepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
+Name: PanCake (Rootless)
+Sileodepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
+
+Package: com.apple.Terminal
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: Hitori
+Filename: ./debs/com.apple.Terminal_1.5_iphoneos-arm64.deb
+Size: 925844
+MD5sum: da429cb5f35cb9795d5b7b8d5e654397
+SHA1: 8e852edc84cdb58342d63406c84ce7e78ed63db6
+SHA256: ead8a0cfacd15d654309c3fc63f5f37f60cdffee2e4dc6bbda49e7f070a59df3
+Section: Utilities
+Description: Apple Terminal
+Author: Hitori
+Icon: https://siieo.github.io/sileodepictions/Terminal/icon.png
+Name: Terminal
+Sileodepiction: https://siieo.github.io/sileodepictions/Terminal/Terminal.json
+
 Package: com.cpdigitaldarkroom.itsevanesco
 Version: 2024.05.26
 Architecture: iphoneos-arm64
@@ -54,6 +90,25 @@ Depiction: https://dtcalabro.github.io/repo/depictions/?p=com.dcproducts.colorba
 Icon: https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/icon.png
 Name: ColorBar15
 Sileodepiction: https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/depiction.json
+
+Package: com.dpkg.ipadswitcher
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: dpkg_
+Installed-Size: 364
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.dpkg.ipadswitcher_2.0_iphoneos-arm64.deb
+Size: 16808
+MD5sum: fa4c612feafd0ca7d8e8c7fb33d96e06
+SHA1: 72e116026fa3f00d74545614242971bf6791a8ed
+SHA256: 508285861d47232c2fafeff5c4af0e75ad2aa3f8e8217f0737ac7d0317d79ee4
+Section: Tweaks
+Description: Customizable iPad-like Grid Switcher.
+Author: dpkg_
+Depiction: https://repo.packix.com/package/com.dpkg.ipadswitcher
+Icon: https://repo.packix.com/media/com.dpkg.ipadswitcher/icon.png
+Name: iPadSwitcher
+Sileodepiction: https://repo.packix.com/depictions/com.dpkg.ipadswitcher/depiction.json
 
 Package: com.fouadraheb.appdata
 Version: 1.4.0
@@ -343,6 +398,22 @@ Description: Show a progress bar for downloading apps instead!
 Author: shepgoba
 Name: DownloadBar
 
+Package: com.shepgoba.settingswidgets
+Version: 1.2.3
+Architecture: iphoneos-arm64
+Maintainer: shepgoba
+Installed-Size: 512
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.shepgoba.settingswidgets_1.2.3_iphoneos-arm64.deb
+Size: 73112
+MD5sum: 027515e2b64bde33c6ed50fda9f18e48
+SHA1: 619943a5e2039deeff8099b4e8d6589c25224ca4
+SHA256: f73caac05a4ea62031233e6dfae9b55d60537f5fba6519db8161ca866db2d5ae
+Section: Tweaks
+Description: Bring good looking widgets to the front page of settings!
+Author: shepgoba
+Name: SettingsWidgets
+
 Package: com.sparklechan.swifty
 Version: 1.6
 Architecture: iphoneos-arm64
@@ -414,6 +485,129 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=lockscreen
 Dev: tomaszpoliszuk
 Name: MagSafe Enabler
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: dev.traurige.batterybuddy
+Version: 1.3.5
+Architecture: iphoneos-arm64
+Maintainer: Traurige <hello@traurige.dev>
+Installed-Size: 432
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: love.litten.batterybuddy
+Filename: ./debs/dev.traurige.batterybuddy_1.3.5_iphoneos-arm64.deb
+Size: 36712
+MD5sum: cc6961e7809026f7a49c102a395509e4
+SHA1: a294d55e74a07a4aef183eff7aa09fe6d092908c
+SHA256: f8a4b362aca4dafa42b14de3cee1873c607c2f8863c7381c26919afb0c0e0705
+Section: Tweaks
+Description: Battery indicator, but cute
+Author: Traurige & neilsardesai <hello@traurige.dev>
+Name: BatteryBuddy
+
+Package: dev.traurige.eneko
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: Traurige <hello@traurige.dev>
+Installed-Size: 400
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: love.litten.eneko
+Filename: ./debs/dev.traurige.eneko_1.4_iphoneos-arm64.deb
+Size: 29412
+MD5sum: 5f8443d3c14f4aae25ca21afcfbbd111
+SHA1: d6058f80495ba85ed95dbe2fdd16b157cd9a0cdc
+SHA256: 4de3760346d7c2baed4f200f38c60e1d2ae735406ec62b27ed3f45f9831f1eb1
+Section: Tweaks
+Description: Live wallpapers for iOS
+Author: Traurige <hello@traurige.dev>
+Name: Eneko
+
+Package: ez.now.xinaminepatcherscript
+Version: 1.7.4
+Architecture: iphoneos-arm64
+Maintainer: NoW4U2Kid
+Depends: mobilesubstrate, ellekit, file, odcctools, ldid, emt.paisseon.xinamine
+Filename: ./debs/ez.now.xinaminepatcherscript_1.7.4_iphoneos-arm64.deb
+Size: 4232
+MD5sum: 876acfaf6faddbf0addfa6884392952c
+SHA1: 0bf1573b8ca243625ee58fdc2602b1cb7d3f9b60
+SHA256: 8a08519c40a29f79018571e0ec065a4951081e70bf665d6ae35af1377462a0e8
+Section: System
+Description: IMPORTANT: Make sure to use Dopamine 1.1 or Xinam1ne if you are using Dopamine. This package now automatically creates symlinks as well. To convert, just go to Jailbreak Filza (Trollstore one won't work), tap and hold on the deb you are wanting to convert, select "Scripts" from the pop-up menu, and click XinaminePatcher. Then just wait for your deb to convert!
+ - YES, this is much better than Derootifier or any other rootless conversion script.
+ - Supported jailbreaks: Dopamine, Fugu15Max, Palera1n (rootless), Xina, or any other rootless jailbreak.
+ - Repacks tweaks as rootless, but this script is by far the best script for converting tweaks to rootless because it additionally modifies paths like with Xina jailbreak, so it works with almost every tweak.
+ - Credits: @Xina520 (for the Xina jailbreak, which I looked at for inspiration for modifying paths), @Teutates on GitHub (for repack-rootless.sh, which I used to automate the default rootless conversion process), @sudo for ideas and a few modifications here and there, @évelyne for Allemand (removes the need for having Legacy arm64e Support/oldabi)
+Author: NoW4U2Kid
+Name: Xinamine Patcher
+
+Package: h.ryan.youtubereborn
+Version: 4.2.8
+Architecture: iphoneos-arm64
+Maintainer: Lillie
+Installed-Size: 24888
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Conflicts: net.sarahh12099.youtubereborn, com.twickd.sarahh12099.youtube-reborn, com.yourepo.jpet26.youtubetools1, com.justinpetkovic.youtubetools, com.johnzaro.perfectyoutube, com.ichitaso.youtubepatcher, com.yourepo.ikghd.youtubekiller, com.yourepo.ikghd.youtubekillers, com.sinfool.youtopia, com.google.ios.ytadblock, prasa.youtubeplus, com.unlimapps.ytpp, com.twickd.laki.raspberry, com.laki.raspberry, com.twickd.lazar.raspberry, 0xcc.woodfairy.noytads, weeb.lillie.enhancerforyoutubepremium, weeb.lillie.youtubepremiumplus, com.miro.uyou, com.ps.uyoucompat, com.ps.ytsystemappearance, com.yourepo.mohadu31.dzyoutube, com.lyvendia.ytspeed, com.miro.uyouimport, com.ichitaso.uyouplus, com.stem.deficient, com.ps.ytabconfig, com.ps.ytx
+Replaces: net.sarahh12099.youtubereborn, com.twickd.sarahh12099.youtube-reborn, weeb.lillie.enhancerforyoutubepremium
+Provides: net.sarahh12099.youtubereborn, com.twickd.sarahh12099.youtube-reborn, weeb.lillie.enhancerforyoutubepremium
+Filename: ./debs/h.ryan.youtubereborn_4.2.8_iphoneos-arm64.deb
+Size: 9086520
+MD5sum: 3d9f147c4dfb9c005ac1f6ecfea4949b
+SHA1: fa4129f1bd93c6f474a11e8e34c04a9fd6ec39cd
+SHA256: 90018f209532eb373776be849b72d298f63cec7b60869069becd562fa782b62c
+Section: Tweaks
+Description: YouTube Customizer
+Author: Lillie
+Name: YouTube Reborn
+
+Package: kr.xsf1re.vnodebypass
+Version: 0.4.2
+Architecture: iphoneos-arm64
+Maintainer: alias20
+Installed-Size: 532
+Depends: firmware (>= 15.0), firmware (<< 17.0), com.opa334.ccsupport, libkrw0-dopamine (>= 2.0)
+Filename: ./debs/kr.xsf1re.vnodebypass_0.4.2_iphoneos-arm64.deb
+Size: 72762
+MD5sum: 2d8bb61c5f09cd23ac2b9880ad4e638c
+SHA1: 02a4518b006e40cf6122368ff95ac14d66d72d23
+SHA256: b9a7e563abe9fcf32a8165dcf7a7b3e167683a86d7d6dd220da600940ffa2c1e
+Section: System
+Description: An expermental tool to hide jailbreak files for bypass detection. (Only supported iOS 15-16 with Dopamine2)
+Tag: role::hacker, compatible::ios15, compatible::ios16
+Author: XsF1re, ichitaso, level3tjg
+Depiction: https://cydia.ichitaso.com/depiction/vnodebypass.html
+Icon: https://raw.githubusercontent.com/ichitaso/vnodebypass_theme/main/layout/Library/Themes/vnodebypass.theme/Icon.png
+Name: vnodebypass
+
+Package: net.p0358.silentscreenshots
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: p0358
+Installed-Size: 232
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/net.p0358.silentscreenshots_0.0.1_iphoneos-arm64.deb
+Size: 3878
+MD5sum: 8fa17837ae5ab8ccea9b78cf82decca0
+SHA1: 8df17fee7ccbbbb4540587778cd350c3db95be26
+SHA256: b9d119aa0657cc9fc304d753b2afde89a49629f4afab4e390f3f6d2b57ed2605
+Section: Tweaks
+Description: No shutter sound when you take screenshot, because it's very awkward
+Author: p0358
+Name: SilentScreenshots
+
+Package: netskao.ccpower-rootless
+Version: 1.9-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 2424
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport (>= 1.3)
+Filename: ./debs/netskao.ccpower-rootless_1.9-4_iphoneos-arm64.deb
+Size: 957496
+MD5sum: 7db69ec8af2e3553ab3bdf161c7d71d0
+SHA1: 1ac5989d144a078b8e54aa9a769a7884f0cbcf5d
+SHA256: e3e2cce7c2363354366945b756b50877c3cea17aff28989de51496127c1990ce
+Section: Netskao-Tweaks
+Description: Control Center Quick Power Tool, Supports iOS11-iOS15
+Author: Netskao
+Name: CCPower-Rootless
 
 Package: ru.domo.cocoatop64
 Version: 2.2.4
@@ -840,4 +1034,20 @@ Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
 Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
 Name: Zebra
 Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
+
+Package: xyz.xninja.systeminfo
+Version: 2.7.2-2
+Architecture: iphoneos-arm64
+Maintainer: ARX8x
+Depends: mobilesubstrate, oldabi
+Filename: ./debs/xyz.xninja.systeminfo_2.7.2-2_iphoneos-arm64.deb
+Size: 272484
+MD5sum: b95eab5cb98ee59903074e07556eeeef
+SHA1: cd12112a3197a800fc1e1fe45779cba2ec47e921
+SHA256: 4259c4f9ba2bb891b854fb0fbb6ad309ef2ddb8b9016c3c7d6b9490d5202f9e7
+Section: Tweaks
+Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save SHSH, battery info etc
+Author: ARX8x
+Depiction: https://arx8x.github.io/depictions/systeminfo.html
+Name: System Info
 
