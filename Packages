@@ -6,7 +6,7 @@ Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.1)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified
 Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
 Provides: appsync, net.angelxwind.appsyncunified
-Filename: ./debs/main/ai.akemi.appsyncunified_112.0_iphoneos-arm64.deb
+Filename: ./debs/ai.akemi.appsyncunified_112.0_iphoneos-arm64.deb
 Size: 34280
 MD5sum: 2e77efb06a3a59603757d373bab8adab
 SHA1: bf7f1161ee7a1fc5db2b724f5c9ce539f85c9daf
@@ -24,7 +24,7 @@ Architecture: iphoneos-arm64
 Maintainer: iGameGod
 Installed-Size: 200736
 Depends: mobilesubstrate (>= 0.9.5000), ldid, odcctools
-Filename: ./debs/main/com.gamegod.igg.rootless_0.4.3_iphoneos-arm64.deb
+Filename: ./debs/com.gamegod.igg.rootless_0.4.3_iphoneos-arm64.deb
 Size: 37215782
 MD5sum: 289afd4ca7b9b8fbda914ee6a69c6239
 SHA1: c2c50fd2f2119f3a8c12165047e0066aabd98641
@@ -34,13 +34,46 @@ Description: Be the god of your games!
 Author: iGameGod
 Name: iGameGod Rootless
 
+Package: com.if-she.cydia.vcam
+Version: 0.0.1-8+debug
+Architecture: iphoneos-arm64
+Maintainer: trizau
+Installed-Size: 244
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.if-she.cydia.vcam_0.0.1-8+debug_iphoneos-arm64.deb
+Size: 29756
+MD5sum: 7793e567ea2a66d5bace6c793f80e021
+SHA1: 8bb8224706847b5a283517ab03b2f586227caa1b
+SHA256: 110ef3e0e37df3a955a77893096a9ef4050fe14ee1bc3e6428b2e9c011342f29
+Section: Tweaks
+Description: VCAM4iOS
+Author: trizau
+Name: VCAM4iOS
+
+Package: com.leftyfl1pcrack.carbridge
+Version: 2.0.13
+Architecture: iphoneos-arm64
+Maintainer: leftyfl1p
+Installed-Size: 7344
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
+Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
+Filename: ./debs/Carbridge-AB.deb
+Size: 434160
+MD5sum: 45411c8ec866332020e7923b8383a21a
+SHA1: 7ac4c2e79800a2d02b9c33b3cd66e881fed56066
+SHA256: 30c9985dab9f3e39365eef44d7ed861b3d378e40bdb1144a99370770e441d3fe
+Section: Tweaks
+Description: Open any app in CarPlay!
+Author: leftyfl1p <carbridge@havoc.app>
+Name: CarBridge
+
 Package: com.mtac.lynxtwo
 Version: 2.5.2
 Architecture: iphoneos-arm64
 Maintainer: MTAC
 Installed-Size: 2744
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
-Filename: ./debs/main/Lynx2tweaak.deb
+Filename: ./debs/Lynx2tweaak.deb
 Size: 640176
 MD5sum: 6f1095d0ea06ade100d0866993e84851
 SHA1: 4ce906bbc153407eed01d4e7f46101959c39e438
@@ -55,7 +88,7 @@ Version: 2.1
 Architecture: iphoneos-arm64
 Maintainer: opa334
 Installed-Size: 4400
-Filename: ./debs/main/com.opa334.trollstorehelper_2.1_iphoneos-arm64.deb
+Filename: ./debs/com.opa334.trollstorehelper_2.1_iphoneos-arm64.deb
 Size: 1920334
 MD5sum: 3b73f08f43d6e3809f21c5f2ab798352
 SHA1: c847686ec46801a42c37039132c6f332b25da952
@@ -72,7 +105,7 @@ Maintainer: Ryan Nair
 Installed-Size: 604
 Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.6011), preferenceloader
 Conflicts: com.ryannair05.cylinder
-Filename: ./debs/main/com.ryannair05.cylinderremade_0.0.3-beta_iphoneos-arm.deb
+Filename: ./debs/com.ryannair05.cylinderremade_0.0.3-beta_iphoneos-arm.deb
 Size: 104366
 MD5sum: e39d20ec8104ed2840cba3eae4b7c1d4
 SHA1: 5cc7aeff823bdee3c1809cfbbc82b68520e495fd
@@ -89,7 +122,7 @@ Architecture: iphoneos-arm64
 Maintainer: FCCT
 Depends: swift, clang, ldid
 Conflicts: com.sparklechan.sparkkit
-Filename: ./debs/main/FridaCodeManager-rootless.deb
+Filename: ./debs/FridaCodeManager-rootless.deb
 Size: 3166104
 MD5sum: fa78a115bee9f496cfd7673b73a8fd56
 SHA1: 11798cd98515e75cbbd15635f623a257abb7c4c7
@@ -108,7 +141,7 @@ Maintainer: TIGI Software
 Installed-Size: 34948
 Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
 Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
-Filename: ./debs/main/com.tigisoftware.filza_4.0.1-2_iphoneos-arm64.deb
+Filename: ./debs/com.tigisoftware.filza_4.0.1-2_iphoneos-arm64.deb
 Size: 13930160
 MD5sum: 334436fb8aa3a8d8911f2c76afa9ef48
 SHA1: 7f0a13ca9638a6dd9218ca795741f50130e86175
@@ -123,7 +156,7 @@ Version: 1.5.0k
 Architecture: iphoneos-arm64
 Maintainer: 0xkuj
 Installed-Size: 240
-Filename: ./debs/main/ru.rj.filzadirprobe_1.5.0k_iphoneos-arm64.deb
+Filename: ./debs/ru.rj.filzadirprobe_1.5.0k_iphoneos-arm64.deb
 Size: 6151108
 MD5sum: ce3d744ed35252b4e59b2884b3805fb5
 SHA1: 7d1394a6014b7625351e907496c3e9a01b2388c5
@@ -133,13 +166,30 @@ Description: Filza Extension To Calculate Folders Inside Your Filesystem
 Author: 0xkuj
 Name: FilzaDirProbeCrack
 
+Package: ru.rj.vkreborn
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: Artem Kasper
+Installed-Size: 11528
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/ru.rj.vkreborn_2.0_iphoneos-arm64.deb
+Size: 6936932
+MD5sum: 785e195103021e270432eade34ee446b
+SHA1: f860a346d6232ab708fd480852f9305ee85dd06c
+SHA256: 8433d73525c65d82999c291c2536a684ed8a2691284d9236e372d9115211ae1e
+Section: Tweaks
+Priority: optional
+Description: Дополнение к клиенту VK. Addon to VK mesenger that includes tweaks combined.
+Author: Artem Kasper
+Name: VKReborn
+
 Package: ru.shad0wdev.tgsettings
 Version: 0.0.4
 Architecture: iphoneos-arm64
 Maintainer: shad0wdev
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/main/ru.shad0wdev.tgsettings_0.0.4_iphoneos-arm64.deb
+Filename: ./debs/ru.shad0wdev.tgsettings_0.0.4_iphoneos-arm64.deb
 Size: 4860
 MD5sum: c6300bce838e6e1f94e848fc8954e02a
 SHA1: 97c69d7e2cb777842e5cb347e846c253e9ead70b
@@ -155,7 +205,7 @@ Architecture: iphoneos-arm64
 Maintainer: CyPwn
 Installed-Size: 1820
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, ws.hbang.common (>= 1.17), ws.hbang.alderis (>= 1.2)
-Filename: ./debs/main/xyz.cypwn.bigsurcenter_1.4.5k_iphoneos-arm64.deb
+Filename: ./debs/xyz.cypwn.bigsurcenter_1.4.5k_iphoneos-arm64.deb
 Size: 875788
 MD5sum: 10dc0982c423da7d618d4a3a92e9ccd8
 SHA1: 0ce40e4c29fe5b55eb1f6ee8a148b3b0b2391df1
@@ -173,7 +223,7 @@ Version: 3.0.6
 Architecture: iphoneos-arm64
 Maintainer: CyPwn
 Depends: mobilesubstrate
-Filename: ./debs/main/xyz.cypwn.classicfolders3_3.0.6_iphoneos-arm64.deb
+Filename: ./debs/xyz.cypwn.classicfolders3_3.0.6_iphoneos-arm64.deb
 Size: 3679038
 MD5sum: a6fb98e8fdf9393a10226273a6f5da43
 SHA1: fea23d2fc8977d5953d8814d481b8831614bdac9
@@ -191,7 +241,7 @@ Version: 1.5
 Architecture: iphoneos-arm64
 Maintainer: CyPwn
 Depends: mobilesubstrate, preferenceloader, xyz.cypwn.xinam1ne
-Filename: ./debs/main/xyz.cypwn.designer_1.5_iphoneos-arm64.deb
+Filename: ./debs/xyz.cypwn.designer_1.5_iphoneos-arm64.deb
 Size: 8220806
 MD5sum: cb9fd6bb2aae3a8afd3ac99176627403
 SHA1: b444e6d13a080290c28815d1a4e232e780c20208
@@ -211,7 +261,7 @@ Depends: firmware (>= 15.0)
 Conflicts: cydia
 Replaces: cydia
 Provides: cydia (= 1.1.36)
-Filename: ./debs/main/xyz.cypwn.dopesaily_3.2.6_iphoneos-arm64.deb
+Filename: ./debs/xyz.cypwn.dopesaily_3.2.6_iphoneos-arm64.deb
 Size: 4518532
 MD5sum: 7c20827818da8abb2454ef300b5584a4
 SHA1: 1315aa78475d16d34b6073669f75ded91710c263
@@ -230,7 +280,7 @@ Architecture: iphoneos-arm64
 Maintainer: CyPwn
 Installed-Size: 612
 Depends: mobilesubstrate
-Filename: ./debs/main/xyz.cypwn.filzathememanager_1.0.1_iphoneos-arm64.deb
+Filename: ./debs/xyz.cypwn.filzathememanager_1.0.1_iphoneos-arm64.deb
 Size: 74058
 MD5sum: 5e494d4597ab50e108ec7e55703e9b6e
 SHA1: 9be56a34e91c1d100fa7a8efeb9a56d9f1e26358
@@ -250,7 +300,7 @@ Maintainer: CyPwn
 Installed-Size: 560
 Depends: mobilesubstrate
 Replaces: xyz.cypwn.getfouaded
-Filename: ./debs/main/xyz.cypwn.getfouaded721822_2.0.0_iphoneos-arm64.deb
+Filename: ./debs/xyz.cypwn.getfouaded721822_2.0.0_iphoneos-arm64.deb
 Size: 129110
 MD5sum: b440409c7d7ee34d31f11be886c7b6f1
 SHA1: cb99c8f82b4f7499656281b620dbb2c1ce17ff30
@@ -270,7 +320,7 @@ Maintainer: CyPwn
 Depends: firmware (>= 4.0), findutils, apt | apt7, xyz.cypwn.icleanerprocrack
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
-Filename: ./debs/main/xyz.cypwn.icleanerpro_7.10.0_iphoneos-arm64.deb
+Filename: ./debs/xyz.cypwn.icleanerpro_7.10.0_iphoneos-arm64.deb
 Size: 1375270
 MD5sum: 585cd28493245086089036db71bc96bf
 SHA1: deebe159f7f0a02b8b6a6dadacff945457f9af82
@@ -288,7 +338,7 @@ Version: 1.2.3
 Architecture: iphoneos-arm64
 Maintainer: CyPwn
 Depends: bash, coreutils, coreutils-bin, darwintools, system-cmds, gawk, grep
-Filename: ./debs/main/xyz.cypwn.neofetch_1.2.3_iphoneos-arm64.deb
+Filename: ./debs/xyz.cypwn.neofetch_1.2.3_iphoneos-arm64.deb
 Size: 97918
 MD5sum: c87971ba2678351a7ed77215a8487c27
 SHA1: b8da2874ae85e8c43b98c87682d76605f9b9bcf0
@@ -306,7 +356,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: CyPwn
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common
-Filename: ./debs/main/xyz.cypwn.plampyuipro_1.0_iphoneos-arm64.deb
+Filename: ./debs/xyz.cypwn.plampyuipro_1.0_iphoneos-arm64.deb
 Size: 1097316
 MD5sum: 33c7c1b85ea225e806b08ba36d815bc5
 SHA1: 3f02fb257434849685789de52bc411117c6fe327
@@ -325,7 +375,7 @@ Architecture: iphoneos-arm64
 Maintainer: CyPwn
 Installed-Size: 2416
 Depends: mobilesubstrate, com.opa334.altlist, preferenceloader, com.opa334.ccsupport, xyz.cypwn.xinam1ne
-Filename: ./debs/main/xyz.cypwn.playtopia2_1.0.2_iphoneos-arm64.deb
+Filename: ./debs/xyz.cypwn.playtopia2_1.0.2_iphoneos-arm64.deb
 Size: 788940
 MD5sum: 31eee75e596dce39650a283c52044fce
 SHA1: 5d5b9c5e1e892936a6d059c9caa172fda22f7b5b
@@ -343,7 +393,7 @@ Version: 2.5
 Architecture: iphoneos-arm64
 Maintainer: CyPwn
 Depends: firmware (>= 15.0), xinaa15 | cy+cpu.arm64e, odcctools, lz4, swift, xz-utils, plutil | com.bingner.plutil, make, clang, curl, git, grep, perl, rsync, unzip, gzip, make, ldid
-Filename: ./debs/main/xyz.cypwn.theos_2.5_iphoneos-arm64.deb
+Filename: ./debs/xyz.cypwn.theos_2.5_iphoneos-arm64.deb
 Size: 22750668
 MD5sum: a902371ab2b18dd8d37d3f7d604ba694
 SHA1: 7bf282372f3c80f5e1576c2429be8f9ab2bca9c5
@@ -361,7 +411,7 @@ Version: 1.2.2
 Architecture: iphoneos-arm64
 Maintainer: CyPwn
 Depends: firmware (>= 15.0), mobilesubstrate, ws.hbang.alderis
-Filename: ./debs/main/xyz.cypwn.tinge_1.2.2_iphoneos-arm64.deb
+Filename: ./debs/xyz.cypwn.tinge_1.2.2_iphoneos-arm64.deb
 Size: 60306
 MD5sum: 5e716f7c9e3d385f03d2f86cfba43181
 SHA1: f992f6e203a315c421d8392adab09904ada2e338
@@ -380,7 +430,7 @@ Architecture: iphoneos-arm64
 Maintainer: CyPwn
 Depends: mobilesubstrate, preferenceloader, com.muirey03.libimagepicker
 Provides: com.alexzielenski.zeppelin
-Filename: ./debs/main/xyz.cypwn.zeppelinreborn_1.2_iphoneos-arm64.deb
+Filename: ./debs/xyz.cypwn.zeppelinreborn_1.2_iphoneos-arm64.deb
 Size: 2472908
 MD5sum: 5c3e795142508d0026b9606086fec06f
 SHA1: 1c891b4ffad125a12316d8f53aa23b78e859e098
@@ -398,7 +448,7 @@ Version: 1.6.2
 Architecture: iphoneos-arm64
 Maintainer: CyPwn
 Depends: mobilesubstrate, firmware (>=15.0), preferenceloader, com.opa334.ccsupport
-Filename: ./debs/main/xyz.cypwn.zetsu_1.6.2_iphoneos-arm64.deb
+Filename: ./debs/xyz.cypwn.zetsu_1.6.2_iphoneos-arm64.deb
 Size: 10442108
 MD5sum: 6125cc1f6809755b072c0d324fac7c9d
 SHA1: 11e563b0af0323be1377db3bbc23fefdfcdc5b36
@@ -417,7 +467,7 @@ Architecture: iphoneos-arm64
 Maintainer: Zebra Team <team@getzbra.com>
 Installed-Size: 6992
 Depends: dpkg, uikittools, firmware (>= 9.0)
-Filename: ./debs/main/xyz.willy.zebra_1.1.36_iphoneos-arm64.deb
+Filename: ./debs/xyz.willy.zebra_1.1.36_iphoneos-arm64.deb
 Size: 3616770
 MD5sum: c1c8b8e34c2c487e3cdc0777e56d75c3
 SHA1: f523952806f971e44420114cef818a6c0554551f
@@ -430,39 +480,4 @@ Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
 Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
 Name: Zebra
 Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
-
-Package: com.leftyfl1pcracked.carbridge13
-Version: 2.0.13
-Architecture: iphoneos-arm64
-Maintainer: leftyfl1p
-Installed-Size: 7344
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
-Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
-Filename: ./debs/testing/Carbridge-AB.deb
-Size: 434160
-MD5sum: 45411c8ec866332020e7923b8383a21a
-SHA1: 7ac4c2e79800a2d02b9c33b3cd66e881fed56066
-SHA256: 30c9985dab9f3e39365eef44d7ed861b3d378e40bdb1144a99370770e441d3fe
-Section: Tweaks
-Description: Open any app in CarPlay!
-Tag: cydia::commercial
-Author: leftyfl1p <carbridge@havoc.app>
-Name: CarBridge
-
-Package: ru.rj.vkreborn
-Version: 2.0
-Architecture: iphoneos-arm64
-Maintainer: Artem Kasper
-Installed-Size: 11528
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/testing/ru.rj.vkreborn_2.0_iphoneos-arm64.deb
-Size: 6936932
-MD5sum: 785e195103021e270432eade34ee446b
-SHA1: f860a346d6232ab708fd480852f9305ee85dd06c
-SHA256: 8433d73525c65d82999c291c2536a684ed8a2691284d9236e372d9115211ae1e
-Section: Tweaks
-Priority: optional
-Description: Дополнение к клиенту VK
-Author: Artem Kasper
-Name: VKReborn
 
