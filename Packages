@@ -18,6 +18,26 @@ Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
 
+Package: com.anthopak.addtofolder-rootless
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Depends: firmware (>=13.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 13.0)
+Filename: ./debs/com.anthopak.addtofolder-rootless.deb
+Size: 136444
+MD5sum: 1883efa636a3dd352fa899fb085d315b
+SHA1: 985c0304f65579794ad15f7c6e52c910dbb8ae73
+SHA256: c0fb9686dfb6644cfbdb40e23756582cd7d45aef2380d125b2c7c44f6714d0f2
+Section: Tweaks
+Homepage: https://repo.anthopak.dev
+Description: Easily move apps to your folders
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.addtofolder-rootless.php
+Icon: https://repo.anthopak.dev/assets/com.anthopak.addtofolder-rootless/icon.png
+Moderndepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.addtofolder-rootless.json
+Name: AddToFolder (Rootless)
+Sileodepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.addtofolder-rootless.json
+
 Package: com.anthopak.pancake-rootless
 Version: 2.2
 Architecture: iphoneos-arm64
@@ -145,6 +165,56 @@ Description: Be the god of your games!
 Author: iGameGod
 Name: iGameGod Rootless
 
+Package: com.ginsu.classicalerts
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.ginsu.classicalerts_1.0.0_iphoneos-arm64.deb
+Size: 3140
+MD5sum: 3cd7529637ebe7016b020f3373668854
+SHA1: 1ce1c7c91c29d08494ed7dd1f063f64036c6e2ee
+SHA256: 17ddabecde2f7e98ab9d5dbea7473e06c10fb30e0bd60bfd3bc3e01dc9f7a17c
+Section: Tweaks
+Description: Bring iOS 8 and lower's square-styled alerts back!
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depictions/index.html?packageId=com.ginsu.classicalerts
+Icon: https://ginsu.dev/repo/api/packageinfo/com.ginsu.classicalerts/icon.png
+Name: ClassicAlerts
+Sileodepiction: https://ginsu.dev/repo/depictions/native/com.ginsu.classicalerts.json
+
+Package: com.hitori.disableapplibrary
+Version: 4.0
+Architecture: iphoneos-arm64
+Maintainer: Hitori
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.hitori.disableapplibrary_4.0_iphoneos-arm64.deb
+Size: 2546
+MD5sum: eba1aa90c15bb73f5db3c86ae51d3ad3
+SHA1: 84600a2756bc9994613454b954c474cd38672f02
+SHA256: 44253479b4ea0e0653dee765cd0df004fdc2a569cc17d7090fa7281fb507eeda
+Section: Tweaks
+Description: Disable App Library
+Author: Hitori
+Name: Disable App Library
+
+Package: com.hitori.transparentdock
+Version: 4.0
+Architecture: iphoneos-arm64
+Maintainer: Hitori
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.hitori.transparentdock_4.0_iphoneos-arm64.deb
+Size: 3052
+MD5sum: f4746dcc3a68e5932a37f023fc7c3b04
+SHA1: 27fa1c371a91a0c0edf41c11ddd8b75702302ad3
+SHA256: 3690df039ddad5cf2ec07a2b7f68b102ed723c4a17aeb84af39a19edf58e828c
+Section: Tweaks
+Description: Transparent Dock
+Author: Hitori
+Name: Transparent Dock
+
 Package: com.hitori.transparentfolder
 Version: 4.0
 Architecture: iphoneos-arm64
@@ -252,6 +322,39 @@ Section: Tweaks
 Description: Ultimate iDevice Customization for iOS 14, 15 & 16
 Author: MTAC
 Name: Lynx 2
+
+Package: com.nahtedetihw.macpass
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: Ethan Whited
+Installed-Size: 876
+Depends: mobilesubstrate, com.spark.libsparkcolourpicker, ws.hbang.common
+Filename: ./debs/com.nahtedetihw.macpass_1.4_iphoneos-arm64.deb
+Size: 196252
+MD5sum: 110ae3243e7a9787c40d31e8d7227921
+SHA1: 1ea588d71f25087a176e76e20e00035085fba44f
+SHA256: 23a4e7a745b1ab8f494791cd61727fb03eb20225cdd5cf65be97ecee0f995ccc
+Section: Tweaks
+Description: MacPass gives MacOS password screen for passcode!
+Author: Ethan Whited
+Name: MacPass
+
+Package: com.netskao.pulloverpro
+Version: 2.1.5-3
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 2440
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.c1d3r.pulloverpro
+Filename: ./debs/com.netskao.pulloverpro_2.1.5-3_iphoneos-arm64.deb
+Size: 707746
+MD5sum: 20561b0033cf2392c6034067c7a7d8a0
+SHA1: f6da8539fe23dcb9cf8db245bda1e7cea8fd78bc
+SHA256: b9d8e6be555a4d81e4aa6ff13197cb9a941b89f47538e27388493956228bb647
+Section: Netskao-Tweaks
+Description: A better way to multitask! Fix support for iOS15+
+Author: c1d3r
+Name: PullOver Pro
 
 Package: com.now.mooner
 Version: 1.0.1
