@@ -18,6 +18,38 @@ Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
 
+Package: com.0xkuj.iparanger
+Version: 1.9
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Installed-Size: 3372
+Depends: gawk, unzip, plutil
+Filename: ./debs/com.0xkuj.iparanger_1.9_iphoneos-arm64.deb
+Size: 1135976
+MD5sum: 2e3a2bf068d68b310457c5b60427126b
+SHA1: 2595c9f4bce5781c081e67881288d9462a158104
+SHA256: b5d6e6b9ecb7a9f1f66bc340848e75d2854ecdca47e7207162c9bccd736aa481
+Section: Applications
+Description: GUI Based Application for ipatool
+Author: 0xkuj
+Name: IPA Ranger
+
+Package: com.82flex.removewidgetbg
+Version: 1.7
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 384
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
+Filename: ./debs/com.82flex.removewidgetbg_1.7_iphoneos-arm64.deb
+Size: 29634
+MD5sum: c88c6bf39abf3e5ff4d72a6620af6e0a
+SHA1: a5d1959ee9e869dd44e1cc3c62554e5c23e7dc9b
+SHA256: f35db44d6f38a6dc7b67bd5363f072f5f80286e6c9bb8e8ee16857feac48f082
+Section: Tweaks
+Description: Remove the background of the widgets on the home screen.
+Author: Lessica <82flex@gmail.com>
+Name: Remove Widget Background
+
 Package: com.afnanahmad.chromahomebarx
 Version: 0.4
 Architecture: iphoneos-arm
@@ -114,6 +146,26 @@ Description: Clear Your Homescreen After Inactivity
 Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
 Depiction: https://Randy-420.GitHub.io/depic/evanesco.html
 Name: Evanesco!
+
+Package: com.dave1482.powerapp
+Version: 7.0
+Architecture: iphoneos-arm64
+Maintainer: Teddible (aka Dave1482) <dave1482@dave1482.com>
+Installed-Size: 1024
+Pre-Depends: firmware (>= 8.0), system-cmds, shell-cmds, coreutils
+Conflicts: com.dave1482.powerappbeta
+Filename: ./debs/com.dave1482.powerapp_7.0_iphoneos-arm64.deb
+Size: 509868
+MD5sum: f2d62570fe011282c0ad75207a183497
+SHA1: 0d3ecad41729f54ad2348c61feb2fb8ef0ceba55
+SHA256: 59349fb27425e14c185479dcfbb150454ba1083fb1af966293916b28b7ca48ba
+Section: Utilities
+Description: Reboot, Shutdown, Respring, go into Safemode
+Tag: purpose::uikit, compatible::ios15, compatible::ios16, compatible::ios17, compatible::ios18, compatible_min::ios8.0
+Author: Teddible (aka Dave1482) <dave1482@dave1482.com>
+Depiction: https://chariz.com/get/powerapp
+Icon: https://img.chariz.cloud/icon/powerapp/icon@3x.png
+Name: PowerApp
 
 Package: com.dcproducts.colorbar15
 Version: 1.1.0
@@ -271,6 +323,26 @@ Description: Transparent Folder Closed/Opened
 Author: Hitori
 Name: TransparentFolder
 
+Package: com.ichitaso.otadisabler
+Version: 0.5
+Architecture: iphoneos-arm64
+Maintainer: ichitaso
+Installed-Size: 168
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debs/com.ichitaso.otadisabler_0.5_iphoneos-arm64.deb
+Size: 16982
+MD5sum: 5589db00b99482a5b7ad13b5dfe3beca
+SHA1: 9189c4de6092838fbcc272b6fe04a6535972e97a
+SHA256: a96752c8fe6f6018322b4f6a12cca3d9eeb1825b9e68275da34fed2f9ca4324c
+Section: System
+Homepage: https://ichitaso.com
+Description: Disable OTA and remove badges on home screen, etc.
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/otadisabler.html
+Icon: https://raw.githubusercontent.com/ichitaso/OTADisabler-App/main/OTADisabler/Icon-60%403x.png
+Name: OTADisabler
+Sileodepiction: https://cydia.ichitaso.com/depiction/otadisabler.json
+
 Package: com.ichitaso.powerselector11
 Version: 1.4.0
 Architecture: iphoneos-arm64
@@ -398,6 +470,22 @@ Description: Ultimate iDevice Customization for iOS 14, 15 & 16
 Author: MTAC
 Name: Lynx 2
 
+Package: com.nahtedetihw.floatingdockxvi
+Version: 2.3
+Architecture: iphoneos-arm64
+Maintainer: Ethan Whited
+Installed-Size: 812
+Depends: preferenceloader
+Filename: ./debs/com.nahtedetihw.floatingdockxvi_2.3_iphoneos-arm64.deb
+Size: 398774
+MD5sum: cfbf9eec21c35fd722e096cc446ad58b
+SHA1: 60fe6becaedc2da0586fb5dbd2527ec37edd456c
+SHA256: d449a8e8f2ea0fe1ddde89f07c22871115983cda520a7429c32f4459952cc43f
+Section: Tweaks
+Description: Floating Dock on iOS 16
+Author: Ethan Whited
+Name: FloatingDockXVI
+
 Package: com.nahtedetihw.macpass
 Version: 1.4
 Architecture: iphoneos-arm64
@@ -430,6 +518,25 @@ Section: Netskao-Tweaks
 Description: A better way to multitask! Fix support for iOS15+
 Author: c1d3r
 Name: PullOver Pro
+
+Package: com.nightwind.searchdots
+Version: 1.1.5
+Architecture: iphoneos-arm64
+Maintainer: Nightwind <nightwinddev@gmail.com>
+Installed-Size: 506
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.nightwind.searchdots_1.1.5_iphoneos-arm64.deb
+Size: 106376
+MD5sum: 9baacac44730aa51d7d2872c4f85086c
+SHA1: 7f8d61bd92128687d6a1ee1b1480e81f45e7f325
+SHA256: d14373d2f710672a6da77c38867535d8a2ad2b002a8fd6429910e8ba9ae27ab8
+Section: Tweaks
+Description: Search Pill Ported from iOS 16
+Tag: compatible_min::ios14.0
+Author: Nightwind <nightwinddev@gmail.com>
+Depiction: https://chariz.com/get/searchdots
+Icon: https://img.chariz.cloud/icon/searchdots/icon@3x.png
+Name: SearchDots
 
 Package: com.now.mooner
 Version: 1.0.1
@@ -479,6 +586,22 @@ Section: Applications
 Description: Helper utility to install and manage TrollStore!
 Author: opa334
 Name: TrollStore Helper
+
+Package: com.opa334.trollstorelite
+Version: 2.1
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 608
+Depends: ldid
+Filename: ./debs/com.opa334.trollstorelite_2.1_iphoneos-arm64.deb
+Size: 212472
+MD5sum: aeb200461ee295a1ff8c956ce8d9375a
+SHA1: 7a939ed7c21c42d3d160db179365de6da6dc79c9
+SHA256: aafe9b7ce5dc69cca996f64f5d1f79e0b483cd8600889db9d07c527172e68420
+Section: Applications
+Description: TrollStore for jailbroken iOS
+Author: opa334
+Name: TrollStore Lite
 
 Package: com.ps.cahighfps
 Version: 1.3.1
@@ -598,6 +721,26 @@ Author: Ryan Nair
 Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@3x.png
 Name: Cylinder Remade
 
+Package: com.ryannair05.mitsuha6
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Ryan Nair <ryannairtweaks@gmail.com>
+Installed-Size: 1169
+Depends: mobilesubstrate, preferenceloader, com.ryannair05.libmitsuha6, ws.hbang.alderis, firmware (>=15.0)
+Replaces: io.c0ldra1n.mitsuha, io.ominousness.mitsuhaxi, me.nepeta.mitsuhainfinity, com.ryannair05.mitsuhaforever
+Filename: ./debs/com.ryannair05.mitsuha6_1.0_iphoneos-arm64.deb
+Size: 455186
+MD5sum: 9b5830774a6517f54756e54b24c38e9e
+SHA1: 5ed1170d7c131939d0c360bbb72a22ae75cd37b9
+SHA256: d19527625f85681bf9d2850a72f0d15e0e5d0d8a6e3ec179ff96ef0da72cad4e
+Section: Tweaks
+Description: Universal audio visualizer for iOS
+Tag: compatible_min::ios15.0
+Author: Ryan Nair <ryannairtweaks@gmail.com>
+Depiction: https://chariz.com/get/mitsuha6
+Icon: https://img.chariz.cloud/icon/mitsuha6/icon@3x.png
+Name: Mitsuha 6
+
 Package: com.serena.AppIndex
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -665,6 +808,24 @@ Depiction: https://repo.cypwn.xyz/depiction/1936
 Icon: https://media.havoc.app/64ab7404d8f6312267aee7f5
 Name: Always120
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1936
+
+Package: com.sop.tweakhub
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: SOPPPra
+Installed-Size: 464
+Depends: mobilesubstrate, com.mrgcgamer.libgcuniversal
+Filename: ./debs/com.sop.tweakhub_1.0.2_iphoneos-arm64.deb
+Size: 45912
+MD5sum: 38fbbea9394ded5ad47dda276e0eba36
+SHA1: 23ccf4ac967adbf489afa3b2c5eab6acc5772956
+SHA256: 6f00ebb98bd119904bb578b6d9433787fc00bb27616a37a3331b2b036c8b18fa
+Section: Tweaks
+Description: List all installed tweaks and access their settings directly. With this tweak, you can view a popup that displays all installed tweaks on your system. Quickly access the settings of each tweak with just a tap.
+Author: SOPPPra
+Icon: https://i.postimg.cc/pd0ZkKZJ/tweakhub.png
+Name: TweakHub
+Sileodepiction: https://sopppra.mooo.com/depictions/com.sop.tweakhub.json
 
 Package: com.spark.snowboard
 Version: 1.5.26-Beta4-rootless
@@ -773,6 +934,26 @@ Section: Tweaks
 Description: Bring your iDevice to life with true video wallpapers.
 Author: Zerui Chen
 Name: Frame (Rootless iOS 14+)
+
+Package: dev.theos.orion14
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: Theos Team <support@theos.dev>
+Installed-Size: 514
+Depends: firmware (>= 14.0), firmware (<< 18.0), mobilesubstrate (>= 0.9.5000)
+Provides: dev.theos.orion (= 1.0.2)
+Filename: ./debs/dev.theos.orion14_1.0.2_iphoneos-arm64.deb
+Size: 93284
+MD5sum: fdb72c66bd6018058b57962d76546957
+SHA1: 724dd1f99f51c4082af6f604643b7ce613a21d11
+SHA256: 4fa4ff6f751166c76a12cc3e0fcf2e62bb0ee80e0dcea78b0d4e79de5131666c
+Section: System
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer, compatible_min::ios14.0
+Author: Theos Team <support@theos.dev>
+Depiction: https://chariz.com/get/orion-runtime14
+Icon: https://img.chariz.cloud/icon/orion-runtime14/icon@3x.png
+Name: Orion Runtime (iOS 14 – 17)
 
 Package: dev.traurige.batterybuddy
 Version: 1.3.5
@@ -901,6 +1082,45 @@ Author: ren7995 <lau7995ren@gmail.com>
 Depiction: https://chariz.com/get/atria
 Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
 Name: Atria
+
+Package: me.lightmann.iamlazy
+Version: 2.6.2
+Architecture: iphoneos-arm64
+Maintainer: Lightmann <lightmanns11@gmail.com>
+Installed-Size: 542
+Depends: apt, uikittools, firmware (>= 13.0)
+Conflicts: me.lightmann.iamlazy-cli
+Filename: ./debs/me.lightmann.iamlazy_2.6.2_iphoneos-arm64.deb
+Size: 194564
+MD5sum: 39d9f2d96e02f0695435ed5c30e49bf7
+SHA1: 17dfc207af496de100d3363b11c979c6bedcda3c
+SHA256: 07ef6cdb119890dec5b8f2c3c314cf61f68b542615f5078627046f6af17614fe
+Section: Utilities
+Description: Easily backup and restore your tweaks
+Tag: compatible_min::ios13.0
+Author: Lightmann <lightmanns11@gmail.com>
+Depiction: https://chariz.com/get/iamlazy
+Icon: https://img.chariz.cloud/icon/iamlazy/icon@3x.png
+Name: IAmLazy
+
+Package: me.luki.elixir
+Version: 0.9.8
+Architecture: iphoneos-arm64
+Maintainer: Luki
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: ./debs/me.luki.elixir_0.9.8_iphoneos-arm64.deb
+Size: 8018
+MD5sum: 844cf487de84e86498b1d19954dbb1a1
+SHA1: ef7d0a61b17406b640a41317828d4de77d7151fc
+SHA256: fee75f9149023d629c3b5d93922b2ce8cbbd65117e6c601ea4641f4ae4180d7c
+Section: Tweaks
+Description: Tweak count at a glimpse
+Author: Luki
+Depiction: https://luki120.github.io/depictions/web/?p=me.luki.elixir
+Icon: https://raw.githubusercontent.com/Luki120/luki120.github.io/master/assets/Tweaks/Apps/Elixir/ElixirIcon.png
+Name: Elixir
+Sileodepiction: https://luki120.github.io/depictions/native/me.luki.elixir/depiction.json
 
 Package: net.limneos.dynamicpeninsula-rootless
 Version: 0.6-25
