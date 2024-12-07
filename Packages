@@ -149,6 +149,17 @@ Description: Filza Extension To Calculate Folders Inside Your Filesystem
 Author: 0xkuj
 Name: FilzaDirProbeCrack
 
+Package: ru.rj.ftt
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, com.randy420.tools (>=1.7)
+Filename: ./debs/ftt.deb
+Size: 43894
+MD5sum: 9038b8d870ea20eb13e11903ee07913f
+SHA1: d673b0e75e740d3b47af5ed29c9a9beb70faf1f2
+SHA256: 53cfe41cbcafdd0b12ab64fab415b2b88ef3f640a15f5bc802feaf4063afa9ff
+Description:  Change Flex 3 patches into Theos projects using simple terminal commands. By Randy420
+Name: Flex To Theos
+
 Package: ru.rj.vkreborn
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -385,7 +396,6 @@ SHA256: c44a0b5d84d82f07a0bb4f6f0e6325afffd6c8d1a61c112e3f3c6a6eab64e89f
 Section: Tweaks
 Description: A control center beautification tool for iOS 15/16. Change the icons/effects of the native modules, modify the background wallpaper, etc.
 Author: Phuc Do
-Depiction: https://repo.cypwn.xyz/depiction/2798
 Icon: https://repo.cypwn.xyz/packages/PlampyUIPro-Rootless/icon.png
 Name: PlampyUIPro
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2798
@@ -404,7 +414,6 @@ SHA256: f9a502ff2b98d4090b762260a6b3efaa274b68dcda6e8edeeffd2e27572a8c6b
 Section: Tweaks
 Description: A floating music player!
 Author: Ginsu, Aviorrok
-Depiction: https://repo.cypwn.xyz/depiction/2792
 Icon: https://repo.cypwn.xyz/packages/Playtopia2-Rootless/icon.png
 Name: Playtopia 2
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2792
@@ -421,12 +430,9 @@ MD5sum: 88b45562c5bfb0512e7854d377c84d2d
 SHA1: 625d8a7dff125ad5af81801672310a72a4d39a1a
 SHA256: eebd642244242a8a3eb6a06e70ec4e7345f572a084a4acc2997148f6f84110f9
 Section: Tweaks
-Description: Customize the iOS settings page.
+Description: Customize the iOS settings page. Add custom background and etc. Fully change how settings app looks in seconds.
 Author: SOPPPra
-Depiction: https://repo.cypwn.xyz/depiction/2887
-Icon: https://repo.cypwn.xyz/packages/SettingsRevamp-Rootless/icon.png
 Name: SettingsRevamp
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2887
 
 Package: xyz.cypwn.theos
 Version: 2.5
