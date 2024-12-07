@@ -68,6 +68,24 @@ Description: VCAM4iOS
 Author: trizau
 Name: VCAM4iOS
 
+Package: com.kdt.trollpad
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: khanhduytran0
+Installed-Size: 536
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), plistbuddy
+Filename: ./debs/com.kdt.trollpad_1.3_iphoneos-arm64.deb
+Size: 28710
+MD5sum: efae35a2879d140279dfbf6c2cc7ea46
+SHA1: 8d7267da91e7bf4858d61d3a082ef916209d1379
+SHA256: 6525a6b0ace53b959b949315b51f0e9a6675daff82d71ce116cb49d2122af02f
+Section: Tweaks
+Description: Troll SpringBoard into thinking it's running on iPadOS.
+Author: khanhduytran0
+Depiction: https://khanhduytran0.github.io/repo/depictions/web/?p=com.kdt.trollpad
+Name: TrollPad
+Sileodepiction: https://khanhduytran0.github.io/repo/depictions/native/com.kdt.trollpad/depiction.json
+
 Package: com.mtac.lynxtwo
 Version: 2.5.2
 Architecture: iphoneos-arm64
@@ -83,6 +101,40 @@ Section: Tweaks
 Description: Ultimate iDevice Customization for iOS 14, 15 & 16
 Author: MTAC
 Name: Lynx 2
+
+Package: com.now.mooner
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: NoW
+Installed-Size: 608
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), preferenceloader
+Filename: ./debs/com.now.mooner_1.0.1_iphoneos-arm64.deb
+Size: 93296
+MD5sum: 2bc5d22ac6c9e38cf627040dff61176b
+SHA1: 67a34452b9c8254c021595a8375c08d12a2723fa
+SHA256: d33c54405314f83bb1dac8379dbb4bea028f9e181dd85cc1aa47591aecc602f8
+Section: Tweaks
+Description: The moon moons on you from its perch in the night sky...
+Author: NoW
+Icon: https://nowisdev.github.io/icons/Mooner.png
+Name: Mooner
+
+Package: com.opa334.choicy
+Version: 1.4.10-3
+Architecture: iphoneos-arm64
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 884
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: ./debs/com.opa334.choicy_1.4.10-3_iphoneos-arm64.deb
+Size: 104702
+MD5sum: f93895c1e4cd1022da50a49bf615e31b
+SHA1: 7a3d4fa057ee888543853be6aa2c88da845f353e
+SHA256: 66a503737a9e0b14d7050d6f91ce82ebc7bcc44ff5eabac28f01ca4d8663471e
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Name: Choicy
 
 Package: com.opa334.trollstorehelper
 Version: 2.1
