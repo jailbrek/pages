@@ -31,7 +31,7 @@ MD5sum: 4bb9d529d6ffec6749f088fc5bb5dfac
 SHA1: 57388a9be8081b5a436ba98bb18ba2c2b3c3e58c
 SHA256: 0a8c423bab4f8d62c96d418df6af615bf803cad2200173b256a78cea49d5026e
 Section: Tweaks
-Description: Tweak to clear your iphone Homescreen After Inactivity
+Description: Clear Your Homescreen After Inactivity
 Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
 Depiction: https://Randy-420.GitHub.io/depic/evanesco.html
 Name: Evanesco!
@@ -64,7 +64,7 @@ MD5sum: 7793e567ea2a66d5bace6c793f80e021
 SHA1: 8bb8224706847b5a283517ab03b2f586227caa1b
 SHA256: 110ef3e0e37df3a955a77893096a9ef4050fe14ee1bc3e6428b2e9c011342f29
 Section: Tweaks
-Description: VCAM4iOS. Tweak that was brought by t.me/jailbrek_ios . Truly cool and useful tweak. This version should support rootless as original one is rootful only.
+Description: VCAM4iOS
 Author: trizau
 Name: VCAM4iOS
 
@@ -197,6 +197,22 @@ Author: FCCT
 Icon: https://raw.githubusercontent.com/fridakitten/FridaCodeManager/main/Blueprint/FridaCodeManager.app/AppIcon.png
 Name: FridaCodeManager
 
+Package: com.tigisoftware.appdatamanager
+Version: 1.8.2-4
+Architecture: iphoneos-arm64
+Maintainer: TIGI Software
+Installed-Size: 5236
+Recommends: ldid
+Filename: ./debs/com.tigisoftware.appdatamanager_1.8.2-4_iphoneos-arm64.deb
+Size: 1900552
+MD5sum: 83d681d4b17b81059c5ee4682dd9a0a0
+SHA1: dd86ddeae5f0d40d0ba2380c333a62b40e8c6e99
+SHA256: b321ddaf6d03e2f2710c9f8f9a6a6d617e3c6db2abf46cced44ddbe82629ee50
+Section: Utilities
+Description: This tool provides the way to WIPE, BACKUP, RESTORE AppData for installed Apps
+Author: TIGI Software
+Name: Apps Manager
+
 Package: com.tigisoftware.filza
 Version: 4.0.1-2
 Architecture: iphoneos-arm64
@@ -213,6 +229,27 @@ Section: Utilities
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
 Author: TIGI Software
 Name: Filza File Manager
+
+Package: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 168
+Depends: firmware (>= 14.1), mobilesubstrate
+Filename: ./debs/com.tomaszpoliszuk.lockscreenbatterymagsafe_1.0.4_iphoneos-arm64.deb
+Size: 4550
+MD5sum: 24e3342d8bcbef5ec8dec97740c4cf7a
+SHA1: 5a7af79cec3ea15c8f7b5ce907cc24fd80746a23
+SHA256: e7ad57e95f3312ad05d88849e44eec5ccd2dbd9d2f0b6c46a8908063905353b6
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=lockscreenbatterymagsafeDp
+Description: Enable new native MagSafe charging view on lockscreen when connecting device to power source
+Tag: purpose::extension
+Author: Tomasz Poliszuk
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=lockscreenbatterymagsafeDp
+Dev: tomaszpoliszuk
+Name: MagSafe Enabler
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: ru.rj.filzadirprobe
 Version: 1.5.0k
