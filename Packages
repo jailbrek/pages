@@ -18,6 +18,24 @@ Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
 
+Package: com.cpdigitaldarkroom.itsevanesco
+Version: 2024.05.26
+Architecture: iphoneos-arm64
+Maintainer: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Installed-Size: 756
+Depends: mobilesubstrate
+Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi, com.randy420.evanescocc
+Filename: ./debs/evanesco_rootless.deb
+Size: 100280
+MD5sum: 4bb9d529d6ffec6749f088fc5bb5dfac
+SHA1: 57388a9be8081b5a436ba98bb18ba2c2b3c3e58c
+SHA256: 0a8c423bab4f8d62c96d418df6af615bf803cad2200173b256a78cea49d5026e
+Section: Tweaks
+Description: Tweak to clear your iphone Homescreen After Inactivity
+Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Depiction: https://Randy-420.GitHub.io/depic/evanesco.html
+Name: Evanesco!
+
 Package: com.gamegod.igg.rootless
 Version: 0.4.3
 Architecture: iphoneos-arm64
@@ -46,7 +64,7 @@ MD5sum: 7793e567ea2a66d5bace6c793f80e021
 SHA1: 8bb8224706847b5a283517ab03b2f586227caa1b
 SHA256: 110ef3e0e37df3a955a77893096a9ef4050fe14ee1bc3e6428b2e9c011342f29
 Section: Tweaks
-Description: VCAM4iOS
+Description: VCAM4iOS. Tweak that was brought by t.me/jailbrek_ios . Truly cool and useful tweak. This version should support rootless as original one is rootful only.
 Author: trizau
 Name: VCAM4iOS
 
@@ -80,6 +98,68 @@ Section: Applications
 Description: Helper utility to install and manage TrollStore!
 Author: opa334
 Name: TrollStore Helper
+
+Package: com.randy420.taidependscoolstar
+Version: 0.6
+Architecture: iphoneos-arm64
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 0
+Depends: theos-dependencies, swift
+Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
+Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
+Filename: ./debs/dependsCool_rootless.deb
+Size: 742
+MD5sum: b2ffd785230431869138207a2b225b43
+SHA1: f4b4ce38fbd108f30b759d87e0a13561949f5b93
+SHA256: 66182da37ec04cacfc009300487a6fed484c391ffee21a63dbc0478f7959e645
+Section: System
+Homepage: https://theemeraldisle.family
+Description: Dependencies for Procursus based jailbreaks (known as coolstar jailbreaks)
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
+Name: Theos Auto Installer Dependencies for Procursus based jailbreaks
+
+Package: com.randy420.taidependsother
+Version: 0.6
+Architecture: iphoneos-arm64
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 0
+Depends: ca-certificates, clang, coreutils, curl, dpkg, git, grep, ldid, make, odcctools, perl, com.bingner.plutil, rsync, xz
+Conflicts: com.randy420.taidependscoolstar, com.randy420.taidependslegacy
+Replaces: com.randy420.taidependscoolstar, com.randy420.taidependslegacy
+Filename: ./debs/dependsOther_rootless.deb
+Size: 792
+MD5sum: a014de5d9fd960281e1b79ec0a0eae42
+SHA1: 921d7cd357f78bc4a14a7800cd0b44175f306250
+SHA256: ba18870898a489f0a696944c8ee763c0c106ca3501d0955862ac7092faa151c0
+Section: System
+Homepage: https://theemeraldisle.family
+Description: dependencies for all other jailbreaks
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/taidependsother.html
+Name: Theos Auto Installer Dependencies for All Other Jailbreaks
+
+Package: com.randy420.tools
+Version: 2.3.9
+Architecture: iphoneos-arm64
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 2392
+Depends: firmware (<= 15.0) | cy+cpu.arm64v8 | oldabi-xina | oldabi
+Replaces: com.randy420.encrypt
+Filename: ./debs/420Tools_rootless.deb
+Size: 550502
+MD5sum: 71d7c60809cc66a33bb317aa97e77653
+SHA1: 3408d916cc9bebcd9b77c3e4184a4165b067dc18
+SHA256: d16efcb6b2023a5ccc45f1293e17185b069d9ffa4da9e82bae24e0f8e975eb97
+Section: System
+Homepage: https://theemeraldisle.family
+Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
+Name: 420 Tools
 
 Package: com.ryannair05.cylinderremade
 Version: 0.0.3-beta
@@ -150,14 +230,24 @@ Author: 0xkuj
 Name: FilzaDirProbeCrack
 
 Package: ru.rj.ftt
-Architecture: iphoneos-arm
-Depends: mobilesubstrate, com.randy420.tools (>=1.7)
-Filename: ./debs/ftt.deb
-Size: 43894
-MD5sum: 9038b8d870ea20eb13e11903ee07913f
-SHA1: d673b0e75e740d3b47af5ed29c9a9beb70faf1f2
-SHA256: 53cfe41cbcafdd0b12ab64fab415b2b88ef3f640a15f5bc802feaf4063afa9ff
-Description:  Change Flex 3 patches into Theos projects using simple terminal commands. By Randy420
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 1300
+Depends: mobilesubstrate, com.randy420.tools (>=2.3.7)
+Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
+Filename: ./debs/ftt_rootless.deb
+Size: 355682
+MD5sum: 6e19f3c351ac0e15390372337d2bf640
+SHA1: d2253738bb5a4bbfb223b63f23a8540699e596e7
+SHA256: ad0746ccac4ef7cd811e6f9a0d24eb7f5d7e61c10251e09b65a6d5c19301f4be
+Section: Utilities
+Homepage: https://theemeraldisle.family
+Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands.
+  
+ - Use 'ftt -?' For a full list of options.
+Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/ftt.html
 Name: Flex To Theos
 
 Package: ru.rj.vkreborn
@@ -396,6 +486,7 @@ SHA256: c44a0b5d84d82f07a0bb4f6f0e6325afffd6c8d1a61c112e3f3c6a6eab64e89f
 Section: Tweaks
 Description: A control center beautification tool for iOS 15/16. Change the icons/effects of the native modules, modify the background wallpaper, etc.
 Author: Phuc Do
+Depiction: https://repo.cypwn.xyz/depiction/2798
 Icon: https://repo.cypwn.xyz/packages/PlampyUIPro-Rootless/icon.png
 Name: PlampyUIPro
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2798
@@ -414,6 +505,7 @@ SHA256: f9a502ff2b98d4090b762260a6b3efaa274b68dcda6e8edeeffd2e27572a8c6b
 Section: Tweaks
 Description: A floating music player!
 Author: Ginsu, Aviorrok
+Depiction: https://repo.cypwn.xyz/depiction/2792
 Icon: https://repo.cypwn.xyz/packages/Playtopia2-Rootless/icon.png
 Name: Playtopia 2
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2792
@@ -430,9 +522,12 @@ MD5sum: 88b45562c5bfb0512e7854d377c84d2d
 SHA1: 625d8a7dff125ad5af81801672310a72a4d39a1a
 SHA256: eebd642244242a8a3eb6a06e70ec4e7345f572a084a4acc2997148f6f84110f9
 Section: Tweaks
-Description: Customize the iOS settings page. Add custom background and etc. Fully change how settings app looks in seconds.
+Description: Customize the iOS settings page.
 Author: SOPPPra
+Depiction: https://repo.cypwn.xyz/depiction/2887
+Icon: https://repo.cypwn.xyz/packages/SettingsRevamp-Rootless/icon.png
 Name: SettingsRevamp
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2887
 
 Package: xyz.cypwn.theos
 Version: 2.5
