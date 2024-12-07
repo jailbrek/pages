@@ -50,23 +50,6 @@ Description: VCAM4iOS
 Author: trizau
 Name: VCAM4iOS
 
-Package: com.leftyfl1pcrack.carbridge
-Version: 2.0.13
-Architecture: iphoneos-arm64
-Maintainer: leftyfl1p
-Installed-Size: 7344
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
-Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
-Filename: ./debs/Carbridge-AB.deb
-Size: 434160
-MD5sum: 45411c8ec866332020e7923b8383a21a
-SHA1: 7ac4c2e79800a2d02b9c33b3cd66e881fed56066
-SHA256: 30c9985dab9f3e39365eef44d7ed861b3d378e40bdb1144a99370770e441d3fe
-Section: Tweaks
-Description: Open any app in CarPlay!
-Author: leftyfl1p <carbridge@havoc.app>
-Name: CarBridge
-
 Package: com.mtac.lynxtwo
 Version: 2.5.2
 Architecture: iphoneos-arm64
@@ -179,7 +162,7 @@ SHA1: f860a346d6232ab708fd480852f9305ee85dd06c
 SHA256: 8433d73525c65d82999c291c2536a684ed8a2691284d9236e372d9115211ae1e
 Section: Tweaks
 Priority: optional
-Description: Дополнение к клиенту VK. Addon to VK mesenger that includes tweaks combined.
+Description: Дополнение к клиенту VK
 Author: Artem Kasper
 Name: VKReborn
 
@@ -199,6 +182,24 @@ Description: An awesome MobileSubstrate tweak!
 Author: shad0wdev
 Name: TGSettings
 
+Package: xyz.cypwn.appdata
+Version: 1.4.4
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/appdata_1.4.4_iphoneos-arm64.deb
+Size: 5049144
+MD5sum: 686e6e6ad1561a04a83c418bd489ac35
+SHA1: a7b5471dd8b6fad03061ae97591ca18153b1b35d
+SHA256: 37ee88cf13f0c75519b2cbda2d989e8d2bb2aff68f90dac6f446ccce20b813cf
+Section: Tweaks
+Description: View & Manage Applications Data from your Home Screen
+Author: Fouad Raheb
+Depiction: https://repo.cypwn.xyz/depiction/2855
+Icon: https://repo.cypwn.xyz/packages/AppData-Rootless/icon.png
+Name: AppData
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2855
+
 Package: xyz.cypwn.bigsurcenter
 Version: 1.4.5k
 Architecture: iphoneos-arm64
@@ -217,6 +218,26 @@ Depiction: https://repo.cypwn.xyz/depiction/2714
 Icon: https://repo.cypwn.xyz/packages/BigSurCenter-Rootless/icon.png
 Name: BigSurCenter
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2714
+
+Package: xyz.cypwn.carbridge13
+Version: 2.0.14
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Installed-Size: 7344
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
+Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
+Filename: ./debs/cypwn.carbridge13_2.0.14_iphoneos-arm64.deb
+Size: 1874544
+MD5sum: dd133351eb02d846120db350c68617d2
+SHA1: 907fad371baa955c7b5ad6cb3be3228298225345
+SHA256: fc3db9bd669ac256da4f6901c1e95f85ec9b8f01abee2d0ce6351dc25e3183c9
+Section: Tweaks
+Description: Open any app in CarPlay!
+Author: leftyfl1p <carbridge@havoc.app>
+Depiction: https://repo.cypwn.xyz/depiction/2850
+Icon: https://repo.cypwn.xyz/packages/CarBridge-Rootless/icon.png
+Name: CarBridge
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2850
 
 Package: xyz.cypwn.classicfolders3
 Version: 3.0.6
@@ -387,6 +408,25 @@ Depiction: https://repo.cypwn.xyz/depiction/2792
 Icon: https://repo.cypwn.xyz/packages/Playtopia2-Rootless/icon.png
 Name: Playtopia 2
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2792
+
+Package: xyz.cypwn.settingsrevamp
+Version: 3.0.1
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
+Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, zb.preferenceloader
+Filename: ./debs/settingsrevamp_3.0.1_iphoneos-arm64.deb
+Size: 293272
+MD5sum: 88b45562c5bfb0512e7854d377c84d2d
+SHA1: 625d8a7dff125ad5af81801672310a72a4d39a1a
+SHA256: eebd642244242a8a3eb6a06e70ec4e7345f572a084a4acc2997148f6f84110f9
+Section: Tweaks
+Description: Customize the iOS settings page.
+Author: SOPPPra
+Depiction: https://repo.cypwn.xyz/depiction/2887
+Icon: https://repo.cypwn.xyz/packages/SettingsRevamp-Rootless/icon.png
+Name: SettingsRevamp
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2887
 
 Package: xyz.cypwn.theos
 Version: 2.5
