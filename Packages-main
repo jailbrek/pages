@@ -431,22 +431,3 @@ Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
 Name: Zebra
 Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
 
-Package: com.leftyfl1p.carbridge13
-Version: 2.0.13
-Architecture: iphoneos-arm64
-Maintainer: leftyfl1p
-Installed-Size: 7344
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
-Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
-Filename: ./debs/testing/Carbridge-AB.deb
-Size: 434160
-MD5sum: 45411c8ec866332020e7923b8383a21a
-SHA1: 7ac4c2e79800a2d02b9c33b3cd66e881fed56066
-SHA256: 30c9985dab9f3e39365eef44d7ed861b3d378e40bdb1144a99370770e441d3fe
-Section: Tweaks
-Description: Open any app in CarPlay!
-Tag: cydia::commercial
-Author: leftyfl1p <carbridge@havoc.app>
-Depiction: https://havoc.app/package/carbridge
-Name: CarBridge
-
