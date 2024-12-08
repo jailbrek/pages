@@ -566,6 +566,23 @@ Description: VCAM4iOS
 Author: trizau
 Name: VCAM4iOS
 
+Package: com.julioverne.cracktool5
+Version: 5.0~beta0
+Architecture: iphoneos-arm64
+Maintainer: Julio
+Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Filename: ./debs/com.julioverne.cracktool5_5.0beta0_iphoneos-arm.deb
+Size: 1319444
+MD5sum: b819ec774e0766fee28b15b4622a13b4
+SHA1: 8508f0e84d9122856406ab475eadf502cd17be46
+SHA256: 582d8675bfd4f41fc645199ed05308ce5964867a287cf025b0460311025f2098
+Section: Utilities
+Homepage: https://twitter.com/ijulioverne
+Description: Crack Tweaks on one click
+Author: julioverne
+Depiction: https://julio.hackyouriphone.org/description.html?id=com.julioverne.cracktool5
+Name: CrackTool5 (iOS 15/16 rootless)
+
 Package: com.julioverne.goodwifi
 Version: 0.0~beta6
 Architecture: iphoneos-arm64
@@ -1013,6 +1030,104 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/cahighfps.html
 Name: CAHighFPS
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/cahighfps.json
+
+Package: com.pwnd2e.barmoji.rootless
+Version: 2023.3
+Architecture: iphoneos-arm64
+Maintainer: CP Digital Darkroom
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.cpdigitaldarkroom.barmoji
+Filename: ./debs/com.pwnd2e.barmoji.rootless_2023.3_iphoneos-arm64.deb
+Size: 44092
+MD5sum: 2c3f8e99822e587596c36492d52b60a7
+SHA1: 0f9b1b86a6892be2f703a95041be69fd9ae01f84
+SHA256: 8b73898e2e3ef446d1f389ff410a3f2c2971fddfbf304776c74ef6cef9fc67ce
+Section: Tweaks
+Description: quick emoji access bar
+Author: CP Digital Darkroom
+Icon: pwnd2e
+Name: Barmoji
+
+Package: com.pwnd2e.bioprotectxs-rootless
+Version: 4.6-30
+Architecture: iphoneos-arm64
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 2168
+Depends: mobilesubstrate, preferenceloader
+Conflicts: net.limneos.bioprotect, net.limneos.bioprotectx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: ./debs/com.pwnd2e.bioprotectxs-rootless_4.6-30_iphoneos-arm64.deb
+Size: 569968
+MD5sum: ccd3d10929d76d325ff8073cdd114195
+SHA1: 379fdc3ab317f8c8d878502877240141b27cade4
+SHA256: afb30c52b1c4776a64366b8ef63041346f580cff19f06e369d45721c462f2978
+Section: Tweaks
+Description: Protect your apps with Touch/Face ID!
+Author: Elias Limneos <limneoselias@gmail.com>
+Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/BioProtect.png
+Mainlibmd5: 4f1110aadbd864aa76fe9e6be32ac34d
+Name: BioProtect (rootless) (iOS 12 to 16)
+
+Package: com.pwnd2e.blurryalerts
+Version: 1.2.2-3
+Architecture: iphoneos-arm64
+Maintainer: jailbrek
+Depends: mobilesubstrate, ws.hbang.alderis
+Filename: ./debs/com.pwnd2e.blurryalerts_1.2.2-3_iphoneos-arm64.deb
+Size: 31304
+MD5sum: 6eab564b0529f67de92633d68e9007c0
+SHA1: 281139c16ab8338ab6321201015b939c658099ab
+SHA256: d23996ad262cb37a3993fd2eb0ab786a465b5a8bbea4be32595ae3a210950d1b
+Section: Tweaks
+Description: tvOS style alerts!
+Author: SlyFabi
+Name: BlurryAlerts
+
+Package: com.pwnd2e.cydown++
+Version: 7.2
+Architecture: iphoneos-arm64
+Maintainer: jailbrek
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.cydown
+Filename: ./debs/com.pwnd2e.cydown_7.2_iphoneos-arm64.deb
+Size: 2540072
+MD5sum: abebf641073965bd20a6a5b0c3f8021d
+SHA1: 8df579e68fa8652696508261025ea9c13bf5963f
+SHA256: a5bb846e5f2a57f2223a6ac3848a72bca225ab5f688c90211063106b000e1e62
+Section: Tweaks
+Description: Download tweaks for free
+Author: Julioverne
+Name: CyDown++
+
+Package: com.pwnd2e.filzascriptdev
+Version: 1.4
+Architecture: all
+Maintainer: jailbrek
+Depends: dpkg, ldid, file, odcctools
+Filename: ./debs/com.pwnd2e.filzascriptdev_1.4_arm.deb
+Size: 2912
+MD5sum: f0c4b2c1a1403bee1470592e049b4e3d
+SHA1: 6079d6051c90593918767f9e9213563d7903235c
+SHA256: dd43480c5e0cb7bd7a0db14d0d80c43a2e0f698b23e421c865c7561ad7a15072
+Section: Filza Scripts
+Description: Scripts to build rootful & rootless with Filza. Plus other handy Filza scripts. *Use regular Filza, NOT trollstore Filza*
+Author: pwnd2e & Sudo
+Name: Filza Scripts
+
+Package: com.pwnd2e.joe
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: pwnd2e
+Depends: mobilesubstrate, firmware (>= 15.0), ws.hbang.common (>= 1.17), ws.hbang.alderis (>= 1.1), preferenceloader
+Filename: ./debs/com.pwnd2e.joe_1.0.1_iphoneos-arm64.deb
+Size: 57932
+MD5sum: dae5ba144babfa5c4319a4544b84243d
+SHA1: 34a0179c1dfaa7b8221dacfa4f799526823255ef
+SHA256: e318f16d459d31a1998d9f57418017dae360c4fb628fc4184c75a98aeb07bad0
+Section: Tweaks
+Description: joe mama made a springboard customizer
+Author: luf
+Icon: https://img.chariz.cloud/icon/joe/icon@3x.png
+Name: Joe
 
 Package: com.pwnd2e.snapper3
 Version: 1.0k
