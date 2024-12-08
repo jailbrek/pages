@@ -726,6 +726,22 @@ Author: Misaka Project
 Icon: https://cdn.discordapp.com/attachments/1114977950245322865/1127915035776274522/icon3x.png
 Name: Macaron
 
+Package: com.mtac.ampere
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: MTAC
+Installed-Size: 604
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.mtac.ampere_1.4_iphoneos-arm.deb
+Size: 101102
+MD5sum: ef2d38afc6b8be000639201acb83717b
+SHA1: 3fe45d65fa17a300d1cc455876895567c7e5f635
+SHA256: 7cd7b24e72e9a652f0d538bdf000f4578de611376ebb20837a6e138dc85d1e21
+Section: Tweaks
+Description: iOS 16 Style Battery Indicator
+Author: MTAC
+Name: Ampere
+
 Package: com.mtac.lynxtwo
 Version: 2.5.2
 Architecture: iphoneos-arm64
@@ -1063,6 +1079,7 @@ SHA256: afb30c52b1c4776a64366b8ef63041346f580cff19f06e369d45721c462f2978
 Section: Tweaks
 Description: Protect your apps with Touch/Face ID!
 Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: pwnd2e
 Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/BioProtect.png
 Mainlibmd5: 4f1110aadbd864aa76fe9e6be32ac34d
 Name: BioProtect (rootless) (iOS 12 to 16)
@@ -1070,7 +1087,7 @@ Name: BioProtect (rootless) (iOS 12 to 16)
 Package: com.pwnd2e.blurryalerts
 Version: 1.2.2-3
 Architecture: iphoneos-arm64
-Maintainer: jailbrek
+Maintainer: pwnd2e
 Depends: mobilesubstrate, ws.hbang.alderis
 Filename: ./debs/com.pwnd2e.blurryalerts_1.2.2-3_iphoneos-arm64.deb
 Size: 31304
@@ -1085,7 +1102,7 @@ Name: BlurryAlerts
 Package: com.pwnd2e.cydown++
 Version: 7.2
 Architecture: iphoneos-arm64
-Maintainer: jailbrek
+Maintainer: pwnd2e
 Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
 Conflicts: com.julioverne.cydown
 Filename: ./debs/com.pwnd2e.cydown_7.2_iphoneos-arm64.deb
@@ -1101,7 +1118,7 @@ Name: CyDown++
 Package: com.pwnd2e.filzascriptdev
 Version: 1.4
 Architecture: all
-Maintainer: jailbrek
+Maintainer: pwnd2e
 Depends: dpkg, ldid, file, odcctools
 Filename: ./debs/com.pwnd2e.filzascriptdev_1.4_arm.deb
 Size: 2912
@@ -1112,6 +1129,25 @@ Section: Filza Scripts
 Description: Scripts to build rootful & rootless with Filza. Plus other handy Filza scripts. *Use regular Filza, NOT trollstore Filza*
 Author: pwnd2e & Sudo
 Name: Filza Scripts
+
+Package: com.pwnd2e.glow-rootless
+Version: 0.5-11
+Architecture: iphoneos-arm64
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 988
+Depends: mobilesubstrate, preferenceloader, firmware ( >= 12)
+Filename: ./debs/com.pwnd2e.glow-rootless_0.5-11_iphoneos-arm64.deb
+Size: 221288
+MD5sum: 9f508c671914bdd0e8ec9bae0d80c664
+SHA1: 75d63c56f9ab063e436e24073227830ea93c1208
+SHA256: 4f821a583d7a4fc969e3425e2105940c4bfecdc126b33ab5fcdd6b67e5b72f38
+Section: Tweaks
+Description: Let your lockscreen glow!
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: pwnd2e
+Icon: file:///Library/PreferenceBundles/Glow.bundle/icon.png
+Mainlibmd5: aceebb028badab927c88b011ff1ba9eb
+Name: Glow
 
 Package: com.pwnd2e.joe
 Version: 1.0.1
@@ -1425,6 +1461,24 @@ Author: FCCT
 Icon: https://raw.githubusercontent.com/fridakitten/FridaCodeManager/main/Blueprint/FridaCodeManager.app/AppIcon.png
 Name: FridaCodeManager
 
+Package: com.sugiuta.circleapps15
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: sugiuta
+Installed-Size: 2116
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.opa334.altlist
+Filename: ./debs/com.sugiuta.circleapps15_1.0.2_iphoneos-arm.deb
+Size: 1526004
+MD5sum: 60a811de38047eeb4bbf852a14051bb1
+SHA1: df60b6232e521d950740af909d7f4328b3da1580
+SHA256: a3d28700ec16f9b7d350f143fd9e11a54b0ef0d75cd8027773446600fff58187
+Section: Tweaks
+Description: Circular application launcher for iOS15 above.
+Author: sugiuta
+Conflict: com.sugiuta.circleapps15.trial
+Icon: https://sugiuta.github.io/repo/images/circleapps.png
+Name: CircleApps15
+
 Package: com.thomz.rounddockremastered
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -1534,6 +1588,22 @@ Section: Tweaks
 Description: Bring your iDevice to life with true video wallpapers.
 Author: Zerui Chen
 Name: Frame (Rootless iOS 14+)
+
+Package: cum.0xilis.badger
+Version: 1.2.1-1
+Architecture: iphoneos-arm64
+Maintainer: Snoolie K
+Depends: firmware (>= 15.0)
+Conflicts: com.mtac.quasar
+Filename: ./debs/Badger-1.2.1-1-Fugu15Max.deb
+Size: 5378096
+MD5sum: 75b6c1bd423a14b0174d816c44612d70
+SHA1: e9edad80308711f23683eeba757a81583b451eea
+SHA256: de3a90855d5cf6e5aaf39e4c6cc5a534eeea5d5f7a367d6f330362c88073a0ac
+Section: Tweaks
+Description: Notification badges. Reimagined.
+Author: Snoolie K
+Name: Badger
 
 Package: dev.theos.orion14
 Version: 1.0.2
