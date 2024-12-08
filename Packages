@@ -159,7 +159,7 @@ MD5sum: da429cb5f35cb9795d5b7b8d5e654397
 SHA1: 8e852edc84cdb58342d63406c84ce7e78ed63db6
 SHA256: ead8a0cfacd15d654309c3fc63f5f37f60cdffee2e4dc6bbda49e7f070a59df3
 Section: Utilities
-Description: Apple Terminal for iphone,ipad.
+Description: Apple Terminal
 Author: Hitori
 Icon: https://siieo.github.io/sileodepictions/Terminal/icon.png
 Name: Terminal
@@ -399,6 +399,28 @@ Description: Transparent Folder Closed/Opened
 Author: Hitori
 Name: TransparentFolder
 
+Package: com.ichitaso.hideserialnumber
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: ichitaso
+Installed-Size: 416
+Depends: firmware (>= 12.2), mobilesubstrate, preferenceloader
+Filename: ./debs/com.ichitaso.hideserialnumber_v0.0.3_iphoneos-arm64.deb
+Size: 46990
+MD5sum: 8c5be46b993d4953221b28962d4e716e
+SHA1: fe817609b961d8bd1b1aa6258e53879acd175a48
+SHA256: 140e096f96a93ab038cff4ba6c7aa6f13182964fa0a476223c6e2eeea593b3fd
+Section: Tweaks
+Homepage: https://cydia.ichitaso.com/depiction/hidesn.html
+Description: Hide Serial Number in Settings About page.
+Tag: purpose::extension, compatible_min::ios12.2, compatible_max::ios17.1.2
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/hidesn.html
+Dev: ichitaso
+Icon: https://i.imgur.com/uFWkBXD.png
+Name: HideSerialNumber
+Sileodepiction: https://cydia.ichitaso.com/depiction/hidesn.json
+
 Package: com.ichitaso.otadisabler
 Version: 0.5
 Architecture: iphoneos-arm64
@@ -496,6 +518,26 @@ Author: khanhduytran0
 Depiction: https://khanhduytran0.github.io/repo/depictions/web/?p=com.kdt.trollpad
 Name: TrollPad
 Sileodepiction: https://khanhduytran0.github.io/repo/depictions/native/com.kdt.trollpad/depiction.json
+
+Package: com.kingpuffdaddi.wifiqr
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 388
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: ./debs/com.kingpuffdaddi.wifiqr_v1.1.1_iphoneos-arm64.deb
+Size: 26428
+MD5sum: 59573831be6f806db4bbcfc0d08d9244
+SHA1: 1d347696a2fcb6f5bc08cbd6224f59de7b717771
+SHA256: 785697c2477575e8c8ddec939541a8dfe13a2bc5a34f87058e37d20cdb4b3c85
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifiqrDp
+Description: Generate a QR code for WiFi networks directly from the settings
+Tag: purpose::extension
+Author: KingPuffdaddi <kingpuffdaddi@icloud.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifiqrDp
+Dev: kingpuffdaddi
+Name: WiFiQR
 
 Package: com.llld.runerootless
 Version: 0.0.1
@@ -614,6 +656,26 @@ Depiction: https://chariz.com/get/searchdots
 Icon: https://img.chariz.cloud/icon/searchdots/icon@3x.png
 Name: SearchDots
 
+Package: com.noisyflake.velvet2
+Version: 2.1.2-3
+Architecture: iphoneos-arm64
+Maintainer: NoisyFlake <support@noisyflake.com>
+Installed-Size: 629
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.initwithframe.velvet
+Filename: ./debs/com.noisyflake.velvet2_2.1.2-3_iphoneos-arm64.deb
+Size: 95422
+MD5sum: 73091f5e4411fbd42a9e54aa0f3fc13a
+SHA1: d040c4851660ac3d913c76fa8fe87e0dd3fe82d6
+SHA256: 60c2aace71723542f533721307f6dfc37a07d3c58c7fe449688bc1c6136f75f1
+Section: Tweaks
+Description: A fully customizable notification experience
+Tag: compatible_min::ios15.0
+Author: NoisyFlake <support@noisyflake.com>
+Depiction: https://chariz.com/get/velvet-2
+Icon: https://img.chariz.cloud/icon/velvet-2/icon@3x.png
+Name: Velvet 2
+
 Package: com.now.mooner
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -647,6 +709,23 @@ Description: Advanced Tweak Configuration!
 Author: opa334 <opa334@protonmail.com>
 Depiction: https://opa334.github.io/depic/Choicy/index.html
 Name: Choicy
+
+Package: com.opa334.crane
+Version: 1.3.14-4
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 3108
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy, com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: ./debs/com.opa334.crane_v1.3.14-4_iphoneos-arm64.deb
+Size: 563928
+MD5sum: a8667a026d9b039d5536919ab0d2b175
+SHA1: 4a7e2794ba9095d51905b5826fb3ed7c3ff92e85
+SHA256: 73a02a31954010681dd5689d9ee10a4df2ab6671e3e2a6e6160bec2c9ca1ac02
+Section: Tweaks
+Description: Multiple containers for your applications!
+Author: opa334
+Name: Crane
 
 Package: com.opa334.trollstorehelper
 Version: 2.1
@@ -795,6 +874,25 @@ Author: Ryan Nair <ryannairtweaks@gmail.com>
 Depiction: https://chariz.com/get/cask-3
 Icon: https://img.chariz.cloud/icon/cask-3/icon@3x.png
 Name: Cask 3
+
+Package: com.ryannair05.cylinder
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: Ryan Nair <ryannairtweaks@gmail.com>
+Installed-Size: 1123
+Depends: firmware (>= 15.0), ellekit (>= 0.3), preferenceloader, cy+cpu.arm64e
+Filename: ./debs/com.ryannair05.cylinder_1.1.1_iphoneos-arm64.deb
+Size: 237932
+MD5sum: e32bed6085483f48d81607faeef29d11
+SHA1: 0ce6964ccac1d69a2caf5773d47e6f958f667578
+SHA256: 2f63d9cbbf41607b0a01f17ebd924a9f32481cfe733112142cb61951e107ece6
+Section: Tweaks
+Description: Make your icons dance
+Tag: compatible_min::ios11.0
+Author: Ryan Nair <ryannairtweaks@gmail.com>
+Depiction: https://chariz.com/get/cylinder-reborn
+Icon: https://img.chariz.cloud/icon/cylinder-reborn/icon@3x.png
+Name: Cylinder Reborn
 
 Package: com.ryannair05.cylinderremade
 Version: 0.0.3-beta
@@ -1081,6 +1179,24 @@ Section: Tweaks
 Description: Live wallpapers for iOS
 Author: Traurige <hello@traurige.dev>
 Name: Eneko
+
+Package: dpkg-dev
+Version: 1.22.0
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 1808
+Depends: dpkg (= 1.22.0), libdpkg-perl (= 1.22.0)
+Filename: ./debs/dpkg-dev_v1.22.0_iphoneos-arm64.deb
+Size: 1082952
+MD5sum: bdfbaeb1596296aa922419aa61776c86
+SHA1: dfe8ccd1de9eeeca9325adf593e7fc3aa1ffe975
+SHA256: 1f1af71a2ebdfaf860cad5a4a3dd68ea03b1fab6bc24a60fa7c45326dedde004
+Section: Packaging
+Priority: optional
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: Debian package development tools
+ This package provides the development tools (including dpkg-source)
+ required to unpack, build and upload Debian source packages.
 
 Package: ellekit
 Version: 1.1.2
@@ -1678,6 +1794,25 @@ Depiction: https://repo.cypwn.xyz/depiction/2792
 Icon: https://repo.cypwn.xyz/packages/Playtopia2-Rootless/icon.png
 Name: Playtopia 2
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2792
+
+Package: xyz.cypwn.satella
+Version: 1.9.0
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Installed-Size: 456
+Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/xyz.cypwn.satella_v1.9.0_iphoneos-arm64.deb
+Size: 111898
+MD5sum: 9b58de75e508ce5c30df768bd4560c0d
+SHA1: 5c37c778171348d1dcde9cac01354162c3915b40
+SHA256: c84dd9f18e193f70f1f5115aa5570d26871f5e15151d9d649994239d8f7fa676
+Section: Tweaks (Piracy)
+Description: Modern in-app purchase cracker
+Author: Paisseon
+Depiction: https://repo.cypwn.xyz/depiction/1570
+Icon: https://paisseon.github.io/icons/Satella.png
+Name: Satella
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1570
 
 Package: xyz.cypwn.settingsrevamp
 Version: 3.0.1
