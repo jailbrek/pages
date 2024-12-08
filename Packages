@@ -315,6 +315,24 @@ Icon: https://repo.packix.com/media/com.dpkg.ipadswitcher/icon.png
 Name: iPadSwitcher
 Sileodepiction: https://repo.packix.com/depictions/com.dpkg.ipadswitcher/depiction.json
 
+Package: com.fortysixandtwo.customfoldericons
+Version: 14.0
+Architecture: iphoneos-arm
+Maintainer: magn2o & lizynz1
+Depends: firmware (>= 13.0), mobilesubstrate
+Conflicts: pl.vertex.foldericons, com.xtm3x.noblur, com.lizynz.fullfolderx, com.lizynz.fullfolder11, com.lizynz.foldercolor
+Filename: ./debs/com.fortysixandtwo.customfoldericons_14.0_iphoneos-arm.deb
+Size: 38894
+MD5sum: aa45d6ecd5ade6639e3d2b18ed6d64b6
+SHA1: 081b7522d13937529a0a98ec6bf4b0a6d18f58bf
+SHA256: a13af86a3cda198d6faf98571e36d94dc441a109d36f3ae0abe24bd6726b5361
+Section: Tweaks
+Description: A simple no-frills custom icon and background tweak.
+Author: magn2o & lizynz1
+Depiction: https://lizynz.github.io/depictions/?p=com.fortysixandtwo.customfoldericons
+Name: CustomFolderIcons
+Sileodepiction: https://lizynz.github.io/depictions/com.fortysixandtwo.customfoldericons/customfoldericons.json
+
 Package: com.fouadraheb.appdata
 Version: 1.4.0
 Architecture: iphoneos-arm64
@@ -604,6 +622,59 @@ Author: KingPuffdaddi <kingpuffdaddi@icloud.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifiqrDp
 Dev: kingpuffdaddi
 Name: WiFiQR
+
+Package: com.lizynz.folderx.rootless
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: Lizynz <lizynz@ya.ru>
+Installed-Size: 768
+Depends: mobilesubstrate, firmware(>=15.0), com.ichitaso.iconorder
+Conflicts: com.twickd.sirius24.folderplus, xyz.burritoz.thomz.folded, com.yourepo.i0s-tweak3r-betas.foldercontroller14, ca.ndoizo.bolders, com.4nni3.coolfolder, com.lizynz.foldercolor, com.ginsu.4ders, com.iadam1n.statusfolder, com.nightwind.dockapplibrary, com.tomaszpoliszuk.dockcontroller
+Filename: ./debs/com.lizynz.folderx.rootless_1.1.2_iphoneos-arm64.deb
+Size: 91630
+MD5sum: 71779583fec0d1d9f4fdccc3a2a1a4f0
+SHA1: 4584b3a8e8ec33c2305f90f3189e91d5a57e6abc
+SHA256: 43e360903f87edd82af5a9ccc0b476dc471c5c6948e32d9a009202c610301b2f
+Section: Tweaks
+Description: Allows you to configure folders
+Author: Lizynz <lizynz@ya.ru>
+Name: FolderX
+Sileodepiction: https://lizynz.github.io/depictions/com.lizynz.folderx/FolderX.json
+
+Package: com.lizynz.telegaicons
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Lizynz <lizynz@ya.ru>
+Installed-Size: 216
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: ./debs/com.lizynz.telegaicons_1.2_iphoneos-arm.deb
+Size: 19808
+MD5sum: a126eee140cf8e6009ef1addfe11845c
+SHA1: abaae0ba82d3bca7d300bc48f89168e51e98b8b6
+SHA256: 5feca81a811bae6d6864967d4125e618033594526ba88d1190324107c0553850
+Section: Tweaks
+Description: Change the telegram icon
+Author: Lizynz <lizynz@ya.ru>
+Depiction: https://lizynz.github.io/depictions/?p=com.lizynz.telegaicons
+Name: Telega Icons
+Sileodepiction: https://lizynz.github.io/depictions/com.lizynz.telegaicons/TelegaIcons.json
+
+Package: com.lizynz.vkfix.rootless
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Lizynz
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.lizynz.vkfix.rootless_1.0.1_iphoneos-arm64.deb
+Size: 3258
+MD5sum: 10f23d97de6f3805a38eb021728272ce
+SHA1: ce0571c99a8cf658fbcd5cad6f6d41980af788ff
+SHA256: a8b5d4f902ad8360e2cfff4b7cdc439b164b8957a4f2d57fa147f9202b842503
+Section: Tweaks
+Description: Fixed crash applications VK on palera1n!
+Author: Lizynz
+Name: VKFix
+Sileodepiction: https://lizynz.github.io/depictions/com.lizynz.vkfix/vkfix.json
 
 Package: com.llld.runerootless
 Version: 0.0.1
@@ -1132,6 +1203,23 @@ Section: Tweaks
 Description: Show a progress bar for downloading apps instead!
 Author: shepgoba
 Name: DownloadBar
+
+Package: com.shepgoba.folderlist
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: shepgoba
+Installed-Size: 496
+Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
+Conflicts: com.twickd.sirius24.folderplus, xyz.burritoz.thomz.folded, com.yourepo.i0s-tweak3r-betas.foldercontroller14, ca.ndoizo.bolders, com.4nni3.coolfolder, com.lizynz.foldercolor, com.ginsu.4ders, com.iadam1n.statusfolder, com.nightwind.dockapplibrary, com.tomaszpoliszuk.dockcontroller, com.lizynz.folderx, com.lizynz.folderx.rootless, com.nightwind.boldersreborn
+Filename: ./debs/com.shepgoba.folderlist_1.0_iphoneos-arm64.deb
+Size: 50866
+MD5sum: a7bb7fd41b96570b18e84c741f42d89b
+SHA1: 7935a4fee6c6b6cbb25311ceadb435f6ef4b54f6
+SHA256: eeeaa5089149a2d6dbeb86cc828a6758be62d11a0bcc168419f9897648269f6e
+Section: Tweaks
+Description: Show a list of all the applications in a folder (like watchOS).
+Author: shepgoba
+Name: FolderList
 
 Package: com.shepgoba.settingswidgets
 Version: 1.2.3
