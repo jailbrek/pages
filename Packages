@@ -1,3 +1,21 @@
+Package: Flex3beta
+Version: 1:3~Beta92
+Architecture: iphoneos-arm64
+Maintainer: John Coates
+Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: ./debs/Flex3beta_1_3~Beta92.deb
+Size: 9650236
+MD5sum: 7bfc71350b6ca07cb7d10262527b49b5
+SHA1: 100ac07eadd2a4fd4adf63a606aab2cfce314ca5
+SHA256: 73c90c9fb64ba9fbadc22b6b7fa823ea6055a04195f882ae5a4c8c8c2f73242c
+Section: Tweaks
+Description: 开发您自己的调整并在Flex社区云上共享。
+Author: John Coates
+Name: Flex 3 Beta92
+Recommended: com.rpetrich.rocketbootstrap
+
 Package: ai.akemi.appsyncunified
 Version: 112.0
 Architecture: iphoneos-arm64
@@ -17,6 +35,22 @@ Description: Enables the ability to install unsigned/fakesigned iOS applications
 Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
+
+Package: alpine
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./debs/alpine_1.4_iphoneos-arm64.deb
+Size: 601468
+MD5sum: 46e6d9d79b2d7fd9f429bd91ef62c3b2
+SHA1: e4fd63e0bf08450f0b06591211d464c2c2323f4c
+SHA256: fb9f8c4113b5d52d7cfdef9c8cad038f74e7918a72f1f1e5b7e9af69970abcd3
+Section: Tweaks
+Description: 适用于iOS的tvOS提醒。（由M哥汉化）
+Author: MTAC
+Icon: https://media.havoc.app/64ae21880d54f9113bc13a59
+Name: Alpine
 
 Package: bluefinder
 Version: 1.1.3
@@ -637,6 +671,26 @@ Description: A better way to multitask! Fix support for iOS15+
 Author: c1d3r
 Name: PullOver Pro
 
+Package: com.nightwind.boldersreborn
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: Nightwind <nightwinddev@gmail.com>
+Installed-Size: 5808
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.ichitaso.iconorder
+Conflicts: com.twickd.sirius24.folderplus, xyz.burritoz.thomz.folded, com.yourepo.i0s-tweak3r-betas.foldercontroller14, com.4nni3.coolfolder, com.lizynz.foldercolor, com.ginsu.4ders, com.iadam1n.statusfolder, gsc.ipad, com.lizynz.folderx.rootless, com.lizynz.folderx
+Filename: ./debs/com.nightwind.boldersreborn_1.1.2_iphoneos-arm64.deb
+Size: 4863450
+MD5sum: 59c911262de8191236c6edf7b6304b03
+SHA1: 82c68770ba9db66df05441148eb8166e2e7fb7bf
+SHA256: 29197ec32d01def3c2d7b57ef0049ae7eb9c92cbfa5ff3d261f01460f86a93d5
+Section: Tweaks
+Description: Bigger and bolder folders, remade!
+Tag: compatible_min::ios14.0
+Author: Nightwind <nightwinddev@gmail.com>
+Depiction: https://chariz.com/get/boldersreborn
+Icon: https://img.chariz.cloud/icon/boldersreborn/icon@3x.png
+Name: Bolders Reborn
+
 Package: com.nightwind.searchdots
 Version: 1.1.5
 Architecture: iphoneos-arm64
@@ -1109,6 +1163,25 @@ Dev: tomaszpoliszuk
 Name: MagSafe Enabler
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.udevs.dockx
+Version: 2.4.6
+Architecture: iphoneos-arm64
+Maintainer: udevs
+Installed-Size: 1596
+Depends: mobilesubstrate, preferenceloader, firmware(>=15.0)
+Conflicts: com.restiveconch.actionbar
+Filename: ./debs/DockX_2.4.6_rootless.deb
+Size: 293776
+MD5sum: 71aa5460020532a3e8fe52929f6e8e53
+SHA1: f4725aadbe9f90706e8da8492909dfe3e5a33933
+SHA256: 240838df678c6c982302da4e9d93cbf48b5c391c6d9bc850b53bd211d6f1180c
+Section: Tweaks
+Description: Pasteboard shortcuts on your keyboard dock!
+Author: udevs
+Depiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
+Name: DockX
+
 Package: com.zx02.frame.rootless
 Version: 3.0.1
 Architecture: iphoneos-arm64
@@ -1235,6 +1308,24 @@ Description: IMPORTANT: Make sure to use Dopamine 1.1 or Xinam1ne if you are usi
  - Credits: @Xina520 (for the Xina jailbreak, which I looked at for inspiration for modifying paths), @Teutates on GitHub (for repack-rootless.sh, which I used to automate the default rootless conversion process), @sudo for ideas and a few modifications here and there, @évelyne for Allemand (removes the need for having Legacy arm64e Support/oldabi)
 Author: NoW4U2Kid
 Name: Xinamine Patcher
+
+Package: flex3
+Version: 1:3~Beta90
+Architecture: iphoneos-arm64
+Maintainer: John Coates
+Depends: mobilesubstrate, firmware (>= 12.2) | org.swift.libswift (>= 5.0), firmware (>= 9.0)
+Recommends: com.rpetrich.rocketbootstrap
+Conflicts: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog, flex3toolsonly
+Replaces: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog, flex3toolsonly
+Filename: ./debs/flex3_1_3~Beta90_iphoneos-arm64.deb
+Size: 6329640
+MD5sum: dc44a3afff8a78b393efcd883cdaec94
+SHA1: 00953fc59c00d5270cede869ad0d7b4ad4f1d029
+SHA256: 10202bc4026a4c3d54631f44855c40adf609a8f3c3c537e434ce346170decf14
+Section: Tweaks
+Description: 开发您自己的调整并在Flex社区云上共享。Dopamine2.0可生效系统补丁，内置Legacy arm64e Support补丁，加入来了老弟的汉化，感谢他的付出。Xina2.0不要安装，不要安装！！！！
+Author: John Coates
+Name: Flex 3 Beta90
 
 Package: h.ryan.youtubereborn
 Version: 4.2.8
@@ -1459,6 +1550,22 @@ Description: Control Center Quick Power Tool, Supports iOS11-iOS15
 Author: Netskao
 Name: CCPower-Rootless
 
+Package: ring
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), com.opa334.ccsupport
+Filename: ./debs/ring_1.0.2_iphoneos-arm64.deb
+Size: 134964
+MD5sum: 18c95664ced69a62b7c3289720496292
+SHA1: 1b20ed05f87f0ef213ca7b317148fe677f20ec1f
+SHA256: e6b5e20f485ff7ca9eeee476ea5dd86f6d0a283577936928c238cbb1c82d8628
+Section: Tweaks
+Description: 轻松管理铃声音量！
+Author: yan
+Icon: https://media.havoc.app/660068a52b78a631ec05699f
+Name: Ring
+
 Package: ru.domo.cocoatop64
 Version: 2.2.4
 Architecture: iphoneos-arm64
@@ -1545,6 +1652,39 @@ Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: shad0wdev
 Name: TGSettings
+
+Package: safarix
+Version: 1.9.1
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Installed-Size: 792
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: ./debs/safarix_1.9.1_iphoneos-arm64.deb
+Size: 286644
+MD5sum: 01a9bce1ba683779d57641f33b378296
+SHA1: f17106a39e8293ed608c834fb9b532f30d0e2205
+SHA256: e6ef910a35000d60e7a2e8def4ac7487c31ad206bc929b1110644bd19f7208a9
+Section: Tweaks
+Description: Safari Essential Features
+Author: 0xkuj
+Name: SafariX
+
+Package: smartbatteryios15
+Version: 1.6
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: ws.hbang.common
+Conflicts: com.idevicelover.smartbattery2
+Filename: ./debs/smartbatteryios15_1.6_iphoneos-arm64.deb
+Size: 670440
+MD5sum: 7f3221980532338175e67484045b6228
+SHA1: e424eaf37a5c88b610915643635c69aeb48bbd68
+SHA256: d1c37751c97161b259632e1620cf8e62694f84fd21deeb722e1e08e4565783df
+Section: Tweaks
+Description: 监控、节省和调整电池的终极调整。
+Author: elias
+Icon: https://media.havoc.app/6380e31f7246bed7c12ae8e4
+Name: SmartBattery iOS 15 - 16
 
 Package: ws.hbang.newterm3
 Version: 3.0~beta1
