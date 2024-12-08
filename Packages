@@ -199,6 +199,22 @@ Icon: https://siieo.github.io/sileodepictions/Terminal/icon.png
 Name: Terminal
 Sileodepiction: https://siieo.github.io/sileodepictions/Terminal/Terminal.json
 
+Package: com.chr1s.vibin
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: Christopher Anderson
+Installed-Size: 364
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common (>= 1.15.1)
+Filename: ./debs/com.chr1s.vibin_1.0.2_iphoneos-arm64.deb
+Size: 31504
+MD5sum: 273f8edb4ba5b888856db009c99a024b
+SHA1: 040763b82b298df0fe5570c1b9cdd21684295c19
+SHA256: 1d7257517d63067477381079fffda9af0b5c4cde30bd6310b896806dd0267710
+Section: Tweaks
+Description: Don't disrupt the vibe
+Author: Christopher Anderson
+Name: Vibin
+
 Package: com.cpdigitaldarkroom.itsevanesco
 Version: 2024.05.26
 Architecture: iphoneos-arm64
@@ -500,6 +516,22 @@ Icon: https://cydia.ichitaso.com/icons/PowerSelector.png
 Name: PowerSelector
 Sileodepiction: https://cydia.ichitaso.com/depiction/powerselector11.json
 
+Package: com.icraze.keepmyjb
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: iCraze
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: ./debs/com.icraze.keepmyjb_1.1_iphoneos-arm64.deb
+Size: 4092
+MD5sum: 95fc7432f041bb6a02c386a4467d75b8
+SHA1: 2b5e780b8a7e56f91d22d3099b737a19969b2181
+SHA256: 9d0ab51a12db39f37baa00c66923544645df179cfbf97683bd03248450347a50
+Section: Tweaks
+Description: Remove the "Software Update" and "Erase All Content And Settings" tabs in the Settings app
+Author: iCraze
+Name: KeepMyJB
+
 Package: com.if-she.cydia.vcam
 Version: 0.0.1-8+debug
 Architecture: iphoneos-arm64
@@ -654,6 +686,51 @@ Description: MacPass gives MacOS password screen for passcode!
 Author: Ethan Whited
 Name: MacPass
 
+Package: com.nahtedetihw.reachplayer-rootless
+Version: 2.6
+Architecture: iphoneos-arm64
+Maintainer: ETHN <ethanwhited2208@gmail.com>
+Depends: firmware (>=13.0), mobilesubstrate
+Filename: ./debs/com.nahtedetihw.reachplayer-rootless.deb
+Size: 152296
+MD5sum: 8a2327e3f26ff6a1e517d61a7572bd85
+SHA1: d36f901666741ee039c2d8aa569ff3bd0d75e322
+SHA256: 34373f5239eb8fcbf2b4995529a7e869b2b9543e773029710afaff1f5a64938a
+Section: Tweaks
+Homepage: https://nahtedetihw.github.io
+Description: Now Playing info in Reachability Window!
+Tag: role::enduser
+Author: ETHN <ethanwhited2208@gmail.com>
+Depiction: https://nahtedetihw.github.io/depiction/web/com.nahtedetihw.reachplayer-rootless.html
+Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.reachplayer-rootless/icon.png
+Moderndepiction: https://nahtedetihw.github.io/depiction/native/com.nahtedetihw.reachplayer-rootless.json
+Name: ReachPlayer-Rootless
+Sileodepiction: https://nahtedetihw.github.io/depiction/native/com.nahtedetihw.reachplayer-rootless.json
+Someotherentrytocontrol: True
+Tags: compatible_min::ios13.0, compatible_max::ios16.4
+
+Package: com.nahtedetihw.unlockformusic-rootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: ETHN <ethanwhited2208@gmail.com>
+Filename: ./debs/com.nahtedetihw.unlockformusic-rootless.deb
+Size: 8122
+MD5sum: e124e4c47aab02ce721ae4c90523e75e
+SHA1: 96f8172d5d3a1f14e3089655211a015b3a4437af
+SHA256: cab806da54ec9950debd26273b7383426fe6f8e45a87c1d148c6c5a97c4df453
+Section: Tweaks
+Homepage: https://nahtedetihw.github.io
+Description: Unlock the screen when Music changes.
+Tag: role::enduser
+Author: ETHN <ethanwhited2208@gmail.com>
+Depiction: https://nahtedetihw.github.io/depiction/web/com.nahtedetihw.unlockformusic-rootless.html
+Icon: https://nahtedetihw.github.io/assets/com.nahtedetihw.unlockformusic-rootless/icon.png
+Moderndepiction: https://nahtedetihw.github.io/depiction/native/com.nahtedetihw.unlockformusic-rootless.json
+Name: UnlockForMusic-Rootless
+Sileodepiction: https://nahtedetihw.github.io/depiction/native/com.nahtedetihw.unlockformusic-rootless.json
+Someotherentrytocontrol: True
+Tags: compatible_min::ios10.0, compatible_max::ios16.4
+
 Package: com.netskao.pulloverpro
 Version: 2.1.5-3
 Architecture: iphoneos-arm64
@@ -709,6 +786,25 @@ Author: Nightwind <nightwinddev@gmail.com>
 Depiction: https://chariz.com/get/searchdots
 Icon: https://img.chariz.cloud/icon/searchdots/icon@3x.png
 Name: SearchDots
+
+Package: com.noisyflake.betteralarm
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: NoisyFlake <support@noisyflake.com>
+Installed-Size: 748
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Filename: ./debs/com.noisyflake.betteralarm_1.4.1_iphoneos-arm64.deb
+Size: 295154
+MD5sum: 1fb94538ef65d9970e24afff3b337469
+SHA1: b03b56cbc32aa8a8efa72fd30eaef66b7e38265e
+SHA256: a893df22f5a960fd28b5525df5442c123e529eebaf64a95ec73e5f51a01e2bda
+Section: Tweaks
+Description: A beautiful timer and alarm screen
+Tag: cydia::commercial, compatible_min::ios14.0
+Author: NoisyFlake <support@noisyflake.com>
+Depiction: https://chariz.com/buy/betteralarm
+Icon: https://img.chariz.cloud/icon/betteralarm/icon@3x.png
+Name: betterAlarm
 
 Package: com.noisyflake.velvet2
 Version: 2.1.2-3
@@ -811,6 +907,23 @@ Section: Applications
 Description: TrollStore for jailbroken iOS
 Author: opa334
 Name: TrollStore Lite
+
+Package: com.p2kdev.underdock
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 680
+Depends: mobilesubstrate
+Conflicts: com.restiveconch.actionbar,com.udevs.dockx
+Filename: ./debs/com.p2kdev.underdock_1.3_iphoneos-arm64.deb
+Size: 61102
+MD5sum: 5d8228e9687a3ce74732bd11933a2f8b
+SHA1: 56c1dc31b8e22a9c9bdbabd970f54d32e735b4dc
+SHA256: feb02629afa6ba35f646860c77f50f7ea44582a081600364ebaccd5500ba70aa
+Section: Tweaks
+Description: Useful actions on the Keyboard Dock View!
+Author: P2KDev <p2kdev@gmail.com>
+Name: UnderDock
 
 Package: com.ps.cahighfps
 Version: 1.3.1
@@ -1109,6 +1222,26 @@ Author: FCCT
 Icon: https://raw.githubusercontent.com/fridakitten/FridaCodeManager/main/Blueprint/FridaCodeManager.app/AppIcon.png
 Name: FridaCodeManager
 
+Package: com.thomz.rounddockremastered
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Thomz <thom.laffay@gmail.com>
+Installed-Size: 410
+Depends: ws.hbang.common (>= 1.17), preferenceloader (>= 2.2.4), ws.hbang.alderis (>= 1.2), firmware (>= 14.0)
+Conflicts: com.thomz.cenamopro
+Filename: ./debs/com.thomz.rounddockremastered_1.0_iphoneos-arm64.deb
+Size: 39098
+MD5sum: e542ce54f9c8155bb1323ee1b674981f
+SHA1: 5b6a105f2b9d39ab4431910df4409e70a0c93727
+SHA256: 6ba912e017973c6eef6c01b6001212b55ab04b5ad2d594d715b29a653babddb2
+Section: Tweaks
+Description: Round the corners of your dock
+Tag: compatible_min::ios14.0
+Author: Thomz <thom.laffay@gmail.com>
+Depiction: https://chariz.com/get/rounddockremastered
+Icon: https://img.chariz.cloud/icon/rounddockremastered/icon@3x.png
+Name: RoundDock Remastered
+
 Package: com.tigisoftware.appdatamanager
 Version: 1.8.2-4
 Architecture: iphoneos-arm64
@@ -1345,6 +1478,23 @@ Section: Tweaks
 Description: YouTube Customizer
 Author: Lillie
 Name: YouTube Reborn
+
+Package: jp.akusio.milkyway4
+Version: 0.1.1
+Architecture: iphoneos-arm64
+Maintainer: @akusio_RR
+Installed-Size: 3464
+Depends: mobilesubstrate, com.opa334.altlist, preferenceloader
+Filename: ./debs/jp.akusio.milkyway4_0.1.1_iphoneos-arm64.deb
+Size: 1313898
+MD5sum: 4a30fc9b4d66260be1fc532d40066a0b
+SHA1: 9ce6a80d1bbb87ffb13c1cc56bbc7a80c795e615
+SHA256: 2e9fa59ded0856ca107f58249f1f626fda12e0743fbb4a04d05fcb3aef69f825
+Section: Tweaks
+Description: multitasking for iOS15 rootless.
+Author: @akusio_RR
+Depiction: https://akusio.github.io/descriptions/milkyway4/index.html
+Name: MilkyWay4-rootless
 
 Package: jp.r-plus.anykeytrackpad
 Version: 1.1.1
@@ -2045,6 +2195,25 @@ Depiction: https://repo.cypwn.xyz/depiction/2533
 Icon: https://repo.cypwn.xyz/packages/Zetsu-Rootless/icon.png
 Name: Zetsu
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2533
+
+Package: xyz.skitty.sixls
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Skitty
+Installed-Size: 2260
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware(>= 12.2) | org.swift.libswift (>= 5.0)
+Filename: ./debs/xyz.skitty.sixls_1.1_iphoneos-arm64.deb
+Size: 1472466
+MD5sum: 04bdd7050ac79bc771625c6137826de7
+SHA1: d019ff837c8ece5a45426ca161b542ad234321c1
+SHA256: feece7d25888ce5081fad0ad3545f9fbdc3af3d7ebe59b714e3a0cbe1a1edfce
+Section: Tweaks
+Description: iOS 6 Style Lock Screen!
+Author: Skitty
+Depiction: https://skitty.xyz/repo/depictions/xyz.skitty.sixls
+Icon: https://skitty.xyz/repo/icons/xyz.skitty.sixls.png
+Name: Six (LS)
+Sileodepiction: https://skitty.xyz/repo/depictions/xyz.skitty.sixls/sileo.json
 
 Package: xyz.willy.zebra
 Version: 1.1.36
