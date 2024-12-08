@@ -15,7 +15,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
         }
 
         /* Card Layout */
@@ -110,6 +110,37 @@
             font-size: 0.8em;
             color: #aaaaaa; /* Grey for less prominent footer */
         }
+
+        /* Upload Box */
+        .upload-box {
+            background: #1f1f1f; /* Dark grey for separation */
+            border: 2px dashed #d4af37; /* Dashed golden border for emphasis */
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .upload-title {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #d4af37; /* Golden yellow for title */
+        }
+
+        .upload-description {
+            font-size: 0.9em;
+            color: #f5f5f5; /* Light grey for text */
+        }
+
+        .upload-link {
+            color: #d4af37; /* Golden yellow for link */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .upload-link:hover {
+            text-decoration: underline;
+        }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
@@ -126,10 +157,19 @@
             <div class="news-title">📰 Latest News</div>
             <div class="news-item">- New tweak releases are now available! We are live!</div>
             <div class="news-item">- Maintenance update scheduled for Dec 10, 2024.</div>
-            <div class="news-item">- Follow us on telegram for updates: <a href="https://t.me/jailbrek" target="_blank">@jailbrek_ios</a></div>
+            <div class="news-item">- Follow us on telegram for updates: <a href="https://t.me/jailbrek_ios" target="_blank">@jailbrek_ios</a></div>
+        </div>
+
+        <div class="upload-box">
+            <div class="upload-title">📤 Upload Your Own Tweaks!</div>
+            <p class="upload-description">
+                Got a tweak you want to share with the community? Reach out to us with your package details! Simply follow the template and fill the info. leave your credits and etc.
+                <a class="upload-link" href="https://github.com/jailbrek/add/issues/new/choose" target="_blank">Submit your tweak here and make the repo better</a>.
+            </p>
         </div>
 
         <div class="footer">© 2024 Jailbreak Repo. Explore the big tweak archive with everything in one place.</div>
     </div>
 </body>
 </html>
+
