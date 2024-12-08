@@ -18,6 +18,22 @@ Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
 
+Package: bluefinder
+Version: 1.1.3
+Architecture: iphoneos-arm64
+Maintainer: M
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11), firmware (>= 11.0)
+Filename: ./debs/bluefinder_v1.1.3_iphoneos-arm64.deb
+Size: 222652
+MD5sum: aa48c37bfd6e4d39348c94d8b482d327
+SHA1: c22a0f5735566362edbc253ef56b414e3506006f
+SHA256: dc00295bde874c8212b8d13e65e2f4087961c00eb7a5ce8b17ce286ff3f81fd7
+Section: Tweaks
+Description: 使用蓝牙设备查找您的iPhone！
+Author: AnthoPak
+Icon: https://img.chariz.cloud/icon/bluefinder/icon@3x.png
+Name: BlueFinder
+
 Package: com.0xkuj.iparanger
 Version: 1.9
 Architecture: iphoneos-arm64
@@ -73,6 +89,26 @@ Icon: file:///Library/PreferenceBundles/ChromaHomeBarX.bundle/chroma@2x.png
 Name: ChromaHomeBarX
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.amywhile.aemulotrial
+Version: 1.2.4
+Architecture: iphoneos-arm64
+Maintainer: Amy While <support@anamy.gay>
+Installed-Size: 2351
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Conflicts: com.amywhile.aemulo
+Filename: ./debs/com.amywhile.aemulotrial_v1.2.4_iphoneos-arm64.deb
+Size: 608146
+MD5sum: 07dc137fe92a07fbb7c070c8ae3921ba
+SHA1: b8005604cca5d1a925c0046b564ca088bcb04732
+SHA256: 9e0b76b86e317f4d215ef75ff5ab067f0c723fc8b136f4a4ca7532b675c0ade1
+Section: Tweaks
+Description: NFC Frickery
+Tag: compatible_min::ios13.0
+Author: Amy While <support@anamy.gay>
+Depiction: https://chariz.com/get/aemulo-trial
+Icon: https://img.chariz.cloud/icon/aemulo-trial/icon@3x.png
+Name: Aemulo (Trial)
+
 Package: com.anthopak.addtofolder-rootless
 Version: 1.4
 Architecture: iphoneos-arm64
@@ -123,7 +159,7 @@ MD5sum: da429cb5f35cb9795d5b7b8d5e654397
 SHA1: 8e852edc84cdb58342d63406c84ce7e78ed63db6
 SHA256: ead8a0cfacd15d654309c3fc63f5f37f60cdffee2e4dc6bbda49e7f070a59df3
 Section: Utilities
-Description: Apple Terminal
+Description: Apple Terminal for iphone,ipad.
 Author: Hitori
 Icon: https://siieo.github.io/sileodepictions/Terminal/icon.png
 Name: Terminal
@@ -146,6 +182,30 @@ Description: Clear Your Homescreen After Inactivity
 Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
 Depiction: https://Randy-420.GitHub.io/depic/evanesco.html
 Name: Evanesco!
+
+Package: com.creaturecoding.shuffle
+Version: 1.6.2
+Architecture: iphoneos-arm64
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1484
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Filename: ./debs/com.creaturecoding.shuffle_v1.6.2_iphoneos-arm64.deb
+Size: 254336
+MD5sum: 12127d0a67f0fe733fbb1f55d55fc9c4
+SHA1: 1fb8d8f4247ec44f7c61629e5f4ef455a682c4a0
+SHA256: 3ce996b98ecdb873527766b69d8b7b86cd959f1f7d3af5dc50d4cf56f0bbad15
+Section: Tweaks
+Homepage: https://creaturecoding.com/
+Description: Organize your settings
+Tag: purpose::extension, compatible_min::ios10
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
+Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
+Name: Shuffle
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
 
 Package: com.dave1482.powerapp
 Version: 7.0
@@ -239,6 +299,22 @@ Section: Utilities
 Description: Be the god of your games!
 Author: iGameGod
 Name: iGameGod Rootless
+
+Package: com.ghh.gravitation
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Ghh
+Installed-Size: 1264
+Depends: ellekit
+Filename: ./debs/com.ghh.gravitation_v1.1_iphoneos-arm64.deb
+Size: 124856
+MD5sum: e52423e163f99600572ab6715ed8047d
+SHA1: 026597e99b3c3ed04312a29a9da8f47b3859b3a4
+SHA256: 7422f0cda6034e48a5e9b2807a5013702b7f356c764191d99eace5624529bbae
+Section: Tweaks
+Description: Shake your phone to drop your icons! Analogue for gravity (by Julioverne)
+Author: Ghh
+Name: Gravitation
 
 Package: com.ghh.jade
 Version: 1.0.1
@@ -621,6 +697,23 @@ Depiction: https://poomsmart.github.io/repo/depictions/cahighfps.html
 Name: CAHighFPS
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/cahighfps.json
 
+Package: com.pwnd2e.snapper3
+Version: 1.0k
+Architecture: iphoneos-arm64
+Maintainer: pwnd2e
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix
+Filename: ./debs/com.pwnd2e.snapper3_v1.0k_iphoneos-arm64.deb
+Size: 910984
+MD5sum: 7c0f57c34a6fe8c14ebe38d37fc4fef8
+SHA1: c2b6ede67e4d5edb14e336a261b5abcefee567b4
+SHA256: c8fcb25b2c310754942647951d09418eb99d734a0f307643e61295b144f2ad23
+Section: Tweaks
+Description: Pin screenshots on the screen. K'd by CBZ.
+Author: Jonathan Winger-lang
+Depiction: pwnd2e
+Name: Snapper 3
+
 Package: com.randy420.taidependscoolstar
 Version: 0.6
 Architecture: iphoneos-arm64
@@ -989,6 +1082,25 @@ Description: Live wallpapers for iOS
 Author: Traurige <hello@traurige.dev>
 Name: Eneko
 
+Package: ellekit
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Filename: ./debs/ellekit_v1.1.2_iphoneos-arm64.deb
+Size: 338072
+MD5sum: e30ca0ec5fc2b966602a44c0a867c135
+SHA1: 9ccddc4ede9dc8b8107a77be3c62129fd3ab02c1
+SHA256: 4aa9e502d42c1e7cdb5a7a1a5ff63ba9b4bc2899b63a2f48d904d13c926179b2
+Section: Tweak Injection
+Priority: optional
+Description: ElleKit tweak injection libraries and loader
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+Name: ElleKit
+
 Package: ez.now.xinaminepatcherscript
 Version: 1.7.4
 Architecture: iphoneos-arm64
@@ -1062,6 +1174,28 @@ Author: XsF1re, ichitaso, level3tjg
 Depiction: https://cydia.ichitaso.com/depiction/vnodebypass.html
 Icon: https://raw.githubusercontent.com/ichitaso/vnodebypass_theme/main/layout/Library/Themes/vnodebypass.theme/Icon.png
 Name: vnodebypass
+
+Package: me.jjolano.shadow
+Version: 3.7.6
+Architecture: iphoneos-arm64
+Maintainer: jjolano
+Installed-Size: 1076
+Pre-Depends: dpkg
+Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
+Recommends: mobilesubstrate, preferenceloader, me.jjolano.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy
+Replaces: me.jjolano.shadow.beta
+Provides: me.jjolano.shadow.beta
+Filename: ./debs/me.jjolano.shadow_v3.7.6_iphoneos-arm64.deb
+Size: 100938
+MD5sum: d5d9e73e6fb80918eb95772361f123be
+SHA1: 22c6e9db9a75db1b4faff4292b7343d699e2de86
+SHA256: 52fdf82c814ab67700a51a13de0ca2138b5942b8b2e949493e04614aeef523d4
+Section: System
+Description: A modern jailbreak detection bypass.
+Author: jjolano
+Name: Shadow
 
 Package: me.lau.atria
 Version: 1.4.1
@@ -1176,6 +1310,22 @@ Section: Tweaks
 Description: No shutter sound when you take screenshot, because it's very awkward
 Author: p0358
 Name: SilentScreenshots
+
+Package: net.sourceloc.pinanim
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: sourcelocation
+Installed-Size: 604
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.ginsu.comet
+Filename: ./debs/net.sourceloc.pinanim_v2.0_iphoneos-arm64.deb
+Size: 77214
+MD5sum: 755dd01dd0dde32ac06fde4b2de2e68d
+SHA1: 0459ea5f4c5b5a5d58987b353e06896ef720efaa
+SHA256: 1f5e8da87fbb6144c431ce3b77d56c574050962b8fd5d7796470130505d1e4b1
+Section: Tweaks
+Description: Animations for Pin dots
+Author: sourcelocation
+Name: PinAnim
 
 Package: netskao.ccpower-rootless
 Version: 1.9-4
