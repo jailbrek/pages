@@ -1851,6 +1851,26 @@ Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
 Name: 420 Tools
 
+Package: com.rpetrich.rocketbootstrap.bakera1n
+Version: 1.0.10-ok15
+Architecture: iphoneos-arm
+Maintainer: Lessica
+Depends: firmware (>= 15.0), mobilesubstrate, bakera1n-repository
+Conflicts: com.rpetrich.rocketbootstrap
+Replaces: com.rpetrich.rocketbootstrap
+Provides: com.rpetrich.rocketbootstrap
+Filename: ./debs/com.rpetrich.rocketbootstrap.bakera1n_1.0.10-ok15_iphoneos-arm.deb
+Size: 23172
+MD5sum: e2a4eb4d9ee5977adb2baac6fed0d7e2
+SHA1: 43478f8278178a05fd278f1f50489c969d398afb
+SHA256: 7e3ac8199bbeb22da0d0bbac8a557ac8e257d8d8197e34883790aba1704966fe
+Section: iOS 15 Patches
+Description: RocketBootstrap fork for bakera1n
+Tag: purpose::extension, role::developer
+Author: Ryan Petrich
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Name: RocketBootstrap
+
 Package: com.ryannair05.cask3
 Version: 1.0.2
 Architecture: iphoneos-arm64
@@ -2342,6 +2362,63 @@ Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
 Name: ElleKit
 
+Package: emt.paisseon.erika
+Version: 1.13.3
+Architecture: iphoneos-arm64
+Maintainer: Paisseon
+Installed-Size: 368
+Depends: mobilesubstrate, lilliana.async | firmware (>= 15.0)
+Filename: ./debs/emt.paisseon.erika_1.13.3_iphoneos-arm64.deb
+Size: 92162
+MD5sum: bab331e4f39bc5a4f9e753d01b87a877
+SHA1: 3b544573d3c9d037f4b97685ab7f1293fd1a9d45
+SHA256: 66270edb31c79f000d5059266f0d5ca53dac2ef989f878b40707a5f3318e21c0
+Section: Tweaks (Piracy)
+Description: Piracy downloader for Sileo
+Author: Paisseon
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/Erika.json&name=Erika&dev=Paisseon
+Icon: https://paisseon.github.io/icons/Erika.png
+Name: Erika
+Sileodepiction: https://paisseon.github.io/depictions/Erika.json
+
+Package: emt.paisseon.revenuecrack
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: Paisseon
+Installed-Size: 140
+Depends: mobilesubstrate, firmware (>= 12.2)
+Filename: ./debs/emt.paisseon.revenuecrack_1.2.0_iphoneos-arm64.deb
+Size: 24254
+MD5sum: 72f1bdda8d2b824520fc81e911f57820
+SHA1: 2fe4a8869b5cc817dc5a0085f5d296a321107710
+SHA256: b64fc376a04a89146d83c18e62095e46d6436f36c761b5ab637d4307a0ce3754
+Section: Tweaks (Piracy)
+Description: Crack for some RevenueCat-based apps
+Author: Paisseon
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/RevenueCrack.json&name=RevenueCrack&dev=Paisseon
+Icon: https://paisseon.github.io/icons/RevenueCrack.png
+Name: RevenueCat Crack
+Sileodepiction: https://paisseon.github.io/depictions/RevenueCrack.json
+
+Package: emt.paisseon.satella
+Version: 1.8.1
+Architecture: iphoneos-arm64
+Maintainer: Lilliana
+Installed-Size: 488
+Depends: mobilesubstrate, firmware (>= 12.2), preferenceloader, com.opa334.altlist
+Filename: ./debs/emt.paisseon.satella_1.8.1_iphoneos-arm64.deb
+Size: 95982
+MD5sum: e951c9c54b7b646d3c58aa3d2d3946a5
+SHA1: b1a2a6e9c10ac9cfb62c31a6bfccff90e96111f7
+SHA256: cadbe4d4bf8e4e9317d450792e0cf1548c288b9016dee3241e72ee4bdeedd20d
+Section: Tweaks (Piracy)
+Description: Modern in-app purchase cracker
+Author: Lilliana
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/Satella.json&name=Satella&dev=Lilliana
+Icon: https://paisseon.github.io/icons/Satella.png
+Name: Satella
+Sileodepiction: https://paisseon.github.io/depictions/Satella.json
+
 Package: ez.now.xinaminepatcherscript
 Version: 1.7.4
 Architecture: iphoneos-arm64
@@ -2499,6 +2576,25 @@ Description: AOD的调整让人感觉像原生，有无限的可能性！
 Author: AnthoPak <anthopakdev@gmail.com>
 Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
 Name: LastLook
+
+Package: lilliana.filzacrack
+Version: 0.0.6
+Architecture: iphoneos-arm64
+Maintainer: Lilliana
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 12.2)
+Filename: ./debs/lilliana.filzacrack_0.0.6_iphoneos-arm64.deb
+Size: 21226
+MD5sum: 5aa5b7ed1cf33ef1907d903b72eeab10
+SHA1: aec744001cd888b9c3099415a67366dce26612f2
+SHA256: 345cb4ade708abb1598fb40af0facdb50e4c5f18ba6ecbfbf7c797b70f11c24a
+Section: Tweaks
+Description: An awesome Jinx tweak!
+Author: Lilliana
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://paisseon.github.io/depictions/FilzaCrack.json&name=FilzaCrack&dev=Lilliana
+Icon: https://paisseon.github.io/icons/FilzaCrack.png
+Name: FilzaCrack
+Sileodepiction: https://paisseon.github.io/depictions/FilzaCrack.json
 
 Package: me.jjolano.shadow
 Version: 3.7.6
@@ -3263,25 +3359,6 @@ Depiction: https://repo.cypwn.xyz/depiction/2792
 Icon: https://repo.cypwn.xyz/packages/Playtopia2-Rootless/icon.png
 Name: Playtopia 2
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2792
-
-Package: xyz.cypwn.satella
-Version: 1.9.0
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Installed-Size: 456
-Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
-Filename: ./debs/xyz.cypwn.satella_v1.9.0_iphoneos-arm64.deb
-Size: 111898
-MD5sum: 9b58de75e508ce5c30df768bd4560c0d
-SHA1: 5c37c778171348d1dcde9cac01354162c3915b40
-SHA256: c84dd9f18e193f70f1f5115aa5570d26871f5e15151d9d649994239d8f7fa676
-Section: Tweaks (Piracy)
-Description: Modern in-app purchase cracker
-Author: Paisseon
-Depiction: https://repo.cypwn.xyz/depiction/1570
-Icon: https://paisseon.github.io/icons/Satella.png
-Name: Satella
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1570
 
 Package: xyz.cypwn.settingsrevamp
 Version: 3.0.1
