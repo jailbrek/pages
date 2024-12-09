@@ -103,6 +103,22 @@ Dev: rpetrich
 Name: AppList
 Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
 
+Package: bloom
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: firmware (>= 14.0), gzip, dev.theos.orion14, com.ginsu.comet
+Filename: ./debs/bloom_1.0.2_iphoneos-arm64.deb
+Size: 1939096
+MD5sum: 448fd71713b8671478f4b2abab12a40a
+SHA1: bd742bc686e744d09d9a964944c527430129d02c
+SHA256: a17c047de519d29731975b0a4f7ed4c56df391a306329361d1b7ae465ffb815d
+Section: Tweaks
+Description: 漂亮的动画通知。CBZ破解！
+Author: yan
+Icon: https://media.havoc.app/66146449f290ffddc2a3059a
+Name: Bloom
+
 Package: bluefinder
 Version: 1.1.3
 Architecture: iphoneos-arm64
@@ -2195,6 +2211,22 @@ Description: 开发您自己的调整并在Flex社区云上共享。Dopamine2.0�
 Author: John Coates
 Name: Flex 3 Beta90
 
+Package: glance
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Janis
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.ginsu.comet, com.opa334.altlist
+Filename: ./debs/glance_1.0_iphoneos-arm64.deb
+Size: 388560
+MD5sum: 4ec9e7367cde78ec99421cd46c8a4857
+SHA1: 897f237b3b2d923f8e6742e34600ae1135a1d33c
+SHA256: d9c99d960aa21fd63e1656be63b878bdfe1fc7a681743d58aca4761267d43435
+Section: Tweaks
+Description: 锁屏查看来自信息的通知！
+Author: Janis
+Icon: https://img.chariz.cloud/icon/glance/icon@3x.png
+Name: Glance
+
 Package: h.ryan.youtubereborn
 Version: 4.2.8
 Architecture: iphoneos-arm64
@@ -2659,6 +2691,23 @@ Description: 监控、节省和调整电池的终极调整。
 Author: elias
 Icon: https://media.havoc.app/6380e31f7246bed7c12ae8e4
 Name: SmartBattery iOS 15 - 16
+
+Package: tako
+Version: 3.0
+Architecture: iphoneos-arm64
+Maintainer: b4db1r3
+Installed-Size: 744
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16),com.mrgcgamer.libgcuniversal
+Filename: ./debs/tako_3.0_iphoneos-arm64.deb
+Size: 89900
+MD5sum: 58358d9f4e253fc6a8ef4f85a6d757af
+SHA1: a37d1cf8d26e6f4dd0ab25e4c5cdaff6c2925fb1
+SHA256: 68046978a469b35b7cc533aeecafa204755f67fb5638ceb711723c09fc656184
+Section: Tweaks
+Description: 通知优先级集线器调整。（已汉化）
+Author: Xyaman & b4db1r3
+Icon: https://repo.xyaman.xyz/depictions/tako/assets/icon.png
+Name: Tako ( iOS 15-16 )
 
 Package: ws.hbang.common
 Version: 2.0
