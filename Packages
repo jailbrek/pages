@@ -68,6 +68,22 @@ Author: MTAC
 Icon: https://media.havoc.app/64ae21880d54f9113bc13a59
 Name: Alpine
 
+Package: appaze3
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.anthocrack2
+Filename: ./debs/appaze3_1.0.1_iphoneos-arm64.deb
+Size: 867976
+MD5sum: bb3e779ecc4c79b71d8519f3fa58f00e
+SHA1: 5421672ba3cace4c5811e2d214561b70938da5e1
+SHA256: cfc065d2f2973efe6d17159fc29d7ec1e672c6a97cf777a585f85c5d88741f2b
+Section: Tweaks
+Description: 在干净友好的用户界面中，为每个应用程序自定义多达30个设置，易于访问！
+Author: AnthoPak
+Icon: https://repo.cypwn.xyz/packages/Appaze3-Rootless/icon.png
+Name: Appaze 3
+
 Package: applist
 Version: 1.5.16
 Architecture: iphoneos-arm64
@@ -134,6 +150,69 @@ Description: 在CarPlay中打开任何应用程序！CarPlay
 Author: leftyfl1p
 Icon: https://repo.cypwn.xyz/packages/CarBridge-Rootless/icon.png
 Name: CarBridge
+
+Package: cc.igerman.taptapslumber
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: iGerman <igerman@igerman.cc>
+Depends: firmware (>=15.0)
+Filename: ./debs/cc.igerman.taptapslumber.deb
+Size: 30388
+MD5sum: ae25f59b38526760b01b2ba78fedcb8d
+SHA1: 1d14c72d6e92c9a77a81178a7d4d6040925cc4a3
+SHA256: b27346a2b8e120b16a411222c6d82acfd7b3a0d8ba17f1b011c56325927ccb23
+Section: Tweaks
+Homepage: https://shuga.co/
+Description: Double-tap the lock screen, home screen, or status bar to lock your device.
+Author: iGerman <igerman@igerman.cc>
+Depiction: https://repo.igerman.cc/depiction/web/cc.igerman.taptapslumber.html
+Icon: https://repo.igerman.cc/assets/cc.igerman.taptapslumber/icon.png
+Moderndepiction: https://repo.igerman.cc/depiction/native/cc.igerman.taptapslumber.json
+Name: TapTapSlumber
+Sileodepiction: https://repo.igerman.cc/depiction/native/cc.igerman.taptapslumber.json
+Tags: compatible_min::ios15.0, compatible_max::ios15.4.1
+
+Package: cc.igerman.trim
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: iGerman <igerman@igerman.cc>
+Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: ./debs/cc.igerman.trim.deb
+Size: 20132
+MD5sum: 2f590012db330e14f474345d019204ec
+SHA1: 1b04d05efdefaee8df14945e74571618d84002fc
+SHA256: 984f13f733d5a8c1e74aecedcc1507ae04b33448bd78353ac17af8160eb32423
+Section: Tweaks
+Homepage: https://shuga.co/
+Description: Marvelous Majestic Magnificence of Masterfully Minimized Mobile Margins
+Author: iGerman <igerman@igerman.cc>
+Depiction: https://repo.igerman.cc/depiction/web/cc.igerman.trim.html
+Icon: https://repo.igerman.cc/assets/cc.igerman.trim/icon.png
+Moderndepiction: https://repo.igerman.cc/depiction/native/cc.igerman.trim.json
+Name: Trim
+Sileodepiction: https://repo.igerman.cc/depiction/native/cc.igerman.trim.json
+Tags: compatible_min::ios15.0, compatible_max::ios15.4.1
+
+Package: cc.igerman.yahhider
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: iGerman <igerman@igerman.cc>
+Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: ./debs/cc.igerman.yahhider.deb
+Size: 11304
+MD5sum: bda853700a3ded3c32cc6d8c631c4cb5
+SHA1: 0d654af81ec9244e859a05555c51886b3dd5b384
+SHA256: 368997f762895590c3037068dd6a5f8d3d441e7e16a18c4b070a96fa94bf5d52
+Section: Tweaks
+Homepage: https://shuga.co/
+Description: Hides the home bar
+Author: iGerman <igerman@igerman.cc>
+Depiction: https://repo.igerman.cc/depiction/web/cc.igerman.yahhider.html
+Icon: https://repo.igerman.cc/assets/cc.igerman.yahhider/icon.png
+Moderndepiction: https://repo.igerman.cc/depiction/native/cc.igerman.yahhider.json
+Name: YetAnotherHomeBarHider
+Sileodepiction: https://repo.igerman.cc/depiction/native/cc.igerman.yahhider.json
+Tags: compatible_min::ios15.0, compatible_max::ios15.4.1
 
 Package: co.dynastic.ios.lib.flora
 Version: 1.0.1
@@ -247,6 +326,26 @@ Moderndepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.addtofo
 Name: AddToFolder (Rootless)
 Sileodepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.addtofolder-rootless.json
 
+Package: com.anthopak.dontwannasleepnow
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Depends: firmware (>=13.0), mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/com.anthopak.dontwannasleepnow.deb
+Size: 6736
+MD5sum: a66976a771adc0fe27c27e396b8d6e58
+SHA1: 36dd67964f8f8f3924508a71ffa274ab52422a67
+SHA256: 6b79225b3932008c253a482bfc16fb03202982dcde9719b4d463d26a23858fdb
+Section: Tweaks
+Homepage: https://repo.anthopak.dev
+Description: Easily unlock device while Sleep view is active
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.dontwannasleepnow.php
+Icon: https://repo.anthopak.dev/assets/com.anthopak.dontwannasleepnow/icon.png
+Moderndepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.dontwannasleepnow.json
+Name: DontWannaSleepNow
+Sileodepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.dontwannasleepnow.json
+
 Package: com.anthopak.pancake-rootless
 Version: 2.2
 Architecture: iphoneos-arm64
@@ -266,6 +365,46 @@ Icon: https://repo.anthopak.dev/assets/com.anthopak.pancake-rootless/icon.png
 Moderndepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
 Name: PanCake (Rootless)
 Sileodepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.pancake-rootless.json
+
+Package: com.anthopak.powercuts-rootless
+Version: 1.2.2
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Depends: firmware (>=14.0), mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: ./debs/com.anthopak.powercuts-rootless.deb
+Size: 318886
+MD5sum: 039d8d8387b59e289199bf88897b7a90
+SHA1: 8d9f253b3a2a5195bd08fe7bfa486fba6e6d89a1
+SHA256: c0d1ef28d18c4bf2c130e00fb0aa38d11e765a863df5d59e4f73fedc5650233c
+Section: System
+Homepage: https://repo.anthopak.dev
+Description: A library and additions to supercharge Shortcuts!
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.powercuts-rootless.php
+Icon: https://repo.anthopak.dev/assets/com.anthopak.powercuts-rootless/icon.png
+Moderndepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.powercuts-rootless.json
+Name: Powercuts (Rootless)
+Sileodepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.powercuts-rootless.json
+
+Package: com.anthopak.videoswipes-rootless
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Filename: ./debs/com.anthopak.videoswipes-rootless.deb
+Size: 664870
+MD5sum: a967701035494ff869c34d050a199ede
+SHA1: 295d8b07522c29f167bf12166b9f320c7d4d9f22
+SHA256: f15ef604fa4c0ab0815a13b62552d915f15684af9e091b9148229d79e9d3b507
+Section: Tweaks
+Homepage: https://repo.anthopak.dev
+Description: Swipe gestures for video players (native and Youtube)
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.videoswipes-rootless.php
+Icon: https://repo.anthopak.dev/assets/com.anthopak.videoswipes-rootless/icon.png
+Moderndepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.videoswipes-rootless.json
+Name: VideoSwipes (Rootless)
+Sileodepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.videoswipes-rootless.json
 
 Package: com.apple.Terminal
 Version: 1.5
@@ -2580,6 +2719,24 @@ Depiction: https://repo.cypwn.xyz/depiction/2855
 Icon: https://repo.cypwn.xyz/packages/AppData-Rootless/icon.png
 Name: AppData
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2855
+
+Package: xyz.cypwn.autotouch
+Version: 8.0.11k
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: firmware (>= 15.0)
+Filename: ./debs/xyz.cypwn.autotouch_v8.0.11k_iphoneos-arm64.deb
+Size: 33416532
+MD5sum: 9acee5bfe4d8110a116ebaac1b8348b2
+SHA1: 1d1c4f0f02ca66130bb6d5cea2e8130e5b233cf7
+SHA256: 066a51b33829df9588b2045ad2457dbe2a4e1b77b7cf2a513ec3f30da3e76186
+Section: Utilities
+Description: Record and playback touch operations, play macro scripts automatically.
+Author: Kent Krantz
+Depiction: https://repo.cypwn.xyz/depiction/1987
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/autotouch.png
+Name: AutoTouch
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/1987
 
 Package: xyz.cypwn.bigsurcenter
 Version: 1.4.5k
