@@ -1413,10 +1413,6 @@ SHA1: b03b56cbc32aa8a8efa72fd30eaef66b7e38265e
 SHA256: a893df22f5a960fd28b5525df5442c123e529eebaf64a95ec73e5f51a01e2bda
 Section: Tweaks
 Description: A beautiful timer and alarm screen
-Tag: cydia::commercial, compatible_min::ios14.0
-Author: NoisyFlake <support@noisyflake.com>
-Depiction: https://chariz.com/buy/betteralarm
-Icon: https://img.chariz.cloud/icon/betteralarm/icon@3x.png
 Name: betterAlarm
 
 Package: com.noisyflake.velvet2
