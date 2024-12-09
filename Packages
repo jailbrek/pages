@@ -2675,6 +2675,41 @@ Description: 用ChatGPT或Gemini取代Siri。SiriPlus是用ChatGPT或Gemini取�
 Author: Uckermark
 Name: SiriPlus智能Siri
 
+Package: skinnysettings
+Version: 1.6.5-1
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1615
+Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader, org.thebigboss.libcolorpicker
+Filename: ./debs/skinnysettings_1.6.5-1_iphoneos-arm64.deb
+Size: 171960
+MD5sum: e59790bc257a1a60a4997e73f661d401
+SHA1: e12f63888bac0f4dbf9d222ced50d602fbda123f
+SHA256: a0ee14d122030976183fd4f4e1bb0f41fdd96dcadb1f991e9c16b1ce79fd01cd
+Section: Tweaks
+Priority: optional
+Description: 让您的设置最小化/更流畅！
+Author: CydiaGeek <lucaluca86@aol.com>
+Icon: file:///Library/PreferenceBundles/SkinnySettings.bundle/SkinnySettings@2x.png
+Name: SkinnySettings
+
+Package: sleeperx
+Version: 3.0.3
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>=15.0), firmware (<<17.0)
+Conflicts: org.thebigboss.sleeper, com.joshuaseltzer.sleeper, com.joshuaseltzer.sleeperx
+Filename: ./debs/sleeperx_3.0.3_iphoneos-arm64.deb
+Size: 159772
+MD5sum: 2b876ced454aed08b3d287a20b657659
+SHA1: 20fdce5adb2d1502a9ea68dd3a3e6602129418bd
+SHA256: e8f6210b167581f69b0e016755573369c4c6bb8e38424c29fef8257720bd364b
+Section: Tweaks
+Description: 使用SleeperX设置自定义打盹时间、跳过闹钟等。
+Author: Joshua Seltzer
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/sleeperx-2.png
+Name: SleeperX
+
 Package: smartbatteryios15
 Version: 1.6
 Architecture: iphoneos-arm64
@@ -2692,6 +2727,23 @@ Author: elias
 Icon: https://media.havoc.app/6380e31f7246bed7c12ae8e4
 Name: SmartBattery iOS 15 - 16
 
+Package: smartnotificationsios16
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 3364
+Depends: com.spark.libsparkapplist
+Filename: ./debs/smartnotificationsios16_1.0_iphoneos-arm64.deb
+Size: 2445352
+MD5sum: 10e618cd07af8b983f64f6510f9fb560
+SHA1: 65f4849d3f3a9cf16881b84d65aaab1a01dd42dd
+SHA256: 74959924fb5eeac098fb7a7a51fd3d3295a646dd04d96349d9f2773d79ae9ef2
+Section: Tweaks
+Description: 这是一个智能通知插件。它是专为iOS 16全新编写的插件
+Author: EliasSfeir
+Icon: https://media.havoc.app/65f32f8428a3821cef7b63bd
+Name: SmartNotifications iOS16
+
 Package: tako
 Version: 3.0
 Architecture: iphoneos-arm64
@@ -2708,6 +2760,22 @@ Description: 通知优先级集线器调整。（已汉化）
 Author: Xyaman & b4db1r3
 Icon: https://repo.xyaman.xyz/depictions/tako/assets/icon.png
 Name: Tako ( iOS 15-16 )
+
+Package: trollleds
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 132
+Depends: firmware (>= 11.0), gsc.camera-flash
+Filename: ./debs/trollleds_1.3.1_iphoneos-arm64.deb
+Size: 44936
+MD5sum: 38da50b7e923017274dd8a0e62f4b546
+SHA1: 23752cd9dd4cb4248b41b75a94d2885ca2b659a1
+SHA256: 8c2fc1f99e1666983d71a8826a95194328cc988a2dceb0a7bdb9dc1283dc51c6
+Section: Utilities
+Description: 轻松控制手电筒LED。（由 M 哥编译汉化）
+Author: PoomSmart
+Name: TrollLEDs
 
 Package: ws.hbang.common
 Version: 2.0
