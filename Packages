@@ -484,11 +484,7 @@ MD5sum: 31b6003ebce630bbbac02a8d3cf112d3
 SHA1: 927d328a8e09a7e62a7205a01eb1635824782eb8
 SHA256: 16fa61a0ab5143d08b2d5100920e8ba5af99b35acf8e583e3d33c9d8409f48c7
 Section: Tweaks
-Description: Fall asleep with your music! Set a timer to stop your music directly from Control Center, with many features
-Tag: cydia::commercial, compatible_min::ios14.2
-Author: AnthoPak <anthopakdev@gmail.com>
-Depiction: https://chariz.com/buy/sleepizy2
-Icon: https://img.chariz.cloud/icon/sleepizy2/icon@3x.png
+Description: Fall asleep with your music! Set a timer to stop your music directly from Control Center, with many features...
 Name: Sleepizy 2
 
 Package: com.anthopak.videoswipes-rootless
