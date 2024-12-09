@@ -36,6 +36,22 @@ Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
 
+Package: akara
+Version: 2.0.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, com.muirey03.libimagepicker, firmware (>= 15.0)
+Filename: ./debs/akara_2.0.0_iphoneos-arm64.deb
+Size: 616284
+MD5sum: 928079df48471bd399c32a76cb7f92c2
+SHA1: bbd3a862d946e94b8feea72dfdbe39ec7f7f5ece
+SHA256: d4c553af98d66f0e483b026c6223480c38a393229a3f3285222c24ce312e7689
+Section: Tweaks
+Description: Minimal design without compromise
+Author: Tr1Fecta & Kennyroo
+Icon: https://img.chariz.cloud/icon/akara/icon@3x.png
+Name: Akara
+
 Package: alpine
 Version: 1.4
 Architecture: iphoneos-arm64
@@ -52,6 +68,25 @@ Author: MTAC
 Icon: https://media.havoc.app/64ae21880d54f9113bc13a59
 Name: Alpine
 
+Package: applist
+Version: 1.5.16
+Architecture: iphoneos-arm64
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Installed-Size: 780
+Depends: mobilesubstrate, firmware (>= 15.0), com.rpetrich.rocketbootstrap, xyz.cypwn.xinam1ne
+Filename: ./debs/applist_1.5.16_iphoneos-arm64.deb
+Size: 193116
+MD5sum: 41a94a495b3db027c4ac7bdce44be646
+SHA1: cc887378154e6494f4f9c5a3ad450c375cf34134
+SHA256: 800787a871d4b9bdfc4aa79653e74219d798580fc43c5705eac410b7cda3fbca
+Section: System
+Description: Allow extensions to read the list of installed apps
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Dev: rpetrich
+Name: AppList
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+
 Package: bluefinder
 Version: 1.1.3
 Architecture: iphoneos-arm64
@@ -67,6 +102,55 @@ Description: 使用蓝牙设备查找您的iPhone！
 Author: AnthoPak
 Icon: https://img.chariz.cloud/icon/bluefinder/icon@3x.png
 Name: BlueFinder
+
+Package: callassist16
+Version: 1.3.2
+Architecture: iphoneos-arm64
+Maintainer: xybp888
+Depends: firmware (>= 15.0), preferenceloader, com.opa334.libsandy
+Filename: ./debs/callassist16_1.3.2_iphoneos-arm64.deb
+Size: 2613076
+MD5sum: 76e924afbf45d5695efe445694d123eb
+SHA1: eb769baf120de116f510f8fb4d68ebc636c5dbd4
+SHA256: e24912e4d824f7abfec575581836b487c6753dbb65053b16c7e608d98ba85eb2
+Section: Tweaks
+Priority: optional
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Author: xybp888
+Name: 电话助手iOS16-Rootless
+
+Package: carbridge13
+Version: 2.0.13
+Architecture: iphoneos-arm64
+Maintainer: leftyfl1p
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, com.opa334.altlist
+Filename: ./debs/carbridge13_2.0.13_iphoneos-arm64.deb
+Size: 434064
+MD5sum: d4cb6e0597bb3691c5734f2f631f0c22
+SHA1: 8c955d98a81484d600d7bf555aa38c3a652dc240
+SHA256: 2e884c4642eb1e64ad8ced50181a540a39f892b70770ba0d301c4a8ea3326f0f
+Section: Tweaks
+Description: 在CarPlay中打开任何应用程序！CarPlay
+Author: leftyfl1p
+Icon: https://repo.cypwn.xyz/packages/CarBridge-Rootless/icon.png
+Name: CarBridge
+
+Package: co.dynastic.ios.lib.flora
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Ayden Panhuyzen
+Installed-Size: 492
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Filename: ./debs/flora_1.0.1_iphoneos-arm64.deb
+Size: 112596
+MD5sum: 6928571f87571aa92e7de8a31065db62
+SHA1: a4e11d530261b4d51badcd2d5f7a660aeeec42c7
+SHA256: 77d970338f788eccf9240dd7e7e32a8a213a0cff6d22e7fc3e66cc32374d5cbc
+Section: Development
+Description: Common Dynastic utilities.
+Tag: role::developer
+Author: Dynastic
+Name: libflora
 
 Package: com.0xkuj.iparanger
 Version: 1.9
@@ -314,6 +398,22 @@ Depiction: https://repo.packix.com/package/com.dpkg.ipadswitcher
 Icon: https://repo.packix.com/media/com.dpkg.ipadswitcher/icon.png
 Name: iPadSwitcher
 Sileodepiction: https://repo.packix.com/depictions/com.dpkg.ipadswitcher/depiction.json
+
+Package: com.dvntm.cc18
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (< 18.0)
+Filename: ./debs/com.dvntm.cc18_0.0.2_iphoneos-arm64.deb
+Size: 4358
+MD5sum: 962b6adfb1596b392cabeb4fb6ad8aa6
+SHA1: 50cd3b662f1819c403828b5ab704f41f816e2572
+SHA256: 4cecc7b43efba39adea7b25775023bfd7bf87b8ca0fb22ee5e4571fb9ad90b2a
+Section: Tweaks
+Description: Round CC modules replication, like in iOS 18
+Author: dvntm
+Name: CC18
 
 Package: com.fortysixandtwo.customfoldericons
 Version: 14.0
@@ -726,6 +826,25 @@ Author: Misaka Project
 Icon: https://cdn.discordapp.com/attachments/1114977950245322865/1127915035776274522/icon3x.png
 Name: Macaron
 
+Package: com.moose.gboost
+Version: 1.2.4
+Architecture: iphoneos-arm64
+Maintainer: Moose <gathering011@gmail.com>
+Installed-Size: 12
+Depends: com.kramerapps.jetsamctl, gawk, plutil
+Filename: ./debs/com.moose.gboost (rootless).deb
+Size: 2660
+MD5sum: 908f2b6e193e172eb57ef44f2602f594
+SHA1: a79ce12bbb95030cd20c066f4c3180b914862226
+SHA256: bcd48e3768d71d97f5ae1a4ba8e0b6b22e1e57cfc729fe86e5df2c6ccd1bf2ce
+Section: System
+Homepage: https://doregon.github.io/json-webviews/?json=https://doregon.github.io/cydia/depictions/natives/com.doregon.overb0ard.json&name=overb0ard&dev=Adam%20Tunnic&section=System
+Description: Command-line tools to boost game performance.
+Tag: role::enduser, purpose::console
+Author: Moose <gathering011@gmail.com>
+Depiction: https://memoose.github.io/repo/depic/Gboost/gboost.html
+Name: Gboost (rootless)
+
 Package: com.mtac.ampere
 Version: 1.4
 Architecture: iphoneos-arm
@@ -947,6 +1066,44 @@ Author: NoW
 Icon: https://nowisdev.github.io/icons/Mooner.png
 Name: Mooner
 
+Package: com.opa334.altlist
+Version: 1.0.11
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 340
+Depends: firmware (>=7.0)
+Filename: ./debs/com.opa334.altlist_1.0.11_iphoneos-arm64.deb
+Size: 26884
+MD5sum: 1874e0da98f00417adab6dee7134f77c
+SHA1: 78b40438355e042de1ef082fcd9add718f7e1ec4
+SHA256: 5835a6b0eacd5d99d272b3f74a744b28b1c4c16ada03aade36d0a636bca5e1f0
+Section: System
+Description: A modern AppList alternative
+Tag: role::developer
+Author: opa334
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Name: AltList
+
+Package: com.opa334.ccsupport
+Version: 1.3.10-2
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 528
+Depends: mobilesubstrate, firmware (>=11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Filename: ./debs/com.opa334.ccsupport_1.3.10-2_iphoneos-arm64.deb
+Size: 55666
+MD5sum: 23732eaa7371484cc241baf9bf20c858
+SHA1: 7a666035709a9f4668a95b783b3bca25a6e7aab1
+SHA256: ba9d53511fcde08c4edb3bd4a52a5beb4c76c2144224f18b4ab1e771f506cd25
+Section: Tweaks
+Description: Support tweak for CC modules!
+Author: opa334
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Name: CCSupport
+
 Package: com.opa334.choicy
 Version: 1.4.10-3
 Architecture: iphoneos-arm64
@@ -1028,6 +1185,24 @@ Section: Tweaks
 Description: Useful actions on the Keyboard Dock View!
 Author: P2KDev <p2kdev@gmail.com>
 Name: UnderDock
+
+Package: com.ps.amber
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 368
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 14.0)
+Filename: ./debs/com.ps.amber_1.2.1_iphoneos-arm64.deb
+Size: 9646
+MD5sum: 75f7d9204dc9caf1ea4a3e065fc504e5
+SHA1: fa1a9dcb47e867855d26ef664c34b53e1cb26597
+SHA256: e97d00ce9985537d7652df230b36c218cb31a1ae38beaa9ba1de4db9df1c563d
+Section: Tweaks
+Description: Amber-ify your flashlight LEDs.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/amber.html
+Name: Amber
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
 
 Package: com.ps.cahighfps
 Version: 1.3.1
@@ -1715,6 +1890,22 @@ Description: IMPORTANT: Make sure to use Dopamine 1.1 or Xinam1ne if you are usi
 Author: NoW4U2Kid
 Name: Xinamine Patcher
 
+Package: fiona
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, firmware(>= 14.0), com.mrgcgamer.libgcuniversal
+Filename: ./debs/fiona_1.0.5_iphoneos-arm64.deb
+Size: 122108
+MD5sum: 6914ec91751c46e8812d225ae35bc157
+SHA1: 1c1c6c2b9025513160d18f9f865187d0c781edd2
+SHA256: 88755f6622382cc9a1dada1b1ef9244f89706b7783b844d30edaa70ba1d588a2
+Section: Tweaks
+Description: iOS设备的浮动选项卡栏。
+Author: yan
+Icon: https://media.havoc.app/65e987f4df1ff02035bcd6b1
+Name: Fiona
+
 Package: flex3
 Version: 1:3~Beta90
 Architecture: iphoneos-arm64
@@ -1804,6 +1995,23 @@ Author: XsF1re, ichitaso, level3tjg
 Depiction: https://cydia.ichitaso.com/depiction/vnodebypass.html
 Icon: https://raw.githubusercontent.com/ichitaso/vnodebypass_theme/main/layout/Library/Themes/vnodebypass.theme/Icon.png
 Name: vnodebypass
+
+Package: lastlook
+Version: 4.2.2
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Installed-Size: 1743
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
+Filename: ./debs/lastlook_4.2.2_iphoneos-arm64.deb
+Size: 452016
+MD5sum: 27aff32f5d9232f7fb255aef183e8d52
+SHA1: dc919f46a3eabe59c6a7a7f17f693900a355efd4
+SHA256: c719ad609f884cb13a5cbda0c1738d2343d2bc0e63699767d9e9da5d801d1307
+Section: Tweaks
+Description: AOD的调整让人感觉像原生，有无限的可能性！
+Author: AnthoPak <anthopakdev@gmail.com>
+Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
+Name: LastLook
 
 Package: me.jjolano.shadow
 Version: 3.7.6
@@ -1973,6 +2181,42 @@ Description: Control Center Quick Power Tool, Supports iOS11-iOS15
 Author: Netskao
 Name: CCPower-Rootless
 
+Package: onesettings
+Version: 2.2
+Architecture: iphoneos-arm64
+Maintainer: Nightwind <nightwinddev@gmail.com>
+Installed-Size: 1084
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.creaturecoding.shuffle
+Replaces: com.twickd.nightwind.onesettings
+Filename: ./debs/onesettings_2.2_iphoneos-arm64.deb
+Size: 207848
+MD5sum: 33ba76fb778a701ea2561ad298c4f828
+SHA1: 4ff5d06dee69b46d127b53244aa600d6672ee943
+SHA256: c6adaafd8bab4b588f33dd8d565a59aac76f736adfd5642641dfd402cd104767
+Section: Tweaks
+Description: 您的设置应用程序得到了极大的增强！
+Author: Nightwind <nightwinddev@gmail.com>
+Icon: https://img.chariz.cloud/icon/onesettings/icon@3x.png
+Name: OneSettings
+
+Package: pancake-rootless
+Version: 2.2
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Depends: firmware (>= 11.0), mobilesubstrate, ws.hbang.common (>= 1.14), com.opa334.altlist, firmware (>= 11.0)
+Filename: ./debs/pancake-rootless_2.2_iphoneos-arm64.deb
+Size: 98480
+MD5sum: 8f09d768fcd331043be0f93df5d80693
+SHA1: 28f3939b9d3f2582f5b1899540a6a87c2c9f6b8f
+SHA256: ffdbad873713d0f472db8636f2250ed0bf74d14eb22654fe14dc62417e40d38e
+Section: Tweaks
+Description: 所有应用程序中整个屏幕上的交互式关闭手势以及恢复上一页的能力。
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://repo.anthopak.dev/depiction/web/com.anthopak.pancake-rootless.php
+Icon: https://repo.anthopak.dev/assets/com.anthopak.pancake-rootless/icon.png
+Name: PanCake (Rootless)
+
 Package: ring
 Version: 1.0.2
 Architecture: iphoneos-arm64
@@ -1988,6 +2232,27 @@ Description: 轻松管理铃声音量！
 Author: yan
 Icon: https://media.havoc.app/660068a52b78a631ec05699f
 Name: Ring
+
+Package: rocketbootstrap
+Version: 1.1.0~rootless
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 552
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/rocketbootstrap_1.1.0~rootless_iphoneos-arm64.deb
+Size: 21852
+MD5sum: 83cb53e44e129605391b419f656fd6db
+SHA1: de1bc7915753540180b573203861c657e32d2817
+SHA256: 77b4f86596e68889a8b2f7b9b4494de277773672a5613a3192b4b0cc3412c646
+Section: Tweaks
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Tag: purpose::extension, role::developer
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Dev: rpetrich
+Name: RocketBootstrap
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: ru.domo.cocoatop64
 Version: 2.2.4
@@ -2092,6 +2357,21 @@ Description: Safari Essential Features
 Author: 0xkuj
 Name: SafariX
 
+Package: siriplus
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Depends: dev.theos.orion (>= 1.0.0), com.ginsu.comet, firmware (>= 14.0)
+Filename: ./debs/siriplus_1.0_iphoneos-arm64.deb
+Size: 149060
+MD5sum: 20dca83e6def8cf0f3fbb8f831135edf
+SHA1: d36ab29070f210cbf2667603e12d8690dbc7cf69
+SHA256: c82633ba0c4d2d397dba887489dc7aaf30776b220a803e0347898ef58a15b5fd
+Section: 插件
+Description: 用ChatGPT或Gemini取代Siri。SiriPlus是用ChatGPT或Gemini取代Siri的一个调整，通过最强大的大型语言模型为用户提供增强的功能、广泛的知识和个性化帮助。
+Author: Uckermark
+Name: SiriPlus智能Siri
+
 Package: smartbatteryios15
 Version: 1.6
 Architecture: iphoneos-arm64
@@ -2108,6 +2388,26 @@ Description: 监控、节省和调整电池的终极调整。
 Author: elias
 Icon: https://media.havoc.app/6380e31f7246bed7c12ae8e4
 Name: SmartBattery iOS 15 - 16
+
+Package: ws.hbang.common
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 3132
+Depends: firmware (>= 15.0)
+Filename: ./debs/CepheiTweakSupport.2.0.deb
+Size: 198888
+MD5sum: 61e7d9d00f1edaef7589ea9593c17dc7
+SHA1: 4b9b0714a34378a81519ca6a8f7db609a2eea444
+SHA256: 3c8f09a6006beff67951c9d77c13768743af7ad743aee99661ecd59a5666a479
+Section: Development
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios15.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/cephei
+Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
+Name: Cephei Tweak Support
+Support: https://hashbang.productions/support/
 
 Package: ws.hbang.newterm3
 Version: 3.0~beta1
