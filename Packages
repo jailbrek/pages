@@ -484,7 +484,7 @@ MD5sum: 31b6003ebce630bbbac02a8d3cf112d3
 SHA1: 927d328a8e09a7e62a7205a01eb1635824782eb8
 SHA256: 16fa61a0ab5143d08b2d5100920e8ba5af99b35acf8e583e3d33c9d8409f48c7
 Section: Tweaks
-Description: Fall asleep with your music! Set a timer to stop your music directly from Control Center, with many features...
+Description: Fall asleep with your music! Set a timer to stop your music directly from Control Center, with many features
 Name: Sleepizy 2
 
 Package: com.anthopak.videoswipes-rootless
@@ -677,6 +677,22 @@ Depiction: https://dtcalabro.github.io/repo/depictions/?p=com.dcproducts.colorba
 Icon: https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/icon.png
 Name: ColorBar15
 Sileodepiction: https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/depiction.json
+
+Package: com.dgh0st.flexall
+Version: 0.0.1-24
+Architecture: iphoneos-arm64
+Maintainer: DGh0st <deeppwnage@yahoo.com>
+Installed-Size: 136
+Depends: mobilesubstrate, libflex
+Filename: ./debs/com.dgh0st.flexall_0.0.1-24_iphoneos-arm64.deb
+Size: 13274
+MD5sum: c1bd4c76edf06a84ff8fc2f27cfde92f
+SHA1: 82ffddf0cc4dd62f4b9cd6ed7ec2ebc442cd6276
+SHA256: 97e415ca6ff8b077fc0b38cd430309c8d6a4b588dcca4ebfd7f56ee042ad6156
+Section: Tweaks
+Description: Load FLEX loader dynamically.
+Author: DGh0st <deeppwnage@yahoo.com>
+Name: FLEXall
 
 Package: com.dpkg.ipadswitcher
 Version: 2.0
@@ -3371,10 +3387,10 @@ Icon: https://repo.cypwn.xyz/packages/SettingsRevamp-Rootless/icon.png
 Name: SettingsRevamp
 Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2887
 
-Package: xyz.cypwn.theos
+Package: com.jailbrek.repo.theos
 Version: 2.5
 Architecture: iphoneos-arm64
-Maintainer: CyPwn
+Maintainer: Jailbrek
 Depends: firmware (>= 15.0), xinaa15 | cy+cpu.arm64e, odcctools, lz4, swift, xz-utils, plutil | com.bingner.plutil, make, clang, curl, git, grep, perl, rsync, unzip, gzip, make, ldid
 Filename: ./debs/xyz.cypwn.theos_2.5_iphoneos-arm64.deb
 Size: 22750668
@@ -3384,10 +3400,7 @@ SHA256: e59f74feee325f16179d4ff6de44bc5d8bf4671084ebdf8dcbeaab8ddf8009cd
 Section: Development
 Description: A cross-platform build system for creating iOS, macOS, Linux, and Windows programs.
 Author: Theos
-Depiction: https://repo.cypwn.xyz/depiction/2060
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/theos.png
 Name: Theos
-Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/2060
 
 Package: xyz.cypwn.tinge
 Version: 1.2.2
