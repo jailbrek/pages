@@ -283,6 +283,25 @@ Icon: https://siieo.github.io/sileodepictions/Terminal/icon.png
 Name: Terminal
 Sileodepiction: https://siieo.github.io/sileodepictions/Terminal/Terminal.json
 
+Package: com.cameronkatri.quickactions
+Version: 1.0.0-2
+Architecture: iphoneos-arm64
+Maintainer: Cameron Katri <me+quickactions@cameronkatri.com>
+Installed-Size: 458
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.cameronkatri.quickactions_1.0.0-2_iphoneos-arm64.deb
+Size: 40030
+MD5sum: 2307cd87cff89a9028e9326fd9791709
+SHA1: 2b7788c4c9d556344b033c48a25dce42aa9c3a35
+SHA256: 4851ab2db892b4f37fa5dc960e0cbb0e7372f17d8857e9b40955ef81335ac971
+Section: Tweaks
+Description: Quickly launch apps from the lockscreen
+Tag: compatible_min::ios14.0
+Author: Cameron Katri <me+quickactions@cameronkatri.com>
+Depiction: https://chariz.com/get/quickactions
+Icon: https://img.chariz.cloud/icon/quickactions/icon@3x.png
+Name: QuickActions
+
 Package: com.chr1s.vibin
 Version: 1.0.2
 Architecture: iphoneos-arm64
@@ -452,6 +471,23 @@ Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
 Name: AppData
 Sileodepiction: https://apt.fouadraheb.com/package/com.fouadraheb.appdata/sileo
 
+Package: com.foxfort.portraitxi
+Version: 4.3.3
+Architecture: iphoneos-arm64
+Maintainer: FoxfortMobile
+Installed-Size: 14004
+Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.4.8)
+Filename: ./debs/com.foxfort.portraitxi_4.3.3_iphoneos-arm64.deb
+Size: 12220034
+MD5sum: 711221e6503e94244a6fdfd786788fd7
+SHA1: 22e53ac5c559228adc7260f1c09e96720a1735d7
+SHA256: 246c261b4096df239b36ee589bd623887cc50cf146b676d115b19ce90124fb3c
+Section: Tweaks
+Description: Single camera portrait mode
+Author: FoxfortMobile
+Icon: file:///Library/PreferenceBundles/portraitxisettings.bundle/icon@3x.png
+Name: PortraitXI
+
 Package: com.gamegod.igg.rootless
 Version: 0.4.3
 Architecture: iphoneos-arm64
@@ -518,6 +554,25 @@ Depiction: https://ginsu.dev/repo/depictions/index.html?packageId=com.ginsu.clas
 Icon: https://ginsu.dev/repo/api/packageinfo/com.ginsu.classicalerts/icon.png
 Name: ClassicAlerts
 Sileodepiction: https://ginsu.dev/repo/depictions/native/com.ginsu.classicalerts.json
+
+Package: com.ginsu.comet
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: Ginsu <njl02@outlook.com>
+Installed-Size: 2211
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: ./debs/com.ginsu.comet_1.0.5_iphoneos-arm64.deb
+Size: 228556
+MD5sum: fc8d4ef926a31afc6d40d347cfa41b9d
+SHA1: f65a53562f6ea98132a01cc7527c5c7ec88ccada
+SHA256: 757c4e52a68c14139b179852da85140deb58a33492deeb27d15027bc06ca3c13
+Section: Tweaks
+Description: A SwiftUI Prefs Framework
+Tag: compatible_min::ios14.0
+Author: Ginsu <njl02@outlook.com>
+Depiction: https://chariz.com/get/comet
+Icon: https://img.chariz.cloud/icon/comet/icon@3x.png
+Name: Comet
 
 Package: com.hitori.disableapplibrary
 Version: 4.0
@@ -1186,6 +1241,25 @@ Description: Useful actions on the Keyboard Dock View!
 Author: P2KDev <p2kdev@gmail.com>
 Name: UnderDock
 
+Package: com.pixelomer.oneko
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: pixelomer <contact@pixelomer.com>
+Installed-Size: 193
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/com.pixelomer.oneko_1.0.0_iphoneos-arm64.deb
+Size: 15112
+MD5sum: f6753040dae1d6392165c5d8d37eba70
+SHA1: b4e1e09404db8f663ba8bb6b9ff4d01d20fa3241
+SHA256: 1f4029fab2a8fbfae5025cb442e65df1037b3990440c0312ee2c7745f36d0f85
+Section: Tweaks
+Description: Oneko for iOS
+Tag: compatible_min::ios15.0
+Author: pixelomer <contact@pixelomer.com>
+Depiction: https://chariz.com/get/oneko
+Icon: https://img.chariz.cloud/icon/oneko/icon@3x.png
+Name: Oneko
+
 Package: com.ps.amber
 Version: 1.2.1
 Architecture: iphoneos-arm64
@@ -1357,6 +1431,25 @@ Author: Jonathan Winger-lang
 Depiction: pwnd2e
 Name: Snapper 3
 
+Package: com.qiop1379.swipeextenderx
+Version: 1.6.1
+Architecture: iphoneos-arm64
+Maintainer: qwertyuiop1379 <support@qwertyuiop1379.com>
+Installed-Size: 614
+Depends: firmware (>=14.0), mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: ./debs/com.qiop1379.swipeextenderx_1.6.1_iphoneos-arm64.deb
+Size: 85590
+MD5sum: 829c2391a80e46ccbb301f1a706c4709
+SHA1: 3a7cde2f9b9fbdcce0309e92d7578412d54e22d5
+SHA256: 3b35915a24a2bf0972fc8790afc0933109a79027ccb94477a4f2ab382fc440fe
+Section: Tweaks
+Description: Reinvent your keyboard with this full remake of the legendary SwipeExpander tweak, designed to work on modern iOS!
+Tag: compatible_min::ios12.0
+Author: qwertyuiop1379 <support@qwertyuiop1379.com>
+Depiction: https://chariz.com/get/swipeextenderx
+Icon: https://img.chariz.cloud/icon/swipeextenderx/icon@3x.png
+Name: SwipeExtenderX
+
 Package: com.randy420.taidependscoolstar
 Version: 0.6
 Architecture: iphoneos-arm64
@@ -1495,6 +1588,26 @@ Author: Ryan Nair <ryannairtweaks@gmail.com>
 Depiction: https://chariz.com/get/mitsuha6
 Icon: https://img.chariz.cloud/icon/mitsuha6/icon@3x.png
 Name: Mitsuha 6
+
+Package: com.semvis.sonitus
+Version: 1.0.7
+Architecture: iphoneos-arm64
+Maintainer: semvis <semvisscher10@gmail.com>
+Installed-Size: 452
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.17), firmware (>=15.0)
+Conflicts: com.semvis123.sonyfy, com.semvis123.headphonify
+Filename: ./debs/com.semvis.sonitus_1.0.7_iphoneos-arm64.deb
+Size: 57832
+MD5sum: d8267fc6907ca2f9490ecb1003de0966
+SHA1: 9721f9f8a2e2abc38d3e0a7a07b36db4e4a8ba59
+SHA256: df206ff679cb3d4b175592518328966f43d8ea8e4fbf22a210d700cbc5172102
+Section: Tweaks
+Description: Sonitus, bring the noise cancellation control of your headphones to the built-in iOS menu.
+Tag: compatible_min::ios13.0
+Author: semvis <semvisscher10@gmail.com>
+Depiction: https://chariz.com/get/sonitus
+Icon: https://img.chariz.cloud/icon/sonitus/icon@3x.png
+Name: Sonitus
 
 Package: com.serena.AppIndex
 Version: 1.0
@@ -1653,6 +1766,25 @@ Author: sugiuta
 Conflict: com.sugiuta.circleapps15.trial
 Icon: https://sugiuta.github.io/repo/images/circleapps.png
 Name: CircleApps15
+
+Package: com.teslaman3092.popoutbuttons
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: tesla_man <computerman939+POBsupport@gmail.com>
+Installed-Size: 481
+Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Filename: ./debs/com.teslaman3092.popoutbuttons_1.0.1_iphoneos-arm64.deb
+Size: 57502
+MD5sum: a0ed1ea6740313cfc855cbb3513c5a15
+SHA1: 0118d56258dcb40a3c546b321891f8d28948a10d
+SHA256: 7f902c05c16c00f457fa702547a8d1197a75546ba0e871e2345382ff8ac6b9a9
+Section: Tweaks
+Description: PopOutButtons bring the iOS 18 buttons popouts to iOS 13-17
+Tag: compatible_min::ios13.0
+Author: tesla_man <computerman939+POBsupport@gmail.com>
+Depiction: https://chariz.com/get/popoutbuttons
+Icon: https://img.chariz.cloud/icon/popoutbuttons/icon@3x.png
+Name: PopOutButtons
 
 Package: com.thomz.rounddockremastered
 Version: 1.0
