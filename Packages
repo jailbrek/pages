@@ -36,6 +36,23 @@ Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
 Name: AppSync Unified
 
+Package: aimpro
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: alimaulana
+Installed-Size: 4904
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, ws.hbang.common (>= 1.14), com.spark.libsparkcolourpicker, oldabi
+Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aim, com.icraze.nexus
+Filename: ./debs/aimpro_1.0.5_iphoneos-arm64.deb
+Size: 2328040
+MD5sum: 2c4d7f38476fbe45bbede8abae6c535e
+SHA1: c7a0fcef85e4bbb36d360a84a7bb77f7231737c5
+SHA256: 7b36bedea0a3f6c6b960771a0724b2ef9296f00192fc212b4119f83765f52f4f
+Section: Tweaks
+Description: iOS 16风格的时间和日期锁屏
+Author: alimaulana
+Name: AIM Pro
+
 Package: akara
 Version: 2.0.0
 Architecture: iphoneos-arm64
@@ -134,6 +151,21 @@ Description: 使用蓝牙设备查找您的iPhone！
 Author: AnthoPak
 Icon: https://img.chariz.cloud/icon/bluefinder/icon@3x.png
 Name: BlueFinder
+
+Package: bridge
+Version: 1.1
+Architecture: iphoneos-arm64
+Depends: mobilesubstrate, ws.hbang.common
+Filename: ./debs/bridge_1.1_iphoneos-arm64.deb
+Size: 4946284
+MD5sum: b0a7665b809a1b7da6d0e38d3d1c8525
+SHA1: 0c7f3fde076ba3a926d349c194a978962f46b51b
+SHA256: 17be5222421318a625dd751cf3dab8effe06843746b22d5cd15d7fa40a73e1fd
+Section: Tweaks
+Description: Apple Watch主屏幕体验带给iOS。
+Author: MTAC, ETHN
+Icon: https://repo.cypwn.xyz/packages/Bridge-Rootless/icon.png
+Name: Bridge
 
 Package: callassist16
 Version: 1.3.2
@@ -246,6 +278,43 @@ Description: Common Dynastic utilities.
 Tag: role::developer
 Author: Dynastic
 Name: libflora
+
+Package: codes.aurora.kayokos
+Version: 2.7
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 1076
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: codes.aurora.kayoko, com.dao.kayoko, byg.iosios.net.kayoko, xyz.cypwn.kayoko
+Filename: ./debs/codes.aurora.kayokos_2.7_iphoneos-arm64.deb
+Size: 123916
+MD5sum: 732103a195739806a8fb1e4da1e41c10
+SHA1: 1ffcbc75432877c2a740679e8e58e7fd7d4c4601
+SHA256: a1012fefb52c723d3b0893159ba45973d5506b8aa725538e8de5bb3b1a0d6d12
+Section: 乌龙工作室
+Description: iOS 剪切板越狱插件
+ * Clipboard manager for iOS.
+ * 由「乌龙工作室」修复支持 iOS 16
+Author: Alexandra Aurora Göttlicher
+Icon: https://TrollStoreX.Github.io/sileodepiction/Kayoko/icon.png
+Name: Kayoko 剪切板
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/Kayoko/js.json
+
+Package: colorfulwallpaperx
+Version: 4.6
+Architecture: iphoneos-arm64
+Maintainer: Lessica
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/colorfulwallpaperx_4.6_iphoneos-arm64.deb
+Size: 1233496
+MD5sum: e4c19cbbc94364c0ef51c8aeb82f35ca
+SHA1: 2b4bfabc0e39d65cc6d150c079d77c988bddc0b1
+SHA256: a80fcd268f8f78011dcdfdfc326eebc2c2ac623e1234d9c3ca9d415299b7b178
+Section: Tweaks
+Description: 具有彩色效果的动态壁纸。
+Author: Lessica
+Icon: https://repo.cypwn.xyz/packages/ColorfulWallpaperX-Rootless/icon.png
+Name: ColorfulWallpaperX
 
 Package: com.0xkuj.iparanger
 Version: 1.9
@@ -402,6 +471,26 @@ Moderndepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.powercu
 Name: Powercuts (Rootless)
 Sileodepiction: https://repo.anthopak.dev/depiction/native/com.anthopak.powercuts-rootless.json
 
+Package: com.anthopak.sleepizy2
+Version: 1.3.1
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Installed-Size: 912
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 14.2)
+Conflicts: com.anthopak.sleepizy
+Filename: ./debs/com.anthopak.sleepizy2_1.3.1_iphoneos-arm64.deb
+Size: 227608
+MD5sum: 31b6003ebce630bbbac02a8d3cf112d3
+SHA1: 927d328a8e09a7e62a7205a01eb1635824782eb8
+SHA256: 16fa61a0ab5143d08b2d5100920e8ba5af99b35acf8e583e3d33c9d8409f48c7
+Section: Tweaks
+Description: Fall asleep with your music! Set a timer to stop your music directly from Control Center, with many features
+Tag: cydia::commercial, compatible_min::ios14.2
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://chariz.com/buy/sleepizy2
+Icon: https://img.chariz.cloud/icon/sleepizy2/icon@3x.png
+Name: Sleepizy 2
+
 Package: com.anthopak.videoswipes-rootless
 Version: 1.5
 Architecture: iphoneos-arm64
@@ -437,6 +526,22 @@ Author: Hitori
 Icon: https://siieo.github.io/sileodepictions/Terminal/icon.png
 Name: Terminal
 Sileodepiction: https://siieo.github.io/sileodepictions/Terminal/Terminal.json
+
+Package: com.autounlockface
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.autounlockface_1.1_iphoneos-arm64.deb
+Size: 3088
+MD5sum: 6b35c2246409f0ffca993492593cc715
+SHA1: e7cd91e05508dd52ab46d8736bdd322819349353
+SHA256: 1f1463bb7ae8ade2a5d24f638b755167ecbd71464b2ef289b1c2deaa21372495
+Section: Tweaks
+Description: 自动面容ID解锁，解锁后直接进入主屏幕、隐藏解锁图标、解锁延迟最小
+Author: M哥
+Name: 自动面容ID解锁-rootless
 
 Package: com.cameronkatri.quickactions
 Version: 1.0.0-2
@@ -514,6 +619,29 @@ Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
 Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
 Name: Shuffle
 Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
+
+Package: com.cydiageek.smoothlockx
+Version: 1.4.9
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1531
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader, org.thebigboss.libcolorpicker
+Filename: ./debs/com.cydiageek.smoothlockx_1.4.9_iphoneos-arm64.deb
+Size: 139096
+MD5sum: c022e609614b01a8ec82e416c8c07c58
+SHA1: 3ab0654d0ba1429871c3e17b04da02f3ceeb1433
+SHA256: 6b7b23d24dc9cec6c2cc4c4c8059ae487b127410c22cd2f43cd1a938031dfce8
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=smoothlockxDp
+Description: Give Smooth and Clean Views to the LockScreen on the iPhone X!
+Tag: purpose::extension
+Author: CydiaGeek <lucaluca86@aol.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=smoothlockxDp
+Dev: lucaluca86
+Icon: file:///Library/PreferenceBundles/SmoothLockX.bundle/SmoothLockX@2x.png
+Name: SmoothLockX
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.dave1482.powerapp
 Version: 7.0
@@ -844,6 +972,29 @@ Icon: https://cydia.ichitaso.com/icons/PowerSelector.png
 Name: PowerSelector
 Sileodepiction: https://cydia.ichitaso.com/depiction/powerselector11.json
 
+Package: com.ichitaso.primalfolder2
+Version: 0.1.1
+Architecture: iphoneos-arm64
+Maintainer: ichitaso
+Installed-Size: 464
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: com.ichitaso.primalfolder, me.qusic.taptapfolder, com.lizynz.folder6plus, info.rpdev.betterfourbyyfourfolders
+Replaces: com.ichitaso.primalfolder2
+Filename: ./debs/com.ichitaso.primalfolder2_0.1.1_iphoneos-arm64.deb
+Size: 48400
+MD5sum: eb3f72cef4395249351019ed6d5ef097
+SHA1: 2a30e8a8d0c6911cb6414ad840b7f2c51f1e566f
+SHA256: 0b294208372cc4dfce20ecd8f2ba9a493833177f3b9987fc1eb64cfad51737f9
+Section: Tweaks
+Homepage: https://ichitaso.com
+Description: Display to folder as icon and launch action for Folders
+Tag: purpose::extension, compatible_min::ios13.0, compatible_max::ios16.4
+Author: ichitaso
+Depiction: https://cydia.ichitaso.com/depiction/primalfolder2.html
+Dev: ichitaso
+Icon: https://cydia.ichitaso.com/icons/PrimalFolder2.png
+Name: PrimalFolder 2
+
 Package: com.icraze.keepmyjb
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -949,6 +1100,23 @@ Author: KingPuffdaddi <kingpuffdaddi@icloud.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wifiqrDp
 Dev: kingpuffdaddi
 Name: WiFiQR
+
+Package: com.lclrc.hammerit
+Version: 1.4.7
+Architecture: iphoneos-arm64
+Maintainer: lclrc(SquidForce)
+Installed-Size: 2288
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, firmware (>= 14.0)
+Filename: ./debs/com.lclrc.hammerit_1.4.7_iphoneos-arm64.deb
+Size: 434018
+MD5sum: 6e70e3168ef8569b35a65070fdeae15c
+SHA1: 129b0771e5da673cd416171056e532fa18e3342b
+SHA256: 8bae8b7774b839ccd204b0c37acb3a5295a1e9a8b60440173c293775e886727c
+Section: Tweaks
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Name: Hammer It
 
 Package: com.lizynz.folderx.rootless
 Version: 1.1.2
@@ -1163,6 +1331,22 @@ Name: UnlockForMusic-Rootless
 Sileodepiction: https://nahtedetihw.github.io/depiction/native/com.nahtedetihw.unlockformusic-rootless.json
 Someotherentrytocontrol: True
 Tags: compatible_min::ios10.0, compatible_max::ios16.4
+
+Package: com.netskao.dumpdecrypter
+Version: 1.4-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 4324
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.dumpdecrypter_1.4-4_iphoneos-arm64.deb
+Size: 1308366
+MD5sum: 07d89d2dbbb2bd47fcf9f4e8fd386ce2
+SHA1: f9bfe66c7bf997c7b87e6987a093c2226130a30a
+SHA256: f3eb70ca27c2b8e7489e6948b2e99d73a6e3d10f0dfc2f72ac17991d85aaa435
+Section: Netskao-Tweaks
+Description: Decrypt iOS Apps and Plugins
+Author: Netskao
+Name: DumpDecrypter
 
 Package: com.netskao.pulloverpro
 Version: 2.1.5-3
@@ -2659,6 +2843,22 @@ Section: Tweaks
 Description: Safari Essential Features
 Author: 0xkuj
 Name: SafariX
+
+Package: shortlook.dopamine
+Version: 1.0.23
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 2128
+Depends: mobilesubstrate, firmware (>= 11.0), co.dynastic.ios.lib.flora, oldabi
+Filename: ./debs/ShortLookRootless_dopamine.deb
+Size: 1280668
+MD5sum: c385e50a823ac210957e15b6099d0e7d
+SHA1: c3f21824413810877d11cc366385719298e1d32d
+SHA256: 009922ecb05f918dc67114fce2b31196b28024dabb09af190abe491007298e90
+Section: Tweaks
+Description: ShortLook将显示您的通知。当您收到通知时，ShortLook会显示在锁定的iPhone上，它采用了漂亮的全屏设计，可以远距离阅读。它尽可能不引人注目，只要你点击屏幕或“唤醒”，它就会消失。它的可配置UI和行为确保ShortLook按照您希望的方式工作。注意：需要安装Legacy arm64e Support兼容层，15.4.1测试OK，16系统自测，不行就卸载吧（由M哥修复并汉化支持多巴胺2.0）！！
+Author: Dynastic
+Name: ShortLook_Rootless
 
 Package: siriplus
 Version: 1.0
