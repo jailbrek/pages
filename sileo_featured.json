@@ -4,21 +4,9 @@
     "itemCornerRadius":20,
     "banners": [
         {
-            "url": "https://cdn.chariz.cloud/screenshot/jellyfish/jellyfish-1.jpg",
+            "url": "https://cdn.chariz.cloud/asset/jade/-JIBp0zSDy1-3qiEsNyUFw5sf-6AfNwa/assets/C4ihYIX-mje2ztv3x7EZTpPRRZG9WnvfeHx95ZhauJ1KUMKOCBz__NJw9LWwIQSzYLqnWUBGCJ3XyeAwoLGZMA.jpg",
             "title": "Cracked tweaks",
-            "package":"jellyfish",
-            "hideShadow": true
-        },
-        {
-            "url": "https://cdn.chariz.cloud/asset/jade/-JIBp0zSDy1-3qiEsNyUFw5sf-6AfNwa/assets/oPnWDi-lrtZFoC_kzUyAIRjXwJSri1GcIbXGqCw4GgnwYqdRP-tXJ-d05R_UDbRBweaBiFUfcu4Z2-d1ihfQiQ.jpg",
-            "title": "Customize",
             "package":"com.ghh.jade",
-            "hideShadow": true
-        },
-        {
-            "url": "https://media.havoc.app/6393d522fb3fac29d26b947e",
-            "title": "Free",
-            "package":"carbridge13",
             "hideShadow": true
         }
     ]
