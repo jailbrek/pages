@@ -3512,3 +3512,20 @@ Author: ARX8x
 Depiction: https://arx8x.github.io/depictions/systeminfo.html
 Name: System Info
 
+Package: com.jailbrek.jellyfish
+Version: 1.6.5
+Architecture: iphoneos-arm64
+Maintainer: Jailbrek
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1), firmware (>= 15.0)
+Filename: ./debs/jellyfish_1.6.5_iphoneos-arm64.deb
+Size: 117178
+MD5sum: b77dee13d03d68f464e42bfd4e25f915
+SHA1: fc32a3d7feb8ca8cd9f19c90cc958a34772a8883
+SHA256: b7e0ddcd21bf045ac02a0e03786ee09589ddde6ee381ab0c10a4476c30cca506
+Section: Tweaks
+Description: Natural, Simple, Beautiful. Redesign your Lock screen with Jellyfish.
+Author: Justin Proulx and Ayden Panhuyzen
+Depiction: https://chariz.com/buy/jellyfish
+Icon: https://cdn.chariz.cloud/icon/jellyfish/icon@3x.png
+Name: Jellyfish
+Sileodepiction: https://repo.chariz.com/api/sileo/package/xyz.royalapps.jellyfish/depiction.json
